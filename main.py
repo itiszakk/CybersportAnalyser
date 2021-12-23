@@ -1,52 +1,29 @@
 import os
-import subprocess
-import zipfile
-import psycopg2
 
-def createDirectory():
-    if (os.path.exists("temp")):
-        removeDirectory()
-    else:
-        os.mkdir("temp")
+from src import environment_handler as env
+from src import database_handler as db
+import config as cfg
 
-def removeDirectory():
-    for root, dirs, files in os.walk("temp", topdown=False):
-        for name in files:
-            os.remove(os.path.join(root, name))
-        for name in dirs:
-            os.rmdir(os.path.join(root, name))
-    os.rmdir("temp")
-
-def installSoft():
-    print("Installing PostgreSQL...")
-    postgresZip = zipfile.ZipFile(r"vendor\postgresql-14.1-1-windows-x64-binaries.zip")
-    postgresZip.extractall("temp")
-    postgresZip.close()
-
-def initDatabase():
-    initPath = os.path.abspath(r"temp\pgsql\bin\initdb.exe")
-    databasePath = os.path.abspath(r"temp\database")
-    subprocess.call(initPath + " -D " + databasePath)
-
-#def startDatabaseServer():  
+def loadData():
+    connection = db.openConnection(cfg.databaseName, cfg.userName)
+    db.execQuery(connection, "CREATE DATABASE players")
+    db.stopConnection(connection)
 
 def main():
-    print("Creating directory...")
-    createDirectory()
+    env.createDirectory(cfg.tempPath)
+    env.installSoft(cfg.softPath, cfg.tempPath, "postgresql-14.1-1-windows-x64-binaries.zip")
+    env.execFile(cfg.tempPath + r"\pgsql\bin\initdb.exe", "-D {} -U {}".format(cfg.databasePath, cfg.userName))
+    env.execFile(cfg.tempPath + r"\pgsql\bin\pg_ctl.exe", "-D {} start".format(cfg.databasePath))
+    env.execFile(cfg.tempPath + r"\pgsql\bin\createdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
 
-    print("Installing soft...")
-    installSoft()
-
-    print('Initializing database...')
-    initDatabase()
-
-    print('Starting database server...')
-    #startDatabaseServer()
+    print("Loading data...")
+    loadData()
 
     os.system("pause")
     
-    print("Removing directory...")
-    removeDirectory()
+    env.execFile(cfg.tempPath + r"\pgsql\bin\dropdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
+    env.execFile(cfg.tempPath + r"\pgsql\bin\pg_ctl.exe", "-D {} stop".format(cfg.databasePath))
+    env.removeDirectory(cfg.tempPath)
 
 if __name__ == "__main__":
     main()
