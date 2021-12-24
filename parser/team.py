@@ -15,10 +15,7 @@ def cs_check_attrs(attrs):
     for attr in attrs:
         attr_name = attr.text
         if attr_name == "Location:":
-            temp_div = attr.find_next('div', {'class': 'infobox-cell-2'})
-            temp_div.span.decompose()
-            country = temp_div.find('a')
-            tmp.Country = country.text.strip()
+            tmp.Country = core.get_country(attr.find_next('div', {'class': 'infobox-cell-2'}))
         elif attr_name == "Total Winnings:":
             tmp.Winnings = core.get_money(attr.find_next('div', {'class': 'infobox-cell-2'}).text)
 
@@ -31,11 +28,8 @@ def dota2_check_attrs(attrs):
     for attr in attrs:
         attr_name = attr.text
         if attr_name == "Location:":
-            temp_div = attr.find_next('div', {'class': 'infobox-cell-2'})
-            temp_div.span.decompose()
-            country = temp_div.find('a')
-            tmp.Country = country.text.strip()
-        elif attr_name == "Total Winnings:":
+            tmp.Country = core.get_country(attr.find_next('div', {'class': 'infobox-cell-2'}))
+        elif attr_name == "Total Earnings:":
             tmp.Winnings = core.get_money(attr.find_next('div', {'class': 'infobox-cell-2'}).text)
 
     return tmp
@@ -47,10 +41,7 @@ def val_check_attrs(attrs):
     for attr in attrs:
         attr_name = attr.text
         if attr_name == "Location:":
-            temp_div = attr.find_next('div', {'class': 'infobox-cell-2'})
-            temp_div.span.decompose()
-            country = temp_div.find('a')
-            tmp.Country = country.text.strip()
+            tmp.Country = core.get_country(attr.find_next('div', {'class': 'infobox-cell-2'}))
         elif attr_name == "Total Winnings:":
             tmp.Winnings = core.get_money(attr.find_next('div', {'class': 'infobox-cell-2'}).text)
 
@@ -63,17 +54,14 @@ def lol_check_attrs(attrs):
     for attr in attrs:
         attr_name = attr.text
         if attr_name == "Location:":
-            temp_div = attr.find_next('div', {'class': 'infobox-cell-2'})
-            temp_div.span.decompose()
-            country = temp_div.find('a')
-            tmp.Country = country.text.strip()
-        elif attr_name == "Total Winnings:":
+            tmp.Country = core.get_country(attr.find_next('div', {'class': 'infobox-cell-2'}))
+        elif attr_name == "Total Earnings:":
             tmp.Winnings = core.get_money(attr.find_next('div', {'class': 'infobox-cell-2'}).text)
 
     return tmp
 
 
-def game_team_get_attr(infobox, table, game_method):
+def game_team_get_attr(infobox, table, game_method, name_colum=4):
 
     name_id = infobox.find('div', {'class': 'infobox-header'})
 
@@ -94,7 +82,7 @@ def game_team_get_attr(infobox, table, game_method):
     tours = []
 
     for i in range(1, len(table_rows)):
-        if table_rows[i].get('class') is not None:
+        if table_rows[i].get('class') is not None and table_rows[i].get('class').count('sortbottom') == 1:
             continue
         attrs = table_rows[i].find_all('td')
 
@@ -109,7 +97,7 @@ def game_team_get_attr(infobox, table, game_method):
                 prize = attr.text.strip()
                 if prize == "" or prize == "$0":
                     break
-            elif i == 4:
+            elif i == name_colum:
                 name_tour = attr.find('a').text.strip().replace(u'\xa0', ' ')
             elif i == (lenght - 1):
                 attr.span.decompose()
@@ -147,4 +135,4 @@ def val_team_get_attr(infobox, table):
 
 
 def lol_team_get_attr(infobox, table):
-    return game_team_get_attr(infobox, table, lol_check_attrs)
+    return game_team_get_attr(infobox, table, lol_check_attrs, 5)
