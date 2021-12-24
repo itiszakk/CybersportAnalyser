@@ -26,7 +26,10 @@ def born_to_date(born):
 
 
 def years_active_to_two_date(years_active):
-    [start, end] = years_active.split("–", 1)
+    try:
+        [start, end] = years_active.split("–", 1)
+    except:
+        [start, end] = years_active.split("-", 1)
     start = start.strip()
     end = end.strip()
     if end == "Present":
@@ -34,37 +37,124 @@ def years_active_to_two_date(years_active):
     return [start, end]
 
 
-def cs_player_get_attr(infobox, table):
+def cs_check_attrs(attrs):
     tmp = Player()
-
-    nick_id = infobox.find('div', {'class': 'infobox-header'})
-
-    nick_id.span.decompose()
-
-    tmp.Nick = nick_id.text.strip()
-
-    attrs = infobox.find_all('div', {'class': 'infobox-cell-2 infobox-description'})
 
     for attr in attrs:
         attr_name = attr.text
         if attr_name == "Name:":
             tmp.Name = attr.find_next('div', {'class': 'infobox-cell-2'}).text
-        elif attr_name == "Nationality:":
-            tmp.Country = attr.find_next('div', {'class': 'infobox-cell-2'}).text
+        elif attr_name == "Nationality:" or attr_name == "Nationalities:":
+            tmp.Country = core.get_country(attr.find_next('div', {'class': 'infobox-cell-2'}))
         elif attr_name == "Approx. Total Winnings:":
-            tmp.Winnings = attr.find_next('div', {'class': 'infobox-cell-2'}).text
+            tmp.Winnings = core.get_money(attr.find_next('div', {'class': 'infobox-cell-2'}).text)
         elif attr_name == "Born:":
-            tmp.Born = born_to_date(attr.find_next('div', {'class': 'infobox-cell-2'}).text)
+            tmp.Born = attr.find_next('div', {'class': 'infobox-cell-2'}).find('span', {'class': 'bday'}).text
         elif attr_name == "Years Active (Player):":
             years_active = attr.find_next('div', {'class': 'infobox-cell-2'}).text
             [tmp.Years_Active_Start, tmp.Years_Active_End] = years_active_to_two_date(years_active)
 
+    return tmp
+
+
+def dota2_check_attrs(attrs):
+    tmp = Player()
+
+    for attr in attrs:
+        attr_name = attr.text
+        if attr_name == "Name:":
+            tmp.Name = attr.find_next('div', {'class': 'infobox-cell-2'}).text
+        elif attr_name == "Country:" or attr_name == "Countries:":
+            tmp.Country = core.get_country(attr.find_next('div', {'class': 'infobox-cell-2'}))
+        elif attr_name == "Approx. Total Earnings:":
+            tmp.Winnings = core.get_money(attr.find_next('div', {'class': 'infobox-cell-2'}).text)
+        elif attr_name == "Birth:":
+            tmp.Born = attr.find_next('div', {'class': 'infobox-cell-2'}).find('span', {'class': 'bday'}).text
+
+    return tmp
+
+
+def lol_check_attrs(attrs):
+    tmp = Player()
+
+    for attr in attrs:
+        attr_name = attr.text
+        if attr_name == "Name:":
+            tmp.Name = attr.find_next('div', {'class': 'infobox-cell-2'}).text
+        elif attr_name == "Country:" or attr_name == "Countries:":
+            tmp.Country = core.get_country(attr.find_next('div', {'class': 'infobox-cell-2'}))
+        elif attr_name == "Approx. Total Earnings:":
+            tmp.Winnings = core.get_money(attr.find_next('div', {'class': 'infobox-cell-2'}).text)
+        elif attr_name == "Birth:":
+            tmp.Born = attr.find_next('div', {'class': 'infobox-cell-2'}).find('span', {'class': 'bday'}).text
+        elif attr_name == "Years Active (Player):":
+            years_active = attr.find_next('div', {'class': 'infobox-cell-2'}).text
+            [tmp.Years_Active_Start, tmp.Years_Active_End] = years_active_to_two_date(years_active)
+
+    return tmp
+
+
+def val_check_attrs(attrs):
+    tmp = Player()
+
+    for attr in attrs:
+        attr_name = attr.text
+        if attr_name == "Name:":
+            tmp.Name = attr.find_next('div', {'class': 'infobox-cell-2'}).text
+        elif attr_name == "Country:" or attr_name == "Countries:":
+            tmp.Country = core.get_country(attr.find_next('div', {'class': 'infobox-cell-2'}))
+        elif attr_name == "Approx. Total Earnings:":
+            tmp.Winnings = core.get_money(attr.find_next('div', {'class': 'infobox-cell-2'}).text)
+        elif attr_name == "Born:":
+            tmp.Born = attr.find_next('div', {'class': 'infobox-cell-2'}).find('span', {'class': 'bday'}).text
+        elif attr_name == "Years Active (Player):":
+            years_active = attr.find_next('div', {'class': 'infobox-cell-2'}).text
+            [tmp.Years_Active_Start, tmp.Years_Active_End] = years_active_to_two_date(years_active)
+
+    return tmp
+
+
+def game_player_get_attr(infobox, table, game_method, name_colum = 5):
+
+    nick_id = infobox.find('div', {'class': 'infobox-header'})
+
+    nick_id.span.decompose()
+
+    nick = nick_id.text.strip()
+
+    attrs = infobox.find_all('div', {'class': 'infobox-cell-2 infobox-description'})
+
+    tmp = game_method(attrs)
+
+    tmp.Nick = nick
+
+
+    if tmp.Years_Active_Start == '-':
+        try:
+            history = infobox.find_all('div', {'class': 'th-mono'})
+            team_one = history[0]
+            team_last = history[-1]
+        except:
+            history = infobox.find_all('td', {'class': 'th-mono'})
+            team_one = history[0]
+            team_last = history[-1]
+
+
+        years_first = team_one.text.split('—')[0].strip()
+        years_end = team_last.text.split('—')[1].strip()
+
+        tmp.Years_Active_Start = years_first.split('-')[0]
+
+        if years_end == "Present":
+            tmp.Years_Active_End = "-"
+        else:
+            tmp.Years_Active_End = years_end.split('-')[0]
+
     table_rows = table.find_all('tr')
 
     tours = []
-
     for i in range(1, len(table_rows)):
-        if table_rows[i].get('class') is not None:
+        if table_rows[i].get('class') is not None and table_rows[i].get('class').count('sortbottom') == 1:
             continue
         attrs = table_rows[i].find_all('td')
 
@@ -79,13 +169,13 @@ def cs_player_get_attr(infobox, table):
                 prize = attr.text.strip()
                 if prize == "" or prize == "$0":
                     break
-            elif i == 5:
+            elif i == name_colum:
                 name_tour = attr.find('a').text.strip().replace(u'\xa0', ' ')
             elif i == (lenght - 1):
                 attr.span.decompose()
-                place = attr.text.strip()
+                place = attr.text.strip().replace(u'\xa0', ' ')
             elif i == lenght:
-                date = attr.text.strip()
+                date = attr.text.strip().replace(u'\xa0', ' ')
             i += 1
         else:
             tmp_tour = {
@@ -108,20 +198,17 @@ def cs_player_get_attr(infobox, table):
     return player_dict
 
 
-if __name__ == "__main__":
-    url = "https://liquipedia.net/counterstrike/Category:Players"
+def cs_player_get_attr(infobox, table):
+    return game_player_get_attr(infobox, table, cs_check_attrs)
 
-    save_dir = os.getcwd() + "\\Players\\counterstrike\\"
 
-    # core.download_category_pages(url, save_dir)
-    player = core.get_item_info("https://liquipedia.net/counterstrike/S1mple", True, cs_player_get_attr)
-    #player = core.get_item_info(save_dir + "1mpala.html", True, cs_player_get_attr)
+def dota2_player_get_attr(infobox, table):
+    return game_player_get_attr(infobox, table, dota2_check_attrs)
 
-    # print(born_to_date("October 2, 1997 (age 24)"))
 
-    #core.get_game_info("counterstrike", cs_player_get_attr, True, url, save_dir, 'counterstrike_player.json')
-    #tours = core.get_item_results("https://liquipedia.net/counterstrike/S1mple/Results")
-    #player['torunaments'] = tours
-    print(player)
-    with open("player.json", 'w', encoding='utf8') as file:
-        json.dump(player, file, indent=2, ensure_ascii=False)
+def val_player_get_attr(infobox, table):
+    return game_player_get_attr(infobox, table, val_check_attrs)
+
+
+def lol_player_get_attr(infobox, table):
+    return game_player_get_attr(infobox, table, lol_check_attrs, 6)

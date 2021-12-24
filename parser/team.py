@@ -9,25 +9,85 @@ class Team:
     Country = "-"
 
 
-def cs_team_get_attr(infobox, table):
+def cs_check_attrs(attrs):
     tmp = Team()
+
+    for attr in attrs:
+        attr_name = attr.text
+        if attr_name == "Location:":
+            temp_div = attr.find_next('div', {'class': 'infobox-cell-2'})
+            temp_div.span.decompose()
+            country = temp_div.find('a')
+            tmp.Country = country.text.strip()
+        elif attr_name == "Total Winnings:":
+            tmp.Winnings = core.get_money(attr.find_next('div', {'class': 'infobox-cell-2'}).text)
+
+    return tmp
+
+
+def dota2_check_attrs(attrs):
+    tmp = Team()
+
+    for attr in attrs:
+        attr_name = attr.text
+        if attr_name == "Location:":
+            temp_div = attr.find_next('div', {'class': 'infobox-cell-2'})
+            temp_div.span.decompose()
+            country = temp_div.find('a')
+            tmp.Country = country.text.strip()
+        elif attr_name == "Total Winnings:":
+            tmp.Winnings = core.get_money(attr.find_next('div', {'class': 'infobox-cell-2'}).text)
+
+    return tmp
+
+
+def val_check_attrs(attrs):
+    tmp = Team()
+
+    for attr in attrs:
+        attr_name = attr.text
+        if attr_name == "Location:":
+            temp_div = attr.find_next('div', {'class': 'infobox-cell-2'})
+            temp_div.span.decompose()
+            country = temp_div.find('a')
+            tmp.Country = country.text.strip()
+        elif attr_name == "Total Winnings:":
+            tmp.Winnings = core.get_money(attr.find_next('div', {'class': 'infobox-cell-2'}).text)
+
+    return tmp
+
+
+def lol_check_attrs(attrs):
+    tmp = Team()
+
+    for attr in attrs:
+        attr_name = attr.text
+        if attr_name == "Location:":
+            temp_div = attr.find_next('div', {'class': 'infobox-cell-2'})
+            temp_div.span.decompose()
+            country = temp_div.find('a')
+            tmp.Country = country.text.strip()
+        elif attr_name == "Total Winnings:":
+            tmp.Winnings = core.get_money(attr.find_next('div', {'class': 'infobox-cell-2'}).text)
+
+    return tmp
+
+
+def game_team_get_attr(infobox, table, game_method):
 
     name_id = infobox.find('div', {'class': 'infobox-header'})
 
     name_id.span.decompose()
 
-    tmp.Name = name_id.text.strip()
+    name_id.text.strip()
+
+    name = name_id.text.strip()
 
     attrs = infobox.find_all('div', {'class': 'infobox-cell-2 infobox-description'})
 
-    for attr in attrs:
-        attr_name = attr.text
-        if attr_name == "Location:":
-            country = attr.find_next('div', {'class': 'infobox-cell-2'}).text
-            country = country.strip().split(" ", 1)[0]
-            tmp.Country = country
-        elif attr_name == "Total Winnings:":
-            tmp.Winnings = attr.find_next('div', {'class': 'infobox-cell-2'}).text
+    tmp = game_method(attrs)
+
+    tmp.Name = name
 
     table_rows = table.find_all('tr')
 
@@ -74,16 +134,17 @@ def cs_team_get_attr(infobox, table):
     return player_dict
 
 
-if __name__ == "__main__":
-    url = "https://liquipedia.net/counterstrike/Category:Teams"
+def cs_team_get_attr(infobox, table):
+    return game_team_get_attr(infobox, table, cs_check_attrs)
 
-    save_dir = os.getcwd() + "\\Teams\\counterstrike\\"
 
-    # core.download_category_pages(url, save_dir)
-    temp = core.get_item_info("https://liquipedia.net/counterstrike/Natus_Vincere", True, cs_team_get_attr)
+def dota2_team_get_attr(infobox, table):
+    return game_team_get_attr(infobox, table, dota2_check_attrs)
 
-    print(temp)
-    #core.get_game_info("counterstrike", cs_team_get_attr, False, url, save_dir, 'counterstrike_team.json')
 
-    with open("team.json", 'w', encoding='utf8') as file:
-        json.dump(temp, file, indent=2, ensure_ascii=False)
+def val_team_get_attr(infobox, table):
+    return game_team_get_attr(infobox, table, val_check_attrs)
+
+
+def lol_team_get_attr(infobox, table):
+    return game_team_get_attr(infobox, table, lol_check_attrs)

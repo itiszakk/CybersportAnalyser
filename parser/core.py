@@ -1,5 +1,4 @@
 import re
-
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -8,8 +7,21 @@ from time import monotonic
 
 start_time = 0
 headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:45.0) Gecko/20100101 Firefox/45.0'
-    }
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:45.0) Gecko/20100101 Firefox/45.0'
+}
+
+
+def get_money(item: str):
+    temp_win = item.replace(u'\xa0', ' ').strip()
+    if temp_win.rfind(")") != -1:
+        temp_win = temp_win.split('(')[1]
+    return re.sub(r'[^0-9.]+', r'', temp_win)
+
+
+def get_country(item):
+    item.span.decompose()
+    country = item.find('a')
+    return country.text.strip()
 
 
 def wait_2_second():
@@ -46,7 +58,6 @@ def month_string_to_number(string):
         'dec': 12
     }
     s = string.strip()[:3].lower()
-
     try:
         out = m[s]
         return out
@@ -154,23 +165,27 @@ def download_category_pages(start_url_category, folder_name, method):
                     continue
 
                 link = url_main + item['href']
-                wait_2_second()
-                page = requests.get(link, headers=headers).text
-                start_time = monotonic()
                 file_name = folder_name + "\\" + item.text.replace("/", "_") + ".html"
 
-                with open(file_name, 'wb') as output_file:
-                    output_file.write(page.encode('utf8'))
+                if not os.path.exists(file_name):
+                    wait_2_second()
+                    page = requests.get(link, headers=headers).text
+                    start_time = monotonic()
+
+                    with open(file_name, 'wb') as output_file:
+                        output_file.write(page.encode('utf8'))
 
                 if method == 1:
                     link_res = link + "/Results"
-                    wait_2_second()
-                    page_res = requests.get(link_res, headers=headers).text
-                    start_time = monotonic()
                     file_name_res = folder_name + "_result\\" + item.text.replace("/", "_") + ".html"
 
-                    with open(file_name_res, 'wb') as output_file:
-                        output_file.write(page_res.encode('utf8'))
+                    if not os.path.exists(file_name_res):
+                        wait_2_second()
+                        page_res = requests.get(link_res, headers=headers).text
+                        start_time = monotonic()
+
+                        with open(file_name_res, 'wb') as output_file:
+                            output_file.write(page_res.encode('utf8'))
 
         next_page = item_category.find('a')
 
