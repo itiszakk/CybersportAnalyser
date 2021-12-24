@@ -40,8 +40,13 @@ def dota2_check_attrs(attrs):
             tmp.Country = locations.split(u'\xa0')
         elif attr_name == "Prize Pool:":
             tmp.Winnings = core.get_money(attr.find_next('div', {'class': 'infobox-cell-2'}).text)
-        elif attr_name == "Start Date:":
-            tmp.Date = attr.find_next('div', {'class': 'infobox-cell-2'}).text
+        elif attr_name == "Dates:":
+            temp_date = attr.find_next('div', {'class': 'infobox-cell-2'}).text.split(',')
+            year = temp_date[1].strip()
+            moth_day = temp_date[0].split('-')[0].strip()
+            moth = core.month_string_to_number(moth_day.split(' ')[0])
+            day = moth_day.split(' ')[1]
+            tmp.Date = str(year) + '-' + str(moth) + '-' + str(day)
 
     return tmp
 
