@@ -1,0 +1,8463 @@
+[
+  [
+    {
+      "name": "A1 eSports League Season 2",
+      "date": "2018-08-28",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "NA Academy League Spring 2018",
+      "date": "2018-01-18",
+      "type": "Online/Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "25000"
+    },
+    {
+      "name": "NA Academy League Summer 2018",
+      "date": "2018-06-14",
+      "type": "Online/Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "25000"
+    },
+    {
+      "name": "Turkey Academy League Summer 2019",
+      "date": "2019-06-10",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Turkey Academy League Winter 2019",
+      "date": "2019-01-21",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Turkey Academy League Winter 2020",
+      "date": "2020-02-03",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Turkey Academy League Summer 2021",
+      "date": "2021-06-10",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Turkey Academy League Winter 2021",
+      "date": "2021-01-21",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Ambition League",
+      "date": "2020-09-23",
+      "type": "Online",
+      "country": [
+        "South Korea"
+      ],
+      "winnings": "2980"
+    },
+    {
+      "name": "Aorus League - Southern Cone - Season 1",
+      "date": "2018-03-03",
+      "type": "Online",
+      "country": [
+        "South America"
+      ],
+      "winnings": "1500"
+    },
+    {
+      "name": "Arena of Legends 2021",
+      "date": "2021-03-18",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "ASUS Republic of Gamers 2015",
+      "date": "2015-12-12",
+      "type": "Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "32843"
+    },
+    {
+      "name": "Baloise International Gaming Show",
+      "date": "2017-11-25",
+      "type": "Offline",
+      "country": [
+        "Lausanne"
+      ],
+      "winnings": "8297"
+    },
+    {
+      "name": "Baltic Masters Spring 2021",
+      "date": "2021-01-26",
+      "type": "Online",
+      "country": [
+        "Lithuania"
+      ],
+      "winnings": "4760"
+    },
+    {
+      "name": "Baltic Masters Summer 2021",
+      "date": "2021-06-15",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "4694"
+    },
+    {
+      "name": "Baltic Masters Season 3",
+      "date": "2019-07-07",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "2826"
+    },
+    {
+      "name": "Baltic Masters Season 4",
+      "date": "2020-02-05",
+      "type": "Online",
+      "country": [
+        "Lithuania"
+      ],
+      "winnings": "4253"
+    },
+    {
+      "name": "Baltic Masters Season 5",
+      "date": "2020-07-07",
+      "type": "Online",
+      "country": [
+        "Lithuania"
+      ],
+      "winnings": "4726"
+    },
+    {
+      "name": "Belgian League 2020 - Country Finals",
+      "date": "2020-10-05",
+      "type": "Online",
+      "country": [
+        "Belgium"
+      ],
+      "winnings": "11712"
+    },
+    {
+      "name": "Belgian League Spring 2020",
+      "date": "2020-01-20",
+      "type": "Online",
+      "country": [
+        "Belgium"
+      ],
+      "winnings": "8354"
+    },
+    {
+      "name": "Belgian League Summer 2020",
+      "date": "2020-06-01",
+      "type": "Online",
+      "country": [
+        "Belgium"
+      ],
+      "winnings": "8806"
+    },
+    {
+      "name": "Belgian League 2021 - Country Finals",
+      "date": "2021-10-08",
+      "type": "Offline",
+      "country": [
+        "Brussels"
+      ],
+      "winnings": "11597"
+    },
+    {
+      "name": "Belgian League Spring 2021",
+      "date": "2021-01-11",
+      "type": "Online",
+      "country": [
+        "Belgium"
+      ],
+      "winnings": "8950"
+    },
+    {
+      "name": "Belgian League Summer 2021",
+      "date": "2021-05-31",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "8801"
+    },
+    {
+      "name": "Benelux Premier League Season 1",
+      "date": "2018-07-21",
+      "type": "Offline",
+      "country": [
+        "Rotterdam"
+      ],
+      "winnings": "4666"
+    },
+    {
+      "name": "Benelux Premier League Season 2",
+      "date": "2019-02-11",
+      "type": "Offline",
+      "country": [
+        "The Hague"
+      ],
+      "winnings": "4491"
+    },
+    {
+      "name": "Benelux Premier League Season 3",
+      "date": "2019-07-22",
+      "type": "Online/Offline",
+      "country": [
+        "The Hague"
+      ],
+      "winnings": "4582"
+    },
+    {
+      "name": "BIG League: Season 4",
+      "date": "2021-01-25",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "5000"
+    },
+    {
+      "name": "Blackpills Cup",
+      "date": "2018-01-13",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "6163"
+    },
+    {
+      "name": "BRCC Summer 2017",
+      "date": "2017-01-23",
+      "type": "Online/Offline",
+      "country": [
+        "Rio de Janeiro"
+      ],
+      "winnings": "12881"
+    },
+    {
+      "name": "BRCC Winter 2017",
+      "date": "2017-06-05",
+      "type": "Online/Offline",
+      "country": [
+        "Rio de Janeiro"
+      ],
+      "winnings": "12244"
+    },
+    {
+      "name": "BRCC Summer 2018",
+      "date": "2018-02-19",
+      "type": "Online/Offline",
+      "country": [
+        "Rio de Janeiro"
+      ],
+      "winnings": "12113"
+    },
+    {
+      "name": "BRCC Winter 2018",
+      "date": "2018-07-16",
+      "type": "Online/Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "9729"
+    },
+    {
+      "name": "BRCC Summer 2019",
+      "date": "2019-01-21",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "10192"
+    },
+    {
+      "name": "BRCC Winter 2019",
+      "date": "2019-06-10",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "10032"
+    },
+    {
+      "name": "BRCC Summer 2020",
+      "date": "2020-02-03",
+      "type": "Onlie/Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "6829"
+    },
+    {
+      "name": "BRCC Winter 2020",
+      "date": "2020-06-08",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "7376"
+    },
+    {
+      "name": "2014 Season Brazil Regional Finals",
+      "date": "2014-07-18",
+      "type": "Offline",
+      "country": [
+        "São Paulo ",
+        "Rio de Janeiro"
+      ],
+      "winnings": "45143"
+    },
+    {
+      "name": "CBLOL Summer 2015",
+      "date": "2015-01-17",
+      "type": "Offline",
+      "country": [
+        "São Paulo ",
+        "Florianópolis"
+      ],
+      "winnings": "49687"
+    },
+    {
+      "name": "CBLOL Winter 2015",
+      "date": "2015-05-23",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "42483"
+    },
+    {
+      "name": "CBLOL Summer 2016",
+      "date": "2016-01-16",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "12409"
+    },
+    {
+      "name": "CBLOL Winter 2016",
+      "date": "2016-05-19",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "13238"
+    },
+    {
+      "name": "CBLOL Summer 2017",
+      "date": "2017-01-21",
+      "type": "Offline",
+      "country": [
+        "São Paulo ",
+        "Recife"
+      ],
+      "winnings": "63713"
+    },
+    {
+      "name": "CBLOL Winter 2017",
+      "date": "2017-06-03",
+      "type": "Offline",
+      "country": [
+        "São Paulo ",
+        "Belo Horizonte"
+      ],
+      "winnings": "63613"
+    },
+    {
+      "name": "CBLOL Summer 2018",
+      "date": "2018-01-20",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "58666"
+    },
+    {
+      "name": "CBLOL Winter 2018",
+      "date": "2018-06-09",
+      "type": "Offline",
+      "country": [
+        "São Paulo ",
+        "Porto Alegre"
+      ],
+      "winnings": "47586"
+    },
+    {
+      "name": "CBLOL Summer 2019",
+      "date": "2019-01-12",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "51892"
+    },
+    {
+      "name": "CBLOL Winter 2019",
+      "date": "2019-06-01",
+      "type": "Offline",
+      "country": [
+        "São Paulo ",
+        "Rio de Janeiro"
+      ],
+      "winnings": "48745"
+    },
+    {
+      "name": "CBLOL Summer 2020",
+      "date": "2020-01-25",
+      "type": "Online/offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "34889"
+    },
+    {
+      "name": "CBLOL Winter 2020",
+      "date": "2020-06-06",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "37718"
+    },
+    {
+      "name": "CBLOL Split 1 2021",
+      "date": "2021-01-16",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "37584"
+    },
+    {
+      "name": "CBLOL Split 2 2021",
+      "date": "2021-06-05",
+      "type": "Online",
+      "country": [
+        "Rio de Janeiro"
+      ],
+      "winnings": "40424"
+    },
+    {
+      "name": "CBLOL Split 1 2022",
+      "date": "2022-01-22",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "70500"
+    },
+    {
+      "name": "CBLOL Academy Split 1 2021",
+      "date": "2021-01-19",
+      "type": "-",
+      "country": [
+        "Online"
+      ],
+      "winnings": "8200"
+    },
+    {
+      "name": "CBLOL Academy Split 2 2021",
+      "date": "2021-06-08",
+      "type": "-",
+      "country": [
+        "Online"
+      ],
+      "winnings": "8872"
+    },
+    {
+      "name": "CBLOL Academy Split 1 2022",
+      "date": "2022-01-25",
+      "type": "Online",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "17625"
+    },
+    {
+      "name": "CCL Spring 2018",
+      "date": "2018-02-15",
+      "type": "Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "CCL Summer 2018",
+      "date": "2018-07-19",
+      "type": "Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "CDL Closing 2016",
+      "date": "2016-07-22",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "CDL Opening 2016",
+      "date": "2016-03-10",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "CDLN Closing 2017",
+      "date": "2017-06-01",
+      "type": "Online/Offline",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "CDLN Opening 2017",
+      "date": "2017-01-19",
+      "type": "Online/Offline",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "CDL Closing 2018",
+      "date": "2018-06-21",
+      "type": "Online/Offline",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "CDL Opening 2018",
+      "date": "2018-01-25",
+      "type": "Online/Offline",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Challenge France Autumn 2017",
+      "date": "2017-11-10",
+      "type": "Online/Offline",
+      "country": [
+        "Lyon"
+      ],
+      "winnings": "23796"
+    },
+    {
+      "name": "Challenge France Spring 2017",
+      "date": "2017-01-30",
+      "type": "Online/Offline",
+      "country": [
+        "Lyon"
+      ],
+      "winnings": "21019"
+    },
+    {
+      "name": "Challengers Uprising Season 1",
+      "date": "2020-06-10",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "15000"
+    },
+    {
+      "name": "Challengers Uprising Season 2",
+      "date": "2021-02-08",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "10000"
+    },
+    {
+      "name": "Challengers Uprising Season 3",
+      "date": "2021-05-24",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "5000"
+    },
+    {
+      "name": "Champions Winter 2012-2013",
+      "date": "2012-11-09",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "248236"
+    },
+    {
+      "name": "Champions Winter 2013-2014",
+      "date": "2013-11-15",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "251713"
+    },
+    {
+      "name": "Champions Spring 2013",
+      "date": "2013-04-03",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "239149"
+    },
+    {
+      "name": "Champions Summer 2013",
+      "date": "2013-07-03",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "242872"
+    },
+    {
+      "name": "Korea Regional Finals",
+      "date": "2014-08-27",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Champions Spring 2014",
+      "date": "2014-03-12",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "263722"
+    },
+    {
+      "name": "Champions Summer 2014",
+      "date": "2014-06-18",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "264705"
+    },
+    {
+      "name": "Circuito Nacional Argentina Opening 2018",
+      "date": "2018-01-17",
+      "type": "-",
+      "country": [
+        "Buenos Aires"
+      ],
+      "winnings": "8000"
+    },
+    {
+      "name": "Circuito Nacional Argentina 2021",
+      "date": "2021-05-31",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "2843"
+    },
+    {
+      "name": "Circuito Nacional Chile Opening 2018",
+      "date": "2018-01-17",
+      "type": "-",
+      "country": [
+        ""
+      ],
+      "winnings": "8000"
+    },
+    {
+      "name": "Circuito Nacional Colombia Closing 2018",
+      "date": "2018-09-17",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "16500"
+    },
+    {
+      "name": "Circuito Nacional México Closing 2018",
+      "date": "2018-09-24",
+      "type": "Online/Offline",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "16500"
+    },
+    {
+      "name": "Circuito Nacional México 2021",
+      "date": "2021-04-07",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "4987"
+    },
+    {
+      "name": "Circuito Nacional México Closing 2021",
+      "date": "2021-11-03",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "4636"
+    },
+    {
+      "name": "CK Summer 2017",
+      "date": "2017-06-02",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "53255"
+    },
+    {
+      "name": "CK Spring 2018",
+      "date": "2018-01-18",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "56090"
+    },
+    {
+      "name": "CK Summer 2018",
+      "date": "2018-06-11",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "CK Spring 2019",
+      "date": "2019-01-21",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "52790"
+    },
+    {
+      "name": "CK Summer 2019",
+      "date": "2019-06-06",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "49546"
+    },
+    {
+      "name": "CK Spring 2020",
+      "date": "2020-02-06",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "48736"
+    },
+    {
+      "name": "CK Summer 2020",
+      "date": "2020-06-18",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "50500"
+    },
+    {
+      "name": "CLN Closing 2016",
+      "date": "2016-05-30",
+      "type": "Offline",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "CLN Opening 2016",
+      "date": "2016-02-01",
+      "type": "Offline",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "CLS Closing 2017",
+      "date": "2017-06-01",
+      "type": "Offline",
+      "country": [
+        "Santiago ",
+        "Buenos Aires"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "CLS Closing 2018",
+      "date": "2018-06-16",
+      "type": "Offline",
+      "country": [
+        "Santiago"
+      ],
+      "winnings": "55491"
+    },
+    {
+      "name": "CLS Opening 2018",
+      "date": "2018-01-20",
+      "type": "Offline",
+      "country": [
+        "Santiago ",
+        "Lima"
+      ],
+      "winnings": "63831"
+    },
+    {
+      "name": "College Star League 2020-2021",
+      "date": "2021-02-27",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "10000"
+    },
+    {
+      "name": "Copa Río de la Plata 2017",
+      "date": "2017-11-23",
+      "type": "-",
+      "country": "-",
+      "winnings": "-"
+    },
+    {
+      "name": "Copenhagen Games 2018",
+      "date": "2018-03-29",
+      "type": "Offline",
+      "country": [
+        "Copenhagen"
+      ],
+      "winnings": "3301"
+    },
+    {
+      "name": "Cross Border Esport 2017",
+      "date": "2017-09-06",
+      "type": "Offline",
+      "country": [
+        "Sønderborg"
+      ],
+      "winnings": "11927"
+    },
+    {
+      "name": "Cross Border Esport 2018",
+      "date": "2018-06-03",
+      "type": "Online",
+      "country": [
+        "Sonderborg"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "CSD Spring 2019",
+      "date": "2019-02-03",
+      "type": "Online",
+      "country": [
+        "Denmark"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "EU CS Spring 2014",
+      "date": "2014-04-01",
+      "type": "Offline",
+      "country": "-",
+      "winnings": "39500"
+    },
+    {
+      "name": "EU CS Spring 2014 - Series 1",
+      "date": "2014-01-16",
+      "type": "Online/Offline",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "20000"
+    },
+    {
+      "name": "EU CS Spring 2014 - Series 2",
+      "date": "2014-02-26",
+      "type": "Offline",
+      "country": "-",
+      "winnings": "20000"
+    },
+    {
+      "name": "EU CS Summer 2014",
+      "date": "2014-08-05",
+      "type": "Offline",
+      "country": "-",
+      "winnings": "39500"
+    },
+    {
+      "name": "EU CS Summer 2014 - Series 1",
+      "date": "2014-05-15",
+      "type": "Online",
+      "country": "-",
+      "winnings": "20000"
+    },
+    {
+      "name": "EU CS Summer 2014 - Series 2",
+      "date": "2014-06-26",
+      "type": "Online",
+      "country": "-",
+      "winnings": "20000"
+    },
+    {
+      "name": "EU CS Spring 2015",
+      "date": "2015-02-17",
+      "type": "Online/Offline",
+      "country": "-",
+      "winnings": "21647"
+    },
+    {
+      "name": "EU CS Summer 2015",
+      "date": "2015-06-23",
+      "type": "Online/Offline",
+      "country": "-",
+      "winnings": "22084"
+    },
+    {
+      "name": "EU CS Spring 2016",
+      "date": "2016-01-26",
+      "type": "offline/online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "24979"
+    },
+    {
+      "name": "EU CS Summer 2016",
+      "date": "2016-06-07",
+      "type": "offline/online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "24912"
+    },
+    {
+      "name": "EU CS Spring 2017",
+      "date": "2017-02-05",
+      "type": "Online/Offline",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "43135"
+    },
+    {
+      "name": "EU CS Summer 2017",
+      "date": "2017-06-18",
+      "type": "Online/Offline",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "47539"
+    },
+    {
+      "name": "NA CS Spring 2017",
+      "date": "2017-01-25",
+      "type": "Offline / Online",
+      "country": "-",
+      "winnings": "25000"
+    },
+    {
+      "name": "NA CS Summer 2017",
+      "date": "2017-06-07",
+      "type": "offline/online",
+      "country": "-",
+      "winnings": "21000"
+    },
+    {
+      "name": "CUP 2017",
+      "date": "2017-12-13",
+      "type": "Offline",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "34000"
+    },
+    {
+      "name": "CYBERHERO 2020",
+      "date": "2020-09-12",
+      "type": "Online",
+      "country": [
+        "CIS"
+      ],
+      "winnings": "661"
+    },
+    {
+      "name": "Demacia Cup 2017",
+      "date": "2017-05-23",
+      "type": "Offline",
+      "country": [
+        "Changsha"
+      ],
+      "winnings": "176484"
+    },
+    {
+      "name": "Demacia Championship 2017",
+      "date": "2017-12-26",
+      "type": "Offline",
+      "country": [
+        "Qingdao"
+      ],
+      "winnings": "185034"
+    },
+    {
+      "name": "Demacia Cup Summer 2018",
+      "date": "2018-05-31",
+      "type": "Offline",
+      "country": [
+        "Zhuhai"
+      ],
+      "winnings": "78086"
+    },
+    {
+      "name": "Demacia Cup Winter 2018",
+      "date": "2018-12-20",
+      "type": "Offline",
+      "country": [
+        "Xi'an"
+      ],
+      "winnings": "72718"
+    },
+    {
+      "name": "Demacia Championship 2019",
+      "date": "2019-12-21",
+      "type": "Offline",
+      "country": [
+        "Suzhou ",
+        "Hangzhou ",
+        "Chongqing"
+      ],
+      "winnings": "71546"
+    },
+    {
+      "name": "Demacia Cup 2020",
+      "date": "2020-12-21",
+      "type": "Offline",
+      "country": [
+        "China"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Demacia Cup 2021",
+      "date": "2021-12-17",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Digtality X 2016",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "6209"
+    },
+    {
+      "name": "División de Honor Closing 2019",
+      "date": "2019-06-05",
+      "type": "Online/Offline",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "División de Honor Opening 2019",
+      "date": "2019-01-24",
+      "type": "-",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "División de Honor Closing 2020",
+      "date": "2020-06-10",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "8000"
+    },
+    {
+      "name": "Copa Off-Season MX 2020",
+      "date": "2020-11-09",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "7586"
+    },
+    {
+      "name": "División de Honor Opening 2020",
+      "date": "2020-01-29",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "8000"
+    },
+    {
+      "name": "División de Honor Closing 2021",
+      "date": "2021-05-25",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "29598"
+    },
+    {
+      "name": "División de Honor Opening 2021",
+      "date": "2021-01-20",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "29033"
+    },
+    {
+      "name": "DreamHack Bucharest 2012",
+      "date": "2012-10-20",
+      "type": "Offline",
+      "country": [
+        "Bucharest"
+      ],
+      "winnings": "5227"
+    },
+    {
+      "name": "DreamHack Summer 2012",
+      "date": "2012-06-16",
+      "type": "Offline",
+      "country": [
+        "Jönköping"
+      ],
+      "winnings": "40000"
+    },
+    {
+      "name": "DreamHack Valencia 2012",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        "Valencia"
+      ],
+      "winnings": "6487"
+    },
+    {
+      "name": "DreamHack Winter 2012",
+      "date": "2012-11-22",
+      "type": "Offline",
+      "country": [
+        "Jönköping"
+      ],
+      "winnings": "49397"
+    },
+    {
+      "name": "DreamHack Tours 2017",
+      "date": "2017-05-06",
+      "type": "Offline",
+      "country": [
+        "Tours"
+      ],
+      "winnings": "10964"
+    },
+    {
+      "name": "DreamHack Tours 2018",
+      "date": "2018-05-19",
+      "type": "Offline",
+      "country": [
+        "Tours"
+      ],
+      "winnings": "11767"
+    },
+    {
+      "name": "DreamHack Tours 2019",
+      "date": "2019-05-17",
+      "type": "Offline",
+      "country": [
+        "Tours"
+      ],
+      "winnings": "11173"
+    },
+    {
+      "name": "Duelo Andino 2021",
+      "date": "-",
+      "type": "Online",
+      "country": "-",
+      "winnings": "-"
+    },
+    {
+      "name": "Dutch League 2020 - Country Finals",
+      "date": "2020-10-10",
+      "type": "Online",
+      "country": [
+        "Netherlands"
+      ],
+      "winnings": "11842"
+    },
+    {
+      "name": "Dutch League Spring 2020",
+      "date": "2020-01-21",
+      "type": "Online",
+      "country": [
+        "Netherlands"
+      ],
+      "winnings": "8272"
+    },
+    {
+      "name": "Dutch League Summer 2020",
+      "date": "2020-06-02",
+      "type": "Online",
+      "country": [
+        "Netherlands"
+      ],
+      "winnings": "8807"
+    },
+    {
+      "name": "Dutch League 2021 - Country Finals",
+      "date": "2021-10-16",
+      "type": "Offline",
+      "country": [
+        "Purmerend"
+      ],
+      "winnings": "11617"
+    },
+    {
+      "name": "Dutch League Spring 2021",
+      "date": "2021-01-12",
+      "type": "Online",
+      "country": [
+        "Netherlands"
+      ],
+      "winnings": "8885"
+    },
+    {
+      "name": "Dutch League Summer 2021",
+      "date": "2021-06-01",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "8801"
+    },
+    {
+      "name": "e-elements League of Legends Autumn Cup 2020",
+      "date": "2020-10-18",
+      "type": "Online",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "48408"
+    },
+    {
+      "name": "Esports Balkan League Season 1",
+      "date": "2017-10-30",
+      "type": "-",
+      "country": [
+        "Belgrade"
+      ],
+      "winnings": "23549"
+    },
+    {
+      "name": "Esports Balkan League Season 10",
+      "date": "2022-01-17",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Esports Balkan League Season 2",
+      "date": "2018-02-05",
+      "type": "-",
+      "country": [
+        "Belgrade"
+      ],
+      "winnings": "24650"
+    },
+    {
+      "name": "Esports Balkan League Season 3",
+      "date": "2018-07-09",
+      "type": "-",
+      "country": [
+        "Belgrade"
+      ],
+      "winnings": "23330"
+    },
+    {
+      "name": "Esports Balkan League Season 4",
+      "date": "2019-01-28",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "22459"
+    },
+    {
+      "name": "Esports Balkan League Season 5",
+      "date": "2019-06-24",
+      "type": "Online/Offline",
+      "country": [
+        "Belgrade"
+      ],
+      "winnings": "22168"
+    },
+    {
+      "name": "Esports Balkan League Season 6",
+      "date": "2020-01-27",
+      "type": "Online",
+      "country": [
+        "Serbia"
+      ],
+      "winnings": "22096"
+    },
+    {
+      "name": "Esports Balkan League Season 7",
+      "date": "2020-06-22",
+      "type": "Online",
+      "country": [
+        "Serbia"
+      ],
+      "winnings": "23684"
+    },
+    {
+      "name": "Esports Balkan League Season 8",
+      "date": "2021-01-25",
+      "type": "Online",
+      "country": [
+        "Serbia"
+      ],
+      "winnings": "23588"
+    },
+    {
+      "name": "Esports Balkan League Season 9",
+      "date": "2021-06-14",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "23471"
+    },
+    {
+      "name": "ECS Summer 2017",
+      "date": "2017-06-06",
+      "type": "online/offline",
+      "country": [
+        ""
+      ],
+      "winnings": "16530"
+    },
+    {
+      "name": "ECS Spring 2018",
+      "date": "2018-01-16",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "13676"
+    },
+    {
+      "name": "ECS Spring 2019",
+      "date": "2019-01-15",
+      "type": "Online/Offline",
+      "country": [
+        "Taipei"
+      ],
+      "winnings": "16236"
+    },
+    {
+      "name": "EGL Summer Showdown 2021",
+      "date": "2021-07-12",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Elite Series Spring 2022",
+      "date": "2022-01-17",
+      "type": "Online",
+      "country": [
+        "Benelux"
+      ],
+      "winnings": "11330"
+    },
+    {
+      "name": "Emperor Cup 2017",
+      "date": "2017-11-11",
+      "type": "Offline",
+      "country": [
+        "Kwun Tong ",
+        "Lai Chi Kok ",
+        "Mong Kok"
+      ],
+      "winnings": "32017"
+    },
+    {
+      "name": "ESL ANZ Championship 2017",
+      "date": "2017-11-04",
+      "type": "Online/Offline",
+      "country": [
+        "Sydney"
+      ],
+      "winnings": "7587"
+    },
+    {
+      "name": "ESL Belgian Championship Winter 2018",
+      "date": "2018-10-11",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "11392"
+    },
+    {
+      "name": "ESL Benelux Championship Summer 2017",
+      "date": "2017-05-01",
+      "type": "Online",
+      "country": [
+        "Amsterdam ",
+        "Belgium ",
+        "Luxembourg"
+      ],
+      "winnings": "7247"
+    },
+    {
+      "name": "ESL Benelux Championship Winter 2017",
+      "date": "2017-09-19",
+      "type": "Online",
+      "country": [
+        "Utrecht ",
+        "Belgium ",
+        "Luxembourg"
+      ],
+      "winnings": "7655"
+    },
+    {
+      "name": "ESL Benelux Championship Summer 2018",
+      "date": "2018-05-01",
+      "type": "Online",
+      "country": [
+        "Netherlands ",
+        "Belgium ",
+        "Luxembourg"
+      ],
+      "winnings": "7543"
+    },
+    {
+      "name": "ESL Championnat National Summer 2017",
+      "date": "2017-05-02",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "17106"
+    },
+    {
+      "name": "ESL Championnat National Summer 2016",
+      "date": "2016-05-23",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "11106"
+    },
+    {
+      "name": "ESL Championnat National Winter 2016",
+      "date": "2016-09-26",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "10620"
+    },
+    {
+      "name": "ESL Clash of Nations 2017",
+      "date": "2017-11-01",
+      "type": "Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "17492"
+    },
+    {
+      "name": "ESL Dutch Championship Winter 2018",
+      "date": "2018-09-24",
+      "type": "Online/Offline",
+      "country": [
+        "Haarlemmermeer"
+      ],
+      "winnings": "7411"
+    },
+    {
+      "name": "ESL Dutch Championship Summer 2019",
+      "date": "2019-04-25",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "7331"
+    },
+    {
+      "name": "ESL Italia Championship Winter 2017: Serie A",
+      "date": "2017-10-11",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "8054"
+    },
+    {
+      "name": "ESL Italia Championship Summer 2018: Serie A",
+      "date": "2018-04-12",
+      "type": "Online/Offline",
+      "country": [
+        "Rome"
+      ],
+      "winnings": "5203"
+    },
+    {
+      "name": "ESL Masters Madrid 2017",
+      "date": "2017-10-27",
+      "type": "Offline",
+      "country": [
+        "Madrid"
+      ],
+      "winnings": "11637"
+    },
+    {
+      "name": "ESL Meisterschaft Summer 2017",
+      "date": "2017-06-08",
+      "type": "Online/Offline",
+      "country": [
+        "Krefeld"
+      ],
+      "winnings": "31865"
+    },
+    {
+      "name": "ESL Meisterschaft Winter 2017",
+      "date": "2017-10-04",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "31792"
+    },
+    {
+      "name": "ESL Meisterschaft Spring 2018 - Division 1",
+      "date": "2018-01-31",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "33080"
+    },
+    {
+      "name": "ESL Meisterschaft Summer 2018: Division 1",
+      "date": "2018-06-06",
+      "type": "Online/Offline",
+      "country": [
+        "Colonge"
+      ],
+      "winnings": "31166"
+    },
+    {
+      "name": "ESL Meisterschaft Summer 2018: Division 2",
+      "date": "2018-06-04",
+      "type": "Online",
+      "country": [
+        "Germany"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "ESL Meisterschaft Winter 2018: Division 1",
+      "date": "2018-10-03",
+      "type": "Online/Offline",
+      "country": [
+        "Germany"
+      ],
+      "winnings": "35228"
+    },
+    {
+      "name": "ESL Meisterschaft Winter 2018: Division 2",
+      "date": "2018-10-01",
+      "type": "Online",
+      "country": [
+        "Germany"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "ESL Meisterschaft Spring 2019: Division 1",
+      "date": "2019-01-23",
+      "type": "Online/Offline",
+      "country": [
+        "Germany"
+      ],
+      "winnings": "34800"
+    },
+    {
+      "name": "ESL Meisterschaft Spring 2019: Division 2",
+      "date": "2019-01-21",
+      "type": "Online",
+      "country": [
+        "Germany"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "ESL Mistrzostwa Polski - Season 14",
+      "date": "2017-02-06",
+      "type": "Online/Offline",
+      "country": [
+        "Katowice"
+      ],
+      "winnings": "20601"
+    },
+    {
+      "name": "ESL Mistrzostwa Polski Season 15",
+      "date": "2017-07-17",
+      "type": "Online/Offline",
+      "country": [
+        "Łódź"
+      ],
+      "winnings": "22290"
+    },
+    {
+      "name": "ESL Mistrzostwa Polski - Season 16",
+      "date": "2018-03-18",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "10936"
+    },
+    {
+      "name": "ESL Mistrzostwa Polski Season 17",
+      "date": "2018-08-13",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "21538"
+    },
+    {
+      "name": "Puchar Polski Cybersport Autumn 2017",
+      "date": "2017-08-23",
+      "type": "online/offline",
+      "country": [
+        "Poznań"
+      ],
+      "winnings": "6807"
+    },
+    {
+      "name": "Puchar Polski Cybersport Spring 2018",
+      "date": "2018-02-06",
+      "type": "-",
+      "country": [
+        "Katowice"
+      ],
+      "winnings": "7365"
+    },
+    {
+      "name": "ESL Southeast Europe Championship Season 7",
+      "date": "2018-05-28",
+      "type": "Online",
+      "country": [
+        "Europe"
+      ],
+      "winnings": "5878"
+    },
+    {
+      "name": "ESL Swiss League Spring 2019",
+      "date": "2019-02-19",
+      "type": "Online",
+      "country": [
+        "Switzerland"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "ESL UK Premiership Autumn 2017: Division 1",
+      "date": "2017-07-19",
+      "type": "Online/Offline",
+      "country": [
+        "Birmingham"
+      ],
+      "winnings": "13713"
+    },
+    {
+      "name": "ESL UK Premiership Spring 2018: Division 1",
+      "date": "2018-02-06",
+      "type": "Online/Offline",
+      "country": [
+        "Leicester ",
+        "Ireland"
+      ],
+      "winnings": "14710"
+    },
+    {
+      "name": "ESL UK Premiership Spring 2018: Division 2",
+      "date": "2018-03-21",
+      "type": "Online/Offline",
+      "country": [
+        "United Kingdom ",
+        "Ireland"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "ESWC Metz 2018",
+      "date": "2018-09-08",
+      "type": "Offline",
+      "country": [
+        "Metz"
+      ],
+      "winnings": "23240"
+    },
+    {
+      "name": "European Masters Spring 2018",
+      "date": "2018-04-09",
+      "type": "Online/Offline",
+      "country": [
+        "Leicester"
+      ],
+      "winnings": "181649"
+    },
+    {
+      "name": "European Masters Summer 2018",
+      "date": "2018-09-10",
+      "type": "Online/Offline",
+      "country": [
+        "Katowice"
+      ],
+      "winnings": "174555"
+    },
+    {
+      "name": "European Masters Spring 2019",
+      "date": "2019-04-08",
+      "type": "Online/Offline",
+      "country": [
+        "Leicester"
+      ],
+      "winnings": "167054"
+    },
+    {
+      "name": "European Masters Summer 2019",
+      "date": "2019-09-09",
+      "type": "Online/Offline",
+      "country": [
+        "Katowice"
+      ],
+      "winnings": "163845"
+    },
+    {
+      "name": "European Masters Spring 2020",
+      "date": "2020-04-06",
+      "type": "Online",
+      "country": [
+        "Europe"
+      ],
+      "winnings": "164557"
+    },
+    {
+      "name": "European Masters Summer 2020",
+      "date": "2020-08-17",
+      "type": "Online",
+      "country": [
+        "Europe"
+      ],
+      "winnings": "177728"
+    },
+    {
+      "name": "European Masters Spring 2021",
+      "date": "2021-03-29",
+      "type": "Online",
+      "country": [
+        "Europe"
+      ],
+      "winnings": "180404"
+    },
+    {
+      "name": "European Masters Summer 2021",
+      "date": "2021-08-16",
+      "type": "Online",
+      "country": [
+        "Europe"
+      ],
+      "winnings": "176069"
+    },
+    {
+      "name": "FACEIT Gamescom Challenge",
+      "date": "2014-08-13",
+      "type": "Offline",
+      "country": [
+        "Cologne"
+      ],
+      "winnings": "20045"
+    },
+    {
+      "name": "Fortuna Championship Series Season 1",
+      "date": "2016-11-07",
+      "type": "Online/Offline",
+      "country": [
+        "Belgrade"
+      ],
+      "winnings": "1689"
+    },
+    {
+      "name": "Fortuna Championship Series Season 2",
+      "date": "2017-02-06",
+      "type": "Online/Offline",
+      "country": [
+        "Belgrade"
+      ],
+      "winnings": "1721"
+    },
+    {
+      "name": "FEST 2015",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        "Lyon"
+      ],
+      "winnings": "11062"
+    },
+    {
+      "name": "Final Latinoamérica Movistar 2018",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        "Santiago"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Forge of Champions Summer 2018",
+      "date": "2018-08-22",
+      "type": "Online/Offline",
+      "country": [
+        "United Kingdom ",
+        "Barcelona"
+      ],
+      "winnings": "30995"
+    },
+    {
+      "name": "Forge of Champions Summer 2018 - Qualifier 1 Scoring",
+      "date": "2018-06-22",
+      "type": "Online",
+      "country": [
+        "United Kingdom"
+      ],
+      "winnings": "9922"
+    },
+    {
+      "name": "Forge of Champions Summer 2018 - Qualifier 2 Scoring",
+      "date": "2018-07-06",
+      "type": "Online",
+      "country": [
+        "United Kingdom"
+      ],
+      "winnings": "9809"
+    },
+    {
+      "name": "Forge of Champions Summer 2018 - Qualifier 3 Scoring",
+      "date": "2018-07-20",
+      "type": "Online",
+      "country": [
+        "United Kingdom"
+      ],
+      "winnings": "9847"
+    },
+    {
+      "name": "Forge of Champions Summer 2018 - Qualifier 4 Scoring",
+      "date": "2018-08-03",
+      "type": "Online",
+      "country": [
+        "United Kingdom"
+      ],
+      "winnings": "9522"
+    },
+    {
+      "name": "Forge of Champions Spring 2019",
+      "date": "2019-04-30",
+      "type": "Online/Offline",
+      "country": [
+        "United Kingdom"
+      ],
+      "winnings": "17599"
+    },
+    {
+      "name": "Frag-o-Matic 20.0",
+      "date": "2018-02-16",
+      "type": "Offline",
+      "country": [
+        "Wieze"
+      ],
+      "winnings": "2188"
+    },
+    {
+      "name": "Frag-o-Matic 21.0",
+      "date": "2019-03-01",
+      "type": "Offline",
+      "country": [
+        "Lebbeke"
+      ],
+      "winnings": "3411"
+    },
+    {
+      "name": "FSL Elite Season 1",
+      "date": "2019-02-23",
+      "type": "Offline",
+      "country": [
+        "Singapore"
+      ],
+      "winnings": "1847"
+    },
+    {
+      "name": "FSL Elite Season 2",
+      "date": "2019-09-07",
+      "type": "Offline",
+      "country": [
+        "Singapore"
+      ],
+      "winnings": "1806"
+    },
+    {
+      "name": "Fusion.bet Championship",
+      "date": "2018-06-21",
+      "type": "Online",
+      "country": [
+        "Europe"
+      ],
+      "winnings": "4077"
+    },
+    {
+      "name": "GameForce Masters 2018",
+      "date": "2018-09-29",
+      "type": "Online/Offline",
+      "country": [
+        "Belgium"
+      ],
+      "winnings": "10430"
+    },
+    {
+      "name": "GameOn 2017",
+      "date": "2017-08-14",
+      "type": "Online/Offline",
+      "country": [
+        "Vilnius"
+      ],
+      "winnings": "2384"
+    },
+    {
+      "name": "Gamers Assembly 2018",
+      "date": "2018-03-31",
+      "type": "Offline",
+      "country": [
+        "Poitiers"
+      ],
+      "winnings": "24627"
+    },
+    {
+      "name": "Gamers Assembly 2019",
+      "date": "2019-04-20",
+      "type": "Offline",
+      "country": [
+        "Poitiers"
+      ],
+      "winnings": "11245"
+    },
+    {
+      "name": "Gamers Assembly 2021",
+      "date": "2021-04-03",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "11813"
+    },
+    {
+      "name": "Gateway Legends Collegiate Invitational",
+      "date": "2021-07-02",
+      "type": "Offline",
+      "country": [
+        "St. Louis"
+      ],
+      "winnings": "10000"
+    },
+    {
+      "name": "GiantSlayer Spring Gauntlet 2021",
+      "date": "2021-03-08",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Gigacon Prime 2016 Championship",
+      "date": "2016-10-01",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "4972"
+    },
+    {
+      "name": "GIRLGAMER Esports Festival 2018",
+      "date": "2018-07-21",
+      "type": "Offline",
+      "country": [
+        "Lisbon"
+      ],
+      "winnings": "11654"
+    },
+    {
+      "name": "GIRLGAMER 2019 Esports Festival Dubai Final",
+      "date": "2020-02-19",
+      "type": "Offline",
+      "country": [
+        "Dubai"
+      ],
+      "winnings": "52500"
+    },
+    {
+      "name": "Greek Legends League Summer 2019",
+      "date": "2019-05-19",
+      "type": "Online/Offline",
+      "country": [
+        "Athens"
+      ],
+      "winnings": "5630"
+    },
+    {
+      "name": "Greek Legends League Spring 2020",
+      "date": "2020-01-19",
+      "type": "Online",
+      "country": [
+        "Greece"
+      ],
+      "winnings": "5524"
+    },
+    {
+      "name": "Greek Legends League Summer 2020",
+      "date": "2020-06-01",
+      "type": "Online",
+      "country": [
+        "Greece"
+      ],
+      "winnings": "5880"
+    },
+    {
+      "name": "Greek Legends League Winter 2020",
+      "date": "2020-10-12",
+      "type": "Online",
+      "country": [
+        "Greece"
+      ],
+      "winnings": "6098"
+    },
+    {
+      "name": "Greek Legends League Spring 2021",
+      "date": "2021-01-18",
+      "type": "Online",
+      "country": [
+        "Greece"
+      ],
+      "winnings": "5923"
+    },
+    {
+      "name": "Greek Legends League Summer 2021",
+      "date": "2021-05-31",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "5945"
+    },
+    {
+      "name": "Greek Legends League Winter 2021",
+      "date": "2021-10-11",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "5645"
+    },
+    {
+      "name": "Golden League Closing 2019",
+      "date": "2019-06-03",
+      "type": "Online/Offline",
+      "country": [
+        "Bogotá"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Golden League Opening 2019",
+      "date": "2019-01-21",
+      "type": "Online/Offline",
+      "country": [
+        "Bogotá"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Golden League Closing 2020",
+      "date": "2020-06-15",
+      "type": "Online",
+      "country": [
+        "Colombia"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Golden League Opening 2020",
+      "date": "2020-02-17",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Golden League Closing 2021",
+      "date": "2021-05-24",
+      "type": "Online",
+      "country": [
+        "Colombia"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Golden Cup 2021",
+      "date": "2021-11-01",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Golden League Opening 2021",
+      "date": "2021-01-25",
+      "type": "Online",
+      "country": [
+        "Colombia"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "GPL Spring 2017",
+      "date": "2017-04-12",
+      "type": "Offline",
+      "country": [
+        "Manilla"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "GPL Summer 2017",
+      "date": "2017-08-21",
+      "type": "Offline",
+      "country": [
+        "Bangkok"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "GPL Spring 2018",
+      "date": "2018-03-28",
+      "type": "Offline",
+      "country": [
+        "Bangkok"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Guardians League 2019",
+      "date": "2019-08-08",
+      "type": "Online/Offline",
+      "country": [
+        "Lima"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Guardians League Closing 2019",
+      "date": "2019-11-07",
+      "type": "Online/Offline",
+      "country": [
+        "Miraflores"
+      ],
+      "winnings": "5000"
+    },
+    {
+      "name": "Guardians League Closing 2020",
+      "date": "2020-06-04",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "10000"
+    },
+    {
+      "name": "Guardians Cup 2020",
+      "date": "2020-10-22",
+      "type": "Online",
+      "country": [
+        "Peru"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Guardians League Opening 2020",
+      "date": "2020-01-23",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "10000"
+    },
+    {
+      "name": "Etape Capitale 2018",
+      "date": "2018-10-19",
+      "type": "Online/Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "17067"
+    },
+    {
+      "name": "Hitpoint Masters Winter 2020",
+      "date": "2020-10-18",
+      "type": "Online",
+      "country": [
+        "Czech Republic"
+      ],
+      "winnings": "4577"
+    },
+    {
+      "name": "Hitpoint Masters Spring 2021",
+      "date": "2021-01-27",
+      "type": "Online",
+      "country": [
+        "Czech Republic"
+      ],
+      "winnings": "4557"
+    },
+    {
+      "name": "Hitpoint Masters Summer 2021",
+      "date": "2021-06-16",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "4625"
+    },
+    {
+      "name": "Hitpoint Masters Winter 2021",
+      "date": "2021-11-04",
+      "type": "Online",
+      "country": [
+        "Czech Republic"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Hitpoint Masters Spring 2022",
+      "date": "-",
+      "type": "Online",
+      "country": [
+        "Czech Republic"
+      ],
+      "winnings": "4520"
+    },
+    {
+      "name": "Hitpoint Masters Season 10",
+      "date": "2018-07-24",
+      "type": "Online/Offline",
+      "country": [
+        "Czech Republic"
+      ],
+      "winnings": "3142"
+    },
+    {
+      "name": "Hitpoint Masters Season 11",
+      "date": "2019-02-17",
+      "type": "Online/Offline",
+      "country": [
+        "Czech Republic"
+      ],
+      "winnings": "3104"
+    },
+    {
+      "name": "Hitpoint Masters Season 12",
+      "date": "2019-07-21",
+      "type": "Online/Offline",
+      "country": [
+        "Svitavy"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Hitpoint Masters Season 13",
+      "date": "2020-01-26",
+      "type": "Online/Offline",
+      "country": [
+        "Svitavy"
+      ],
+      "winnings": "3099"
+    },
+    {
+      "name": "Hitpoint Masters Season 14",
+      "date": "2020-06-21",
+      "type": "Online",
+      "country": [
+        "Czech Republic"
+      ],
+      "winnings": "3132"
+    },
+    {
+      "name": "Hitpoint Masters Season 9",
+      "date": "2018-02-27",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "3396"
+    },
+    {
+      "name": "ASUS RoG Masters Finals 10",
+      "date": "2017-06-25",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "2132"
+    },
+    {
+      "name": "Hitpoint Finals 12",
+      "date": "2017-07-01",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "3051"
+    },
+    {
+      "name": "Hitpoint Finals 13",
+      "date": "2017-12-16",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "3209"
+    },
+    {
+      "name": "HK-LAN 2017",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "1337"
+    },
+    {
+      "name": "HUE Invitational 2020",
+      "date": "2020-09-19",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "10000"
+    },
+    {
+      "name": "HUE Invitational 2021",
+      "date": "2021-09-18",
+      "type": "Offline",
+      "country": [
+        "Harrisburg"
+      ],
+      "winnings": "10000"
+    },
+    {
+      "name": "Hungry.dk League Spring 2020",
+      "date": "2020-01-26",
+      "type": "Online",
+      "country": [
+        "Denmark"
+      ],
+      "winnings": "3735"
+    },
+    {
+      "name": "Hyperplay 2018",
+      "date": "2018-07-29",
+      "type": "Offline",
+      "country": [
+        "Kallang"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Iberian Cup 2018",
+      "date": "2018-10-29",
+      "type": "Online/Offline",
+      "country": [
+        "Barcelona"
+      ],
+      "winnings": "30988"
+    },
+    {
+      "name": "Iberian Cup 2019",
+      "date": "2019-10-30",
+      "type": "Online",
+      "country": [
+        "Barcelona"
+      ],
+      "winnings": "22024"
+    },
+    {
+      "name": "Iberian Cup 2020",
+      "date": "2020-10-20",
+      "type": "Online",
+      "country": [
+        "Spain"
+      ],
+      "winnings": "23675"
+    },
+    {
+      "name": "Iberian Cup 2021",
+      "date": "2021-10-19",
+      "type": "Online/Offline",
+      "country": [
+        "Barcelona"
+      ],
+      "winnings": "22745"
+    },
+    {
+      "name": "9th Esports World Championship",
+      "date": "2017-11-09",
+      "type": "Offline",
+      "country": [
+        "Busan"
+      ],
+      "winnings": "17895"
+    },
+    {
+      "name": "10th Esports World Championship",
+      "date": "2018-11-09",
+      "type": "Offline",
+      "country": [
+        "Kaohsiung"
+      ],
+      "winnings": "20000"
+    },
+    {
+      "name": "IGN Pro League Season 3",
+      "date": "2011-10-06",
+      "type": "Offline",
+      "country": [
+        "Atlantic City"
+      ],
+      "winnings": "20000"
+    },
+    {
+      "name": "IGN Pro League Season 4",
+      "date": "2012-04-06",
+      "type": "Offline",
+      "country": [
+        "Las Vegas"
+      ],
+      "winnings": "20000"
+    },
+    {
+      "name": "IGN Pro League Season 5",
+      "date": "2012-11-29",
+      "type": "Offline",
+      "country": [
+        "Las Vegas"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "Insomnia 61",
+      "date": "2017-08-22",
+      "type": "Offline",
+      "country": [
+        "Birmingham"
+      ],
+      "winnings": "6017"
+    },
+    {
+      "name": "Insomnia 62",
+      "date": "2018-03-31",
+      "type": "Offline",
+      "country": [
+        "Birmingham"
+      ],
+      "winnings": "7015"
+    },
+    {
+      "name": "Insomnia 63",
+      "date": "2018-08-24",
+      "type": "Offline",
+      "country": [
+        "Birmingham"
+      ],
+      "winnings": "12811"
+    },
+    {
+      "name": "Intel Arabian Cup 2020",
+      "date": "2020-10-01",
+      "type": "Online",
+      "country": [
+        "Middle East ",
+        "Africa"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Intel Arabian Cup 2021 Grand Finals",
+      "date": "2021-10-08",
+      "type": "Online",
+      "country": [
+        "Middle East ",
+        "Africa"
+      ],
+      "winnings": "70000"
+    },
+    {
+      "name": "Intel Arabian Cup 2021 Season 1",
+      "date": "2021-03-30",
+      "type": "Online",
+      "country": [
+        "Middle East ",
+        "Africa"
+      ],
+      "winnings": "15000"
+    },
+    {
+      "name": "Intel Arabian Cup 2021 Season 2",
+      "date": "2021-06-10",
+      "type": "Online",
+      "country": [
+        "Middle East ",
+        "Africa"
+      ],
+      "winnings": "15000"
+    },
+    {
+      "name": "Intel Arabian Cup 2021 Season 3",
+      "date": "2021-08-25",
+      "type": "Online",
+      "country": [
+        "Middle East ",
+        "Africa"
+      ],
+      "winnings": "15000"
+    },
+    {
+      "name": "IEM Season IX - Cologne",
+      "date": "2014-12-18",
+      "type": "Offline",
+      "country": [
+        "Cologne"
+      ],
+      "winnings": "30000"
+    },
+    {
+      "name": "IEM Season IX - San Jose",
+      "date": "2014-12-06",
+      "type": "Offline",
+      "country": [
+        "San Jose"
+      ],
+      "winnings": "50000"
+    },
+    {
+      "name": "IEM Season IX - Shenzhen",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        "Shenzhen"
+      ],
+      "winnings": "5000"
+    },
+    {
+      "name": "IEM Season IX - Taipei",
+      "date": "2015-01-28",
+      "type": "Offline",
+      "country": [
+        "Taipei"
+      ],
+      "winnings": "50000"
+    },
+    {
+      "name": "IEM Season IX - World Championship",
+      "date": "2015-03-12",
+      "type": "Offline",
+      "country": [
+        "Katowice"
+      ],
+      "winnings": "183414"
+    },
+    {
+      "name": "IEM Season VIII - Cologne",
+      "date": "2013-11-23",
+      "type": "Offline",
+      "country": [
+        "Cologne"
+      ],
+      "winnings": "80000"
+    },
+    {
+      "name": "IEM Season VIII - Sao Paulo",
+      "date": "2014-01-28",
+      "type": "Offline",
+      "country": [
+        "Sao Paulo"
+      ],
+      "winnings": "40500"
+    },
+    {
+      "name": "IEM Season VIII - Shanghai",
+      "date": "2013-07-25",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "30000"
+    },
+    {
+      "name": "IEM Season VIII - Singapore",
+      "date": "2013-11-28",
+      "type": "Offline",
+      "country": [
+        "Singapore"
+      ],
+      "winnings": "70000"
+    },
+    {
+      "name": "IEM Season VIII - World Championship",
+      "date": "2014-03-14",
+      "type": "Offline",
+      "country": [
+        "Katowice"
+      ],
+      "winnings": "150000"
+    },
+    {
+      "name": "IEM Season VII - Cologne",
+      "date": "2012-12-14",
+      "type": "Offline",
+      "country": [
+        "Cologne"
+      ],
+      "winnings": "44000"
+    },
+    {
+      "name": "IEM Season VII - Katowice",
+      "date": "2013-01-18",
+      "type": "Offline",
+      "country": [
+        "Katowice"
+      ],
+      "winnings": "44000"
+    },
+    {
+      "name": "IEM Season VII - Sao Paulo",
+      "date": "2013-01-31",
+      "type": "Offline",
+      "country": [
+        "Sao Paulo"
+      ],
+      "winnings": "44000"
+    },
+    {
+      "name": "IEM Season VII - Singapore",
+      "date": "2012-11-22",
+      "type": "Offline",
+      "country": [
+        "Singapore"
+      ],
+      "winnings": "44000"
+    },
+    {
+      "name": "IEM Season VII - World Championship",
+      "date": "2013-03-06",
+      "type": "Offline",
+      "country": [
+        "Hanover"
+      ],
+      "winnings": "150000"
+    },
+    {
+      "name": "IEM Season VI - Cologne",
+      "date": "2011-08-17",
+      "type": "Offline",
+      "country": [
+        "Colonge"
+      ],
+      "winnings": "32000"
+    },
+    {
+      "name": "IEM Season VI - Guangzhou",
+      "date": "2011-10-01",
+      "type": "Offline",
+      "country": [
+        "Guangzhou"
+      ],
+      "winnings": "32000"
+    },
+    {
+      "name": "IEM Season VI - Kiev",
+      "date": "2012-01-19",
+      "type": "Offline",
+      "country": [
+        "Kiev"
+      ],
+      "winnings": "32000"
+    },
+    {
+      "name": "IEM Season VI - New York",
+      "date": "2011-10-13",
+      "type": "Offline",
+      "country": [
+        "New York"
+      ],
+      "winnings": "32000"
+    },
+    {
+      "name": "IEM Season VI - Sao Paulo",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        "Sao Paulo"
+      ],
+      "winnings": "7000"
+    },
+    {
+      "name": "IEM Season VI - World Championship",
+      "date": "2012-03-06",
+      "type": "Offline",
+      "country": [
+        "Hanover"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "IEM Season V - Hanover",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        "Hanover"
+      ],
+      "winnings": "13500"
+    },
+    {
+      "name": "IEM Season XI - Challenger",
+      "date": "2016-10-28",
+      "type": "Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "IEM Season XI - Gyeonggi",
+      "date": "2016-12-14",
+      "type": "Offline",
+      "country": [
+        "Gyeonggi"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "IEM Season XI - Oakland",
+      "date": "2016-11-19",
+      "type": "Offline",
+      "country": [
+        "Oakland"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "IEM Season XI - World Championship",
+      "date": "2017-02-25",
+      "type": "Offline",
+      "country": [
+        "Katowice"
+      ],
+      "winnings": "150000"
+    },
+    {
+      "name": "IEM Season X - Cologne",
+      "date": "2015-12-18",
+      "type": "Offline",
+      "country": [
+        "Cologne"
+      ],
+      "winnings": "50000"
+    },
+    {
+      "name": "IEM Season X - San Jose",
+      "date": "2015-11-21",
+      "type": "Offline",
+      "country": [
+        "San Jose"
+      ],
+      "winnings": "50000"
+    },
+    {
+      "name": "IEM Season X - World Championship",
+      "date": "2016-03-04",
+      "type": "Offline",
+      "country": [
+        "Katowice"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "International Wildcard Invitational 2015",
+      "date": "2015-04-21",
+      "type": "Offline",
+      "country": [
+        "Istanbul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "International Wildcard Qualifier 2013",
+      "date": "2013-08-21",
+      "type": "Offline",
+      "country": [
+        "Cologne"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "International Wildcard Qualifier 2016",
+      "date": "2016-08-24",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "International Wildcard Tournament Chile 2015",
+      "date": "2015-08-29",
+      "type": "Offline",
+      "country": [
+        "Santiago"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "International Wildcard Tournament Turkey 2015",
+      "date": "2015-08-26",
+      "type": "Offline",
+      "country": [
+        "Istanbul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "International Wildcard Tournament 2014 - Gamescom",
+      "date": "2014-08-13",
+      "type": "Offline",
+      "country": [
+        "Cologne"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "International Wildcard Tournament PAX 2014",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        "Seattle"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "International Wildcard Invitational 2016",
+      "date": "2016-04-16",
+      "type": "Offline",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "IQESF 2021: Gamecell League Of Legends Championship",
+      "date": "2021-09-29",
+      "type": "Online",
+      "country": [
+        "Iraq"
+      ],
+      "winnings": "5139"
+    },
+    {
+      "name": "Kayzr League #1",
+      "date": "2018-02-19",
+      "type": "Online/Offline",
+      "country": [
+        "Netherlands ",
+        "Belgium"
+      ],
+      "winnings": "4900"
+    },
+    {
+      "name": "Kayzr League #2",
+      "date": "2018-10-10",
+      "type": "Online/Offline",
+      "country": [
+        "Netherlands ",
+        "Belgium"
+      ],
+      "winnings": "4575"
+    },
+    {
+      "name": "Kayzr League #3",
+      "date": "2019-02-20",
+      "type": "Online/Offline",
+      "country": [
+        "Netherlands ",
+        "Belgium"
+      ],
+      "winnings": "4490"
+    },
+    {
+      "name": "KeSPA Cup",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        "Ulsan"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "KeSPA Cup 2015",
+      "date": "2015-11-06",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "86385"
+    },
+    {
+      "name": "KeSPA Cup 2016",
+      "date": "2016-11-09",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "84845"
+    },
+    {
+      "name": "KeSPA Cup 2017",
+      "date": "2017-11-20",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "91995"
+    },
+    {
+      "name": "KeSPA Cup 2018",
+      "date": "2018-12-18",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "91405"
+    },
+    {
+      "name": "KeSPA Cup 2019",
+      "date": "2019-12-23",
+      "type": "Offline",
+      "country": [
+        "Ulsan"
+      ],
+      "winnings": "88240"
+    },
+    {
+      "name": "KeSPA Cup 2020",
+      "date": "2020-12-21",
+      "type": "Online/Offline",
+      "country": [
+        "Ulsan"
+      ],
+      "winnings": "132629"
+    },
+    {
+      "name": "KeSPA Cup 2021",
+      "date": "2021-12-10",
+      "type": "Offline",
+      "country": [
+        "Ulsan"
+      ],
+      "winnings": "16857"
+    },
+    {
+      "name": "KeG 2018 Championship",
+      "date": "2018-08-18",
+      "type": "Offline",
+      "country": [
+        "Ulsan"
+      ],
+      "winnings": "8880"
+    },
+    {
+      "name": "KeG 2019 Championship",
+      "date": "2019-08-17",
+      "type": "Offline",
+      "country": [
+        "Ulsan"
+      ],
+      "winnings": "4542"
+    },
+    {
+      "name": "KeG 2020 Championship",
+      "date": "-",
+      "type": "Online",
+      "country": [
+        "Korea"
+      ],
+      "winnings": "8913"
+    },
+    {
+      "name": "KeG 2021 Championship",
+      "date": "2021-10-02",
+      "type": "Offline",
+      "country": [
+        "Changwon"
+      ],
+      "winnings": "10154"
+    },
+    {
+      "name": "La Ligue Féminine 2018",
+      "date": "2018-11-17",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "341"
+    },
+    {
+      "name": "La Ligue Féminine 2019",
+      "date": "2019-05-09",
+      "type": "Online/Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "1128"
+    },
+    {
+      "name": "LCD Autumn 2017",
+      "date": "2017-09-03",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "3163"
+    },
+    {
+      "name": "LCD Autumn 2018",
+      "date": "2018-08-12",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "4633"
+    },
+    {
+      "name": "LCD Spring 2018",
+      "date": "2018-02-18",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "6334"
+    },
+    {
+      "name": "LCD Winter 2018",
+      "date": "2018-10-28",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "3806"
+    },
+    {
+      "name": "LCD Autumn 2019",
+      "date": "2019-08-04",
+      "type": "Online",
+      "country": [
+        "Denmark"
+      ],
+      "winnings": "3657"
+    },
+    {
+      "name": "LCD Spring 2019",
+      "date": "2019-02-03",
+      "type": "Online",
+      "country": [
+        "Denmark"
+      ],
+      "winnings": "3760"
+    },
+    {
+      "name": "LCD Summer 2019",
+      "date": "2019-04-28",
+      "type": "Online",
+      "country": [
+        "Denmark"
+      ],
+      "winnings": "3776"
+    },
+    {
+      "name": "LCD Winter 2019",
+      "date": "2019-10-27",
+      "type": "Online",
+      "country": [
+        "Denmark"
+      ],
+      "winnings": "3742"
+    },
+    {
+      "name": "LCK CL Spring 2021",
+      "date": "2021-01-18",
+      "type": "Online",
+      "country": [
+        "South Korea"
+      ],
+      "winnings": "53517"
+    },
+    {
+      "name": "LCK CL Summer 2021",
+      "date": "2021-06-07",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "51772"
+    },
+    {
+      "name": "LCK Regional Finals 2015",
+      "date": "2015-09-02",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LCK Spring 2015",
+      "date": "2015-01-07",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "260029"
+    },
+    {
+      "name": "LCK Summer 2015",
+      "date": "2015-05-20",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "251594"
+    },
+    {
+      "name": "LCK Regional Finals 2016",
+      "date": "2016-08-28",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LCK Spring 2016",
+      "date": "2016-01-13",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "259063"
+    },
+    {
+      "name": "LCK Summer 2016",
+      "date": "2016-05-25",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "266677"
+    },
+    {
+      "name": "LCK Regional Finals 2017",
+      "date": "2017-08-28",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LCK Spring 2017",
+      "date": "2017-01-17",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "259536"
+    },
+    {
+      "name": "LCK Summer 2017",
+      "date": "2017-05-30",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "261838"
+    },
+    {
+      "name": "LCK Regional Finals 2018",
+      "date": "2018-09-12",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LCK Spring 2018",
+      "date": "2018-01-16",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "275778"
+    },
+    {
+      "name": "LCK Summer 2018",
+      "date": "2018-06-12",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "262352"
+    },
+    {
+      "name": "LCK Regional Finals 2019",
+      "date": "2019-09-03",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LCK Spring 2019",
+      "date": "2019-01-16",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "258581"
+    },
+    {
+      "name": "LCK Summer 2019",
+      "date": "2019-06-05",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "244477"
+    },
+    {
+      "name": "LCK Regional Finals 2020",
+      "date": "2020-09-07",
+      "type": "Online",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LCK Spring 2020",
+      "date": "2020-02-05",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "223287"
+    },
+    {
+      "name": "LCK Summer 2020",
+      "date": "2020-06-17",
+      "type": "offline/online",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "231592"
+    },
+    {
+      "name": "LCK Regional Finals 2021",
+      "date": "2021-08-31",
+      "type": "Online",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LCK Spring 2021",
+      "date": "2021-01-13",
+      "type": "Online",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "334523"
+    },
+    {
+      "name": "LCK Summer 2021",
+      "date": "2021-06-09",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "323579"
+    },
+    {
+      "name": "LCK Spring 2022",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "316417"
+    },
+    {
+      "name": "LCK Academy Series Championship 2020",
+      "date": "2020-11-29",
+      "type": "Online",
+      "country": [
+        "South Korea"
+      ],
+      "winnings": "9096"
+    },
+    {
+      "name": "LCK Academy Series Championship Spring 2021",
+      "date": "2021-05-29",
+      "type": "Online",
+      "country": [
+        "South Korea"
+      ],
+      "winnings": "8956"
+    },
+    {
+      "name": "LCK Academy Series Championship Summer 2021",
+      "date": "2021-10-30",
+      "type": "Online",
+      "country": [
+        "South Korea"
+      ],
+      "winnings": "8454"
+    },
+    {
+      "name": "LCL Spring 2016",
+      "date": "2016-01-16",
+      "type": "Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "67694"
+    },
+    {
+      "name": "LCL Summer 2016",
+      "date": "2016-05-28",
+      "type": "Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "73903"
+    },
+    {
+      "name": "LCL Spring 2017",
+      "date": "2017-01-28",
+      "type": "Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "84281"
+    },
+    {
+      "name": "LCL Summer 2017",
+      "date": "2017-06-24",
+      "type": "Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "69046"
+    },
+    {
+      "name": "LCL Spring 2018",
+      "date": "2018-02-10",
+      "type": "Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "97437"
+    },
+    {
+      "name": "LCL Summer 2018",
+      "date": "2018-07-21",
+      "type": "Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "73263"
+    },
+    {
+      "name": "LCL Spring 2019",
+      "date": "2019-02-16",
+      "type": "Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "77411"
+    },
+    {
+      "name": "LCL Summer 2019",
+      "date": "2019-07-20",
+      "type": "Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "77628"
+    },
+    {
+      "name": "LCL Spring 2020",
+      "date": "2020-02-22",
+      "type": "Online/Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "66928"
+    },
+    {
+      "name": "LCL Summer 2020",
+      "date": "2020-06-20",
+      "type": "Online",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "67447"
+    },
+    {
+      "name": "LCL Spring 2021",
+      "date": "2021-02-13",
+      "type": "Online",
+      "country": [
+        "Russia"
+      ],
+      "winnings": "66129"
+    },
+    {
+      "name": "LCL Summer 2021",
+      "date": "2021-06-26",
+      "type": "Online",
+      "country": [
+        "Russia"
+      ],
+      "winnings": "68577"
+    },
+    {
+      "name": "LCL Spring 2022",
+      "date": "2022-02-12",
+      "type": "Online",
+      "country": [
+        "Russia"
+      ],
+      "winnings": "68181"
+    },
+    {
+      "name": "LCL Open Cup Summer 2018",
+      "date": "2018-06-09",
+      "type": "Online/Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "16068"
+    },
+    {
+      "name": "LCL Open Cup Winter 2019",
+      "date": "2019-01-19",
+      "type": "Online/Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "15084"
+    },
+    {
+      "name": "LCL Open Cup Winter 2020",
+      "date": "2020-02-19",
+      "type": "Online/Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "12926"
+    },
+    {
+      "name": "LCL Open Cup Spring 2022",
+      "date": "-",
+      "type": "Online",
+      "country": "-",
+      "winnings": "-"
+    },
+    {
+      "name": "LCM Spring 2018",
+      "date": "2018-02-03",
+      "type": "offline/online",
+      "country": [
+        ""
+      ],
+      "winnings": "36550"
+    },
+    {
+      "name": "LCO Split 1 2021",
+      "date": "2021-02-23",
+      "type": "Online",
+      "country": [
+        "Australia"
+      ],
+      "winnings": "30000"
+    },
+    {
+      "name": "LCO Split 2 2021",
+      "date": "2021-06-15",
+      "type": "Online",
+      "country": [
+        "Australia"
+      ],
+      "winnings": "30000"
+    },
+    {
+      "name": "LCO Split 1 2022",
+      "date": "-",
+      "type": "Online",
+      "country": [
+        "Australia"
+      ],
+      "winnings": "30000"
+    },
+    {
+      "name": "LCS Regional Finals 2019",
+      "date": "2019-09-06",
+      "type": "Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LCS Spring 2019",
+      "date": "2019-01-26",
+      "type": "Offline",
+      "country": [
+        "Los Angeles ",
+        "St. Louis"
+      ],
+      "winnings": "200000"
+    },
+    {
+      "name": "LCS Summer 2019",
+      "date": "2019-06-01",
+      "type": "Offline",
+      "country": [
+        "Los Angeles ",
+        "Detroit"
+      ],
+      "winnings": "200000"
+    },
+    {
+      "name": "LCS Spring 2020",
+      "date": "2020-01-25",
+      "type": "Online/Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "200000"
+    },
+    {
+      "name": "LCS Summer 2020",
+      "date": "2020-06-13",
+      "type": "Online/Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "200000"
+    },
+    {
+      "name": "LCS Lock-In 2021",
+      "date": "2021-01-15",
+      "type": "Online",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "150000"
+    },
+    {
+      "name": "LCS Spring 2021",
+      "date": "2021-02-05",
+      "type": "Online/Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "200000"
+    },
+    {
+      "name": "LCS Summer 2021",
+      "date": "2021-06-04",
+      "type": "Online/Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "200000"
+    },
+    {
+      "name": "LCS Lock-In 2022",
+      "date": "2022-01-14",
+      "type": "Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "150000"
+    },
+    {
+      "name": "LCS Spring 2022",
+      "date": "2022-02-05",
+      "type": "Offline",
+      "country": [
+        "Los Angeles ",
+        "Houston"
+      ],
+      "winnings": "200000"
+    },
+    {
+      "name": "LCS Academy League Spring 2019",
+      "date": "2019-01-17",
+      "type": "Online/Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "25000"
+    },
+    {
+      "name": "LCS Academy League Summer 2019",
+      "date": "2019-05-30",
+      "type": "Online/Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "25000"
+    },
+    {
+      "name": "LCS Academy League Spring 2020",
+      "date": "2020-01-24",
+      "type": "Online/Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "25000"
+    },
+    {
+      "name": "LCS Academy League Summer 2020",
+      "date": "2020-06-11",
+      "type": "Online/Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "25000"
+    },
+    {
+      "name": "LCS Academy League Spring 2021",
+      "date": "2021-01-20",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LCS Proving Grounds Spring 2021",
+      "date": "2021-03-29",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "LCS Academy League Summer 2021",
+      "date": "2021-06-02",
+      "type": "Online/Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "25000"
+    },
+    {
+      "name": "LCS Proving Grounds Summer 2021",
+      "date": "2021-09-02",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "LCS Academy League Spring 2022",
+      "date": "2022-01-19",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "EU LCS Spring 2013",
+      "date": "2013-02-09",
+      "type": "Offline",
+      "country": [
+        "Cologne"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "EU LCS Summer 2013",
+      "date": "2013-06-15",
+      "type": "Offline",
+      "country": [
+        "Cologne"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "EU LCS Spring 2014",
+      "date": "2014-01-14",
+      "type": "Offline",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "EU LCS Summer 2014",
+      "date": "2014-05-20",
+      "type": "Offline",
+      "country": [
+        "Berlin ",
+        "Cologne"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "EU LCS Regional Finals 2015",
+      "date": "2015-08-29",
+      "type": "Offline",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "EU LCS Spring 2015",
+      "date": "2015-01-22",
+      "type": "Offline",
+      "country": [
+        "Berlin ",
+        "Madrid"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "EU LCS Summer 2015",
+      "date": "2015-05-28",
+      "type": "Offline",
+      "country": [
+        "Berlin ",
+        "Stockholm"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "EU LCS Regional Finals 2016",
+      "date": "2016-09-03",
+      "type": "Offline",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "EU LCS Spring 2016",
+      "date": "2016-01-14",
+      "type": "Offline",
+      "country": [
+        "Berlin ",
+        "Rotterdam"
+      ],
+      "winnings": "112700"
+    },
+    {
+      "name": "EU LCS Summer 2016",
+      "date": "2016-06-02",
+      "type": "Offline",
+      "country": [
+        "Berlin ",
+        "Kraków"
+      ],
+      "winnings": "112910"
+    },
+    {
+      "name": "EU LCS Regional Finals 2017",
+      "date": "2017-09-08",
+      "type": "Offline",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "EU LCS Spring 2017",
+      "date": "2017-01-19",
+      "type": "Offline",
+      "country": [
+        "Berlin ",
+        "Hamburg"
+      ],
+      "winnings": "214300"
+    },
+    {
+      "name": "EU LCS Summer 2017",
+      "date": "2017-06-01",
+      "type": "Offline",
+      "country": [
+        "Berlin ",
+        "Paris"
+      ],
+      "winnings": "238199"
+    },
+    {
+      "name": "EU LCS Regional Finals 2018",
+      "date": "2018-09-14",
+      "type": "Offline",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "EU LCS Spring 2018",
+      "date": "2018-01-19",
+      "type": "Offline",
+      "country": [
+        "Berlin ",
+        "Copenhagen"
+      ],
+      "winnings": "245040"
+    },
+    {
+      "name": "EU LCS Summer 2018",
+      "date": "2018-06-15",
+      "type": "Offline",
+      "country": [
+        "Berlin ",
+        "Madrid"
+      ],
+      "winnings": "232400"
+    },
+    {
+      "name": "NA LCS Spring 2013",
+      "date": "2013-02-07",
+      "type": "Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "NA LCS Summer 2013",
+      "date": "2013-06-12",
+      "type": "Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "NA LCS Spring 2014",
+      "date": "2014-01-16",
+      "type": "Offline",
+      "country": [
+        "United States"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "NA LCS Summer 2014",
+      "date": "2014-05-23",
+      "type": "Offline",
+      "country": [
+        "United States"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "NA LCS Regional Finals 2015",
+      "date": "2015-08-29",
+      "type": "Offline",
+      "country": [
+        "United States"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "NA LCS Spring 2015",
+      "date": "2015-01-24",
+      "type": "Offline",
+      "country": "-",
+      "winnings": "100000"
+    },
+    {
+      "name": "NA LCS Summer 2015",
+      "date": "2015-05-30",
+      "type": "Offline",
+      "country": "-",
+      "winnings": "100000"
+    },
+    {
+      "name": "NA LCS Regional Finals 2016",
+      "date": "2016-09-03",
+      "type": "Offline",
+      "country": [
+        "United States"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "NA LCS Spring 2016",
+      "date": "2016-01-16",
+      "type": "Offline",
+      "country": [
+        "Los Angeles ",
+        "Las Vegas"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "NA LCS Summer 2016",
+      "date": "2016-06-03",
+      "type": "Offline",
+      "country": [
+        "Los Angeles ",
+        "Toronto"
+      ],
+      "winnings": "100000"
+    },
+    {
+      "name": "NA LCS Regional Finals 2017",
+      "date": "2017-09-08",
+      "type": "Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "NA LCS Spring 2017",
+      "date": "2017-01-20",
+      "type": "Offline",
+      "country": [
+        "Los Angeles ",
+        "Vancouver"
+      ],
+      "winnings": "200000"
+    },
+    {
+      "name": "NA LCS Summer 2017",
+      "date": "2017-06-02",
+      "type": "Offline",
+      "country": [
+        "Los Angeles ",
+        "Boston"
+      ],
+      "winnings": "200000"
+    },
+    {
+      "name": "NA LCS Regional Finals 2018",
+      "date": "2018-09-14",
+      "type": "Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "NA LCS Spring 2018",
+      "date": "2018-01-20",
+      "type": "Offline",
+      "country": [
+        "Los Angeles ",
+        "Miami"
+      ],
+      "winnings": "200000"
+    },
+    {
+      "name": "NA LCS Summer 2018",
+      "date": "2018-06-16",
+      "type": "Offline",
+      "country": [
+        "Los Angeles ",
+        "Oakland"
+      ],
+      "winnings": "200000"
+    },
+    {
+      "name": "LDL Spring Finals 2018",
+      "date": "2018-05-10",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LDL Beijing Spring 2018",
+      "date": "2018-03-03",
+      "type": "Offline",
+      "country": [
+        "Beijing"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LDL Chongqing Spring 2018",
+      "date": "2018-03-03",
+      "type": "Offline",
+      "country": [
+        "Chongqing"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LDL Nanjing Spring 2018",
+      "date": "2018-03-03",
+      "type": "Offline",
+      "country": [
+        "Nanjing"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LDL Shenzhen Spring 2018",
+      "date": "2018-03-03",
+      "type": "Offline",
+      "country": [
+        "Shenzhen"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LDL Summer Finals 2018",
+      "date": "2018-09-19",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LDL Beijing Summer 2018",
+      "date": "2018-07-29",
+      "type": "Offline",
+      "country": [
+        "Beijing"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LDL Chongqing Summer 2018",
+      "date": "2018-07-29",
+      "type": "Offline",
+      "country": [
+        "Chongqing"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LDL Nanjing Summer 2018",
+      "date": "2018-07-29",
+      "type": "Offline",
+      "country": [
+        "Nanjing"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LDL Shenzhen Summer 2018",
+      "date": "2018-07-29",
+      "type": "Offline",
+      "country": [
+        "Shenzhen"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LDL Spring 2019",
+      "date": "2019-02-25",
+      "type": "Online/Offline",
+      "country": [
+        "Shenzhen ",
+        "Guangdong ",
+        "Shanghai"
+      ],
+      "winnings": "117231"
+    },
+    {
+      "name": "LDL Summer 2019",
+      "date": "2019-06-19",
+      "type": "Online/Offline",
+      "country": [
+        "Shenzhen ",
+        "Guangdong ",
+        "Shanghai"
+      ],
+      "winnings": "115869"
+    },
+    {
+      "name": "LDL Spring 2020",
+      "date": "2020-04-14",
+      "type": "Online",
+      "country": [
+        "China"
+      ],
+      "winnings": "113218"
+    },
+    {
+      "name": "LDL Summer 2020",
+      "date": "2020-06-10",
+      "type": "Offline/Online",
+      "country": [
+        "China"
+      ],
+      "winnings": "116916"
+    },
+    {
+      "name": "LDL Spring 2021",
+      "date": "2021-01-13",
+      "type": "Online",
+      "country": [
+        "China"
+      ],
+      "winnings": "123911"
+    },
+    {
+      "name": "LDL Summer 2021",
+      "date": "2021-06-15",
+      "type": "Online",
+      "country": [
+        "China"
+      ],
+      "winnings": "124005"
+    },
+    {
+      "name": "League of Legends College Championship 2021",
+      "date": "2021-05-01",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "190000"
+    },
+    {
+      "name": "Leagues.GG Winter Showdown 2021 Denmark",
+      "date": "2021-09-28",
+      "type": "Online",
+      "country": [
+        "Denmark"
+      ],
+      "winnings": "3352"
+    },
+    {
+      "name": "Leagues.GG Winter Showdown 2021 Finland",
+      "date": "2021-09-27",
+      "type": "Online",
+      "country": [
+        "Finland"
+      ],
+      "winnings": "3398"
+    },
+    {
+      "name": "Leagues.GG Winter Showdown 2021 Norway",
+      "date": "2021-09-29",
+      "type": "Online",
+      "country": [
+        "Norway"
+      ],
+      "winnings": "3561"
+    },
+    {
+      "name": "Leagues.GG Winter Showdown 2021 Sweden",
+      "date": "2021-10-02",
+      "type": "Online",
+      "country": [
+        "Sweden"
+      ],
+      "winnings": "3430"
+    },
+    {
+      "name": "Leagues.GG Winter Showdown 2021 United Kingdom",
+      "date": "2021-10-02",
+      "type": "Online",
+      "country": [
+        "United Kingdom"
+      ],
+      "winnings": "3330"
+    },
+    {
+      "name": "LEC Regional Finals 2019",
+      "date": "2019-09-12",
+      "type": "Offline",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LEC Spring 2019",
+      "date": "2019-01-18",
+      "type": "Offline",
+      "country": [
+        "Berlin ",
+        "Rotterdam"
+      ],
+      "winnings": "225219"
+    },
+    {
+      "name": "LEC Summer 2019",
+      "date": "2019-06-07",
+      "type": "Offline",
+      "country": [
+        "Berlin ",
+        "Athens"
+      ],
+      "winnings": "220720"
+    },
+    {
+      "name": "LEC Spring 2020",
+      "date": "2020-01-24",
+      "type": "Offline/Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "217159"
+    },
+    {
+      "name": "LEC Summer 2020",
+      "date": "2020-06-12",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "236809"
+    },
+    {
+      "name": "LEC Spring 2021",
+      "date": "2021-01-22",
+      "type": "Online/Offline",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "237975"
+    },
+    {
+      "name": "LEC Summer 2021",
+      "date": "2021-06-11",
+      "type": "Online/Offline",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "237271"
+    },
+    {
+      "name": "LEC Spring 2022",
+      "date": "2022-01-14",
+      "type": "Online/Offline",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "226609"
+    },
+    {
+      "name": "Lega Prima Stagione 2",
+      "date": "2017-05-09",
+      "type": "Online/Offline",
+      "country": [
+        "Roma"
+      ],
+      "winnings": "12883"
+    },
+    {
+      "name": "Lega Prima Stagione 3",
+      "date": "2017-12-04",
+      "type": "Online/Offline",
+      "country": [
+        "Roma"
+      ],
+      "winnings": "13477"
+    },
+    {
+      "name": "Legends Weekend League 2020",
+      "date": "2020-06-07",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "19000"
+    },
+    {
+      "name": "Legion of Champions Series III",
+      "date": "2019-01-25",
+      "type": "-",
+      "country": [
+        "Bangkok"
+      ],
+      "winnings": "35000"
+    },
+    {
+      "name": "LFL Division 2 2020",
+      "date": "2020-01-26",
+      "type": "Online",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LFL Division 2 Spring 2021",
+      "date": "2021-01-25",
+      "type": "Online",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LFL Division 2 Summer 2021",
+      "date": "2021-06-14",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LFL Division 2 Spring 2022",
+      "date": "2022-01-17",
+      "type": "Online",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LFL Championship Finals 2019",
+      "date": "2019-10-30",
+      "type": "Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LFL Spring 2019",
+      "date": "2019-01-22",
+      "type": "Online/Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "33612"
+    },
+    {
+      "name": "LFL Summer 2019",
+      "date": "2019-05-21",
+      "type": "Online/Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "33473"
+    },
+    {
+      "name": "LFL 2020: Championship Finals",
+      "date": "2020-10-07",
+      "type": "Online/Offline",
+      "country": [
+        "Monaco"
+      ],
+      "winnings": "70844"
+    },
+    {
+      "name": "LFL Spring 2020",
+      "date": "2020-01-21",
+      "type": "Online/Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LFL Summer 2020",
+      "date": "2020-07-28",
+      "type": "Online/Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LFL 2021: Championship Finals",
+      "date": "2021-08-27",
+      "type": "Online/Offline",
+      "country": [
+        "Monaco"
+      ],
+      "winnings": "23099"
+    },
+    {
+      "name": "LFL Spring 2021",
+      "date": "2021-01-19",
+      "type": "Online",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "23547"
+    },
+    {
+      "name": "LFL Summer 2021",
+      "date": "2021-06-08",
+      "type": "Online/Offline",
+      "country": [
+        "Aix-en-Provence ",
+        "Paris"
+      ],
+      "winnings": "23471"
+    },
+    {
+      "name": "LFL Spring 2022",
+      "date": "2022-01-12",
+      "type": "Online/Offline",
+      "country": [
+        "Nice ",
+        "Paris"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "League of Legends Greek Championship Season 3",
+      "date": "2017-11-18",
+      "type": "-",
+      "country": [
+        "Athens"
+      ],
+      "winnings": "26270"
+    },
+    {
+      "name": "League of Legends Greek Championship Season 4",
+      "date": "2018-06-24",
+      "type": "-",
+      "country": [
+        "Athens"
+      ],
+      "winnings": "23240"
+    },
+    {
+      "name": "LGL Spring 2019",
+      "date": "2019-03-04",
+      "type": "Offline",
+      "country": [
+        "Greece"
+      ],
+      "winnings": "5613"
+    },
+    {
+      "name": "LGS Summer 2017",
+      "date": "2017-05-30",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "19486"
+    },
+    {
+      "name": "LGS Spring 2018",
+      "date": "2018-01-15",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "18170"
+    },
+    {
+      "name": "Liga Akademicka Season 3",
+      "date": "2018-11-08",
+      "type": "Online",
+      "country": [
+        "Poland"
+      ],
+      "winnings": "2457"
+    },
+    {
+      "name": "Liga Akademicka Season 4",
+      "date": "2019-03-25",
+      "type": "Online",
+      "country": [
+        "Poland"
+      ],
+      "winnings": "2396"
+    },
+    {
+      "name": "Liga de Honor Closing 2019",
+      "date": "2019-06-03",
+      "type": "-",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Liga de Honor Opening 2019",
+      "date": "2019-01-21",
+      "type": "-",
+      "country": [
+        "Santiago"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Liga de Honor Closing 2020",
+      "date": "2020-06-01",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Liga de Honor Opening 2020",
+      "date": "2020-01-20",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Supercopa Entel 2020",
+      "date": "2020-11-02",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "4000"
+    },
+    {
+      "name": "Liga de Honor Closing 2021",
+      "date": "2021-05-20",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "16800"
+    },
+    {
+      "name": "Liga de Honor Opening 2021",
+      "date": "2021-01-27",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "16800"
+    },
+    {
+      "name": "Supercopa Entel 2021",
+      "date": "2021-10-26",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "8067"
+    },
+    {
+      "name": "Liga Loading de eSports",
+      "date": "2020-12-07",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "29395"
+    },
+    {
+      "name": "Liga Master Closing 2019",
+      "date": "2019-06-06",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Liga Master Opening 2019",
+      "date": "2019-01-24",
+      "type": "-",
+      "country": [
+        "Buenos Aires"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Liga Master Closing 2020",
+      "date": "2020-06-04",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Liga Master Opening 2020",
+      "date": "2020-01-23",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Supercopa Flow 2020",
+      "date": "2020-11-10",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "4898"
+    },
+    {
+      "name": "Liga Master Closing 2021",
+      "date": "2021-05-19",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "16800"
+    },
+    {
+      "name": "Liga Master Opening 2021",
+      "date": "2021-01-27",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "16800"
+    },
+    {
+      "name": "Supercopa Flow 2021",
+      "date": "2021-11-04",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "5942"
+    },
+    {
+      "name": "Liga Nacional Uruguay Opening 2019",
+      "date": "2019-03-02",
+      "type": "Online/Offline",
+      "country": [
+        "Punta del Este"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Liga Panameña de League of Legends Opening 2020",
+      "date": "2020-02-22",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Liga Tica de Leyendas Closing 2019",
+      "date": "2019-06-01",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Liga Tica de Leyendas National Qualifier 2019",
+      "date": "2019-08-24",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Liga Tica de Leyendas Opening 2019",
+      "date": "2019-02-02",
+      "type": "Online/Offline",
+      "country": [
+        "San José"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Liga Tica de Leyendas 2020",
+      "date": "2020-03-28",
+      "type": "Online",
+      "country": [
+        "Heredia"
+      ],
+      "winnings": "15000"
+    },
+    {
+      "name": "LJL Season 1 2015",
+      "date": "2015-01-24",
+      "type": "Online",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "2937"
+    },
+    {
+      "name": "LJL Season 2 2015",
+      "date": "2015-05-23",
+      "type": "Online",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "2826"
+    },
+    {
+      "name": "LJL Spring 2016",
+      "date": "2016-01-17",
+      "type": "Online/Offline",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LJL Summer 2016",
+      "date": "2016-05-25",
+      "type": "Offline",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LJL Spring 2017",
+      "date": "2017-01-20",
+      "type": "Offline",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LJL Summer 2017",
+      "date": "2017-06-02",
+      "type": "Offline",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LJL Spring 2018",
+      "date": "2018-02-09",
+      "type": "Offline",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LJL Summer 2018",
+      "date": "2018-06-22",
+      "type": "Offline",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LJL Spring 2019",
+      "date": "2019-01-19",
+      "type": "Offline",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "89594"
+    },
+    {
+      "name": "LJL Summer 2019",
+      "date": "2019-06-15",
+      "type": "Offline",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "93165"
+    },
+    {
+      "name": "LJL Spring 2020",
+      "date": "2020-02-08",
+      "type": "Offline",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "93699"
+    },
+    {
+      "name": "LJL Summer 2020",
+      "date": "2020-06-13",
+      "type": "Online/Offline",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "94098"
+    },
+    {
+      "name": "LJL Spring 2021",
+      "date": "2021-01-23",
+      "type": "Online/Offline",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "91114"
+    },
+    {
+      "name": "LJL Summer 2021",
+      "date": "2021-06-19",
+      "type": "Online",
+      "country": [
+        "Japan"
+      ],
+      "winnings": "91189"
+    },
+    {
+      "name": "LJL Spring 2022",
+      "date": "-",
+      "type": "Online/Offline",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "87968"
+    },
+    {
+      "name": "LJL Academy Summer 2021",
+      "date": "2021-08-30",
+      "type": "Online",
+      "country": [
+        "Japan"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LJL CS Spring 2018",
+      "date": "2018-02-22",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LJL CS Summer 2018",
+      "date": "2018-07-12",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LJL Grand Finals 2014",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "19040"
+    },
+    {
+      "name": "LJL Grand Finals 2015",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        "Tokyo"
+      ],
+      "winnings": "10425"
+    },
+    {
+      "name": "LLA Closing 2019",
+      "date": "2019-06-08",
+      "type": "Offline",
+      "country": [
+        "Santiago ",
+        "Concepción"
+      ],
+      "winnings": "52621"
+    },
+    {
+      "name": "LLA Opening 2019",
+      "date": "2019-01-19",
+      "type": "Offline",
+      "country": [
+        "Santiago ",
+        "Bogotá"
+      ],
+      "winnings": "57557"
+    },
+    {
+      "name": "LLA Closing 2020",
+      "date": "2020-06-20",
+      "type": "Online",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "48695"
+    },
+    {
+      "name": "LLA Opening 2020",
+      "date": "2020-02-15",
+      "type": "Online/Offline",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "43056"
+    },
+    {
+      "name": "LLA Closing 2021",
+      "date": "2021-06-19",
+      "type": "Online",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "53500"
+    },
+    {
+      "name": "LLA Opening 2021",
+      "date": "2021-01-30",
+      "type": "Online",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "53500"
+    },
+    {
+      "name": "LLA Opening 2022",
+      "date": "-",
+      "type": "Online",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "53500"
+    },
+    {
+      "name": "LLN Closing 2017",
+      "date": "2017-05-29",
+      "type": "Offline",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LLN Opening 2017",
+      "date": "2017-01-16",
+      "type": "Offline",
+      "country": [
+        "Mexico City ",
+        "Monterrey"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LLN Closing 2018",
+      "date": "2018-06-16",
+      "type": "Offline",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LLN Opening 2018",
+      "date": "2018-01-19",
+      "type": "Offline",
+      "country": [
+        "Mexico City"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LMS Regional Finals 2015",
+      "date": "2015-08-14",
+      "type": "Offline",
+      "country": [
+        "Taipei"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LMS Regional Finals 2016",
+      "date": "2016-09-02",
+      "type": "Offline",
+      "country": [
+        "Taipei"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LMS Summer 2016",
+      "date": "2016-06-09",
+      "type": "Offline",
+      "country": [
+        "Taipei"
+      ],
+      "winnings": "98567"
+    },
+    {
+      "name": "LMS Regional Finals 2017",
+      "date": "2017-08-26",
+      "type": "Offline",
+      "country": [
+        "Taipai"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LMS Spring 2017",
+      "date": "2017-01-21",
+      "type": "Offline",
+      "country": [
+        "Taipei"
+      ],
+      "winnings": "98567"
+    },
+    {
+      "name": "LMS Summer 2017",
+      "date": "2017-06-02",
+      "type": "Offline",
+      "country": [
+        "Taipei"
+      ],
+      "winnings": "98567"
+    },
+    {
+      "name": "LMS Regional Finals 2018",
+      "date": "2018-09-20",
+      "type": "Offline",
+      "country": [
+        "Taipei"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LMS Spring 2018",
+      "date": "2018-01-20",
+      "type": "Offline",
+      "country": [
+        "Taipei"
+      ],
+      "winnings": "101698"
+    },
+    {
+      "name": "LMS Summer 2018",
+      "date": "2018-06-23",
+      "type": "Offline",
+      "country": [
+        "Taipei"
+      ],
+      "winnings": "97417"
+    },
+    {
+      "name": "LMS Regional Finals 2019",
+      "date": "2019-09-06",
+      "type": "Offline",
+      "country": [
+        "Taipei"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LMS Spring 2019",
+      "date": "2019-01-17",
+      "type": "Offline",
+      "country": [
+        "Taipei"
+      ],
+      "winnings": "87463"
+    },
+    {
+      "name": "LMS Summer 2019",
+      "date": "2019-06-14",
+      "type": "Offline",
+      "country": [
+        "Taipei"
+      ],
+      "winnings": "87463"
+    },
+    {
+      "name": "Logitech G Challenge 2018",
+      "date": "2018-10-09",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "3700"
+    },
+    {
+      "name": "LPLOL Split 1 2018: Division 1",
+      "date": "2018-02-03",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "8750"
+    },
+    {
+      "name": "LPLOL Split 2 2018: Division 1",
+      "date": "2018-05-12",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "8266"
+    },
+    {
+      "name": "LPLOL Split 1 2019: Division 2",
+      "date": "2019-01-28",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LPLOL Split 2 2019",
+      "date": "2019-06-08",
+      "type": "Online/Offline",
+      "country": [
+        "Penafiel"
+      ],
+      "winnings": "16869"
+    },
+    {
+      "name": "LPLOL Split 1 2019: Division 1",
+      "date": "2019-01-28",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "14037"
+    },
+    {
+      "name": "LPLOL Split 1 2020",
+      "date": "2020-01-18",
+      "type": "Online",
+      "country": [
+        "Portugal"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LPLOL Split 2 2020",
+      "date": "2020-06-08",
+      "type": "Online",
+      "country": [
+        "Portugal"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LPLOL Spring Cup 2020",
+      "date": "2020-05-18",
+      "type": "Online",
+      "country": [
+        "Portugal"
+      ],
+      "winnings": "5450"
+    },
+    {
+      "name": "LPLOL Summer Cup 2020",
+      "date": "2020-10-17",
+      "type": "Online",
+      "country": [
+        "Portugal"
+      ],
+      "winnings": "5856"
+    },
+    {
+      "name": "LPLOL Grand Final 2021",
+      "date": "2021-10-30",
+      "type": "Online",
+      "country": [
+        "Portugal"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LPLOL Split 1 2021",
+      "date": "2021-01-25",
+      "type": "Online",
+      "country": [
+        "Portugal"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LPLOL Split 2 2021",
+      "date": "2021-06-07",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LPL Spring 2013",
+      "date": "2013-03-16",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "185056"
+    },
+    {
+      "name": "LPL Summer 2013",
+      "date": "2013-07-12",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "188886"
+    },
+    {
+      "name": "LPL Spring 2014",
+      "date": "2014-02-22",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "184630"
+    },
+    {
+      "name": "LPL Summer 2014",
+      "date": "2014-02-22",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "187157"
+    },
+    {
+      "name": "LPL Regional Finals 2015",
+      "date": "2015-09-04",
+      "type": "Offline",
+      "country": [
+        "Shenzhen"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LPL Spring 2015",
+      "date": "2015-01-16",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "379762"
+    },
+    {
+      "name": "LPL Summer 2015",
+      "date": "2015-05-22",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "368318"
+    },
+    {
+      "name": "LPL Regional Finals 2016",
+      "date": "2016-08-27",
+      "type": "Offline",
+      "country": [
+        "Guangzhou"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LPL Spring 2016",
+      "date": "2016-01-14",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "540797"
+    },
+    {
+      "name": "LPL Summer 2016",
+      "date": "2016-05-26",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "526471"
+    },
+    {
+      "name": "LPL Regional Finals 2017",
+      "date": "2017-09-02",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LPL Spring 2017",
+      "date": "2017-01-19",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "508104"
+    },
+    {
+      "name": "LPL Summer 2017",
+      "date": "2017-06-08",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "531818"
+    },
+    {
+      "name": "LPL Regional Finals 2018",
+      "date": "2018-09-15",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LPL Spring 2018",
+      "date": "2018-01-15",
+      "type": "Offline",
+      "country": [
+        "Shanghai ",
+        "Hangzhou ",
+        "Chongqing",
+        "Chengdu"
+      ],
+      "winnings": "553119"
+    },
+    {
+      "name": "LPL Summer 2018",
+      "date": "2018-06-11",
+      "type": "Offline",
+      "country": [
+        "Shanghai ",
+        "Hangzhou ",
+        "Chengdu",
+        "Beijing",
+        "Hangzhou",
+        "Xi'an"
+      ],
+      "winnings": "512069"
+    },
+    {
+      "name": "LPL Regional Finals 2019",
+      "date": "2019-09-07",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LPL Spring 2019",
+      "date": "2019-01-14",
+      "type": "Offline",
+      "country": [
+        "Shanghai ",
+        "Hangzhou ",
+        "Chongqing",
+        "Chengdu",
+        "Xi'an",
+        "Beijing",
+        "Foshan"
+      ],
+      "winnings": "522681"
+    },
+    {
+      "name": "LPL Summer 2019",
+      "date": "2019-06-01",
+      "type": "Offline",
+      "country": [
+        "Shanghai ",
+        "Hangzhou ",
+        "Chongqing",
+        "Chengdu",
+        "Xi'an",
+        "Beijing"
+      ],
+      "winnings": "490370"
+    },
+    {
+      "name": "LPL Regional Finals 2020",
+      "date": "2020-08-28",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LPL Spring 2020",
+      "date": "2020-01-13",
+      "type": "Offline & Online",
+      "country": [
+        "Shanghai ",
+        "Hangzhou ",
+        "Suzhou",
+        "Chengdu",
+        "Xi'an",
+        "Beijing",
+        "Suzhou"
+      ],
+      "winnings": "594690"
+    },
+    {
+      "name": "LPL Summer 2020",
+      "date": "2020-06-05",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "609561"
+    },
+    {
+      "name": "LPL Regional Finals 2021",
+      "date": "2021-09-03",
+      "type": "Offline",
+      "country": [
+        "Hangzhou"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LPL Spring 2021",
+      "date": "2021-01-09",
+      "type": "Offline",
+      "country": [
+        "Shanghai ",
+        "Suzhou ",
+        "Shenzhen",
+        "Wuhan"
+      ],
+      "winnings": "644073"
+    },
+    {
+      "name": "LPL Summer 2021",
+      "date": "2021-06-07",
+      "type": "Offline",
+      "country": [
+        "Shanghai ",
+        "Suzhou ",
+        "Hangzhou",
+        "Shenzhen",
+        "Xi'an"
+      ],
+      "winnings": "650333"
+    },
+    {
+      "name": "LPL Spring 2022",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        "Shanghai ",
+        "Suzhou ",
+        "Hangzhou",
+        "Shenzhen",
+        "Xi'an"
+      ],
+      "winnings": "659606"
+    },
+    {
+      "name": "LSPL Summer 2017",
+      "date": "2017-06-06",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "90224"
+    },
+    {
+      "name": "LST Spring 2019",
+      "date": "2019-04-20",
+      "type": "Offline",
+      "country": [
+        "Southeast Asia"
+      ],
+      "winnings": "90000"
+    },
+    {
+      "name": "LST Spring 2019 Indonesia National Minor",
+      "date": "-",
+      "type": "Online",
+      "country": [
+        "Indonesia"
+      ],
+      "winnings": "10000"
+    },
+    {
+      "name": "LST Spring 2019 Philippines National Minor",
+      "date": "-",
+      "type": "Online",
+      "country": [
+        "Philippines"
+      ],
+      "winnings": "10000"
+    },
+    {
+      "name": "LST Spring 2019 Singapore and Malaysia National Minor",
+      "date": "-",
+      "type": "Online",
+      "country": [
+        "Singapore ",
+        "Malaysia"
+      ],
+      "winnings": "10000"
+    },
+    {
+      "name": "LST Spring 2019 Thailand National Minor",
+      "date": "-",
+      "type": "Online",
+      "country": [
+        "Thailand"
+      ],
+      "winnings": "10000"
+    },
+    {
+      "name": "LST Summer 2019",
+      "date": "2019-07-20",
+      "type": "Online",
+      "country": [
+        "Southeast Asia"
+      ],
+      "winnings": "51000"
+    },
+    {
+      "name": "LVP Segunda División Season 13",
+      "date": "-",
+      "type": "Online/Offline",
+      "country": [
+        "Barcelona ",
+        "Madrid"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LVP Superliga Spring 2022",
+      "date": "2022-01-10",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "SuperLiga 2nd Division 2022 Spring",
+      "date": "2022-01-11",
+      "type": "Online/Offline",
+      "country": [
+        "Online"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LVP SuperLiga Orange Season 13",
+      "date": "2017-10-06",
+      "type": "Online/Offline",
+      "country": [
+        "Barcelona ",
+        "Madrid"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LVP SuperLiga Orange Season 14",
+      "date": "2018-01-28",
+      "type": "Online/Offline",
+      "country": [
+        "Barcelona ",
+        "Murcia"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LVP SuperLiga Orange Season 15",
+      "date": "2018-05-26",
+      "type": "Online/Offline",
+      "country": [
+        "Barcelona"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LVP SuperLiga Orange Season 16",
+      "date": "2019-01-30",
+      "type": "Online/Offline",
+      "country": [
+        "Madrid"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "LVP SuperLiga Orange Season 17",
+      "date": "2019-06-03",
+      "type": "Online/Offline",
+      "country": [
+        "Tenerife"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "SuperLiga Orange Season 18",
+      "date": "2020-01-23",
+      "type": "Online",
+      "country": [
+        "Spain"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "SuperLiga Orange Season 19",
+      "date": "2020-06-15",
+      "type": "Online",
+      "country": [
+        "Spain"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "SuperLiga Season 20",
+      "date": "2021-01-18",
+      "type": "Online",
+      "country": [
+        "Spain"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "SuperLiga Season 21",
+      "date": "2021-05-31",
+      "type": "Online/Offline",
+      "country": [
+        "Online"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Lyon e-Sport 10",
+      "date": "2017-03-03",
+      "type": "Offline",
+      "country": [
+        "Lyon"
+      ],
+      "winnings": "21019"
+    },
+    {
+      "name": "Lyon e-Sport 2018",
+      "date": "2018-02-15",
+      "type": "Offline",
+      "country": [
+        "Lyon"
+      ],
+      "winnings": "50016"
+    },
+    {
+      "name": "Lyon e-Sport 2019",
+      "date": "2019-02-23",
+      "type": "Offline",
+      "country": [
+        "Lyon"
+      ],
+      "winnings": "45371"
+    },
+    {
+      "name": "Lyon e-Sport 2020",
+      "date": "2020-02-29",
+      "type": "Offline",
+      "country": [
+        "Lyon"
+      ],
+      "winnings": "39589"
+    },
+    {
+      "name": "Lyon e-Sport 2021",
+      "date": "2021-07-03",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "35594"
+    },
+    {
+      "name": "Lyon e-Sport 9",
+      "date": "2016-02-26",
+      "type": "Offline",
+      "country": [
+        "Lyon"
+      ],
+      "winnings": "16537"
+    },
+    {
+      "name": "Magyar Esport Kupa 2021 Spring",
+      "date": "2021-06-05",
+      "type": "Online",
+      "country": [
+        "Hungary"
+      ],
+      "winnings": "16999"
+    },
+    {
+      "name": "Magyar Nemzeti E-sport Bajnokság 2019",
+      "date": "2019-01-15",
+      "type": "-",
+      "country": [
+        "Hungary"
+      ],
+      "winnings": "12119"
+    },
+    {
+      "name": "Materiel.net Trophy",
+      "date": "-",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "1124"
+    },
+    {
+      "name": "Maximus Cup 2017",
+      "date": "2017-12-15",
+      "type": "Offline",
+      "country": [
+        "Arles"
+      ],
+      "winnings": "35324"
+    },
+    {
+      "name": "Maximus Cup 2018",
+      "date": "2018-11-30",
+      "type": "Offline",
+      "country": [
+        "Arles"
+      ],
+      "winnings": "17089"
+    },
+    {
+      "name": "Mid-Season Cup 2020",
+      "date": "2020-05-28",
+      "type": "Online",
+      "country": [
+        "Shanghai ",
+        "Seoul"
+      ],
+      "winnings": "600000"
+    },
+    {
+      "name": "Mid-Season Invitational 2015",
+      "date": "2015-05-07",
+      "type": "Offline",
+      "country": [
+        "Florida"
+      ],
+      "winnings": "200000"
+    },
+    {
+      "name": "Mid-Season Invitational 2016",
+      "date": "2016-05-04",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "450000"
+    },
+    {
+      "name": "Mid-Season Invitational 2017",
+      "date": "2017-04-28",
+      "type": "Offline",
+      "country": [
+        "São Paulo ",
+        "Rio de Janeiro"
+      ],
+      "winnings": "1690000"
+    },
+    {
+      "name": "Mid-Season Invitational 2018",
+      "date": "2018-05-03",
+      "type": "Offline",
+      "country": [
+        "Berlin ",
+        "Paris"
+      ],
+      "winnings": "1370520"
+    },
+    {
+      "name": "Mid-Season Invitational 2019",
+      "date": "2019-05-01",
+      "type": "Offline",
+      "country": [
+        "Ho Chi Minh City ",
+        "Hanoi ",
+        "Taipei"
+      ],
+      "winnings": "1000000"
+    },
+    {
+      "name": "Mid-Season Invitational 2020",
+      "date": "2020-07-03",
+      "type": "Offline",
+      "country": "-",
+      "winnings": "-"
+    },
+    {
+      "name": "Mid-Season Invitational 2021",
+      "date": "2021-05-06",
+      "type": "Offline",
+      "country": [
+        "Reykjavík"
+      ],
+      "winnings": "250000"
+    },
+    {
+      "name": "Mid-Season Showdown 2020",
+      "date": "2020-05-27",
+      "type": "Online",
+      "country": [
+        "Asia"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "MLG Pro Circuit 2011 - Providence",
+      "date": "2011-11-19",
+      "type": "Offline",
+      "country": [
+        "Raleigh"
+      ],
+      "winnings": "30000"
+    },
+    {
+      "name": "MLG Pro Circuit 2011 - Raleigh",
+      "date": "2011-08-27",
+      "type": "Offline",
+      "country": [
+        "Raleigh"
+      ],
+      "winnings": "20000"
+    },
+    {
+      "name": "MLG Pro Circuit 2012 - Anaheim",
+      "date": "2012-06-08",
+      "type": "Offline",
+      "country": [
+        "Anaheim"
+      ],
+      "winnings": "40000"
+    },
+    {
+      "name": "MLG Pro Circuit 2012 - Dallas",
+      "date": "2012-11-02",
+      "type": "Offline",
+      "country": [
+        "Dallas"
+      ],
+      "winnings": "30000"
+    },
+    {
+      "name": "MLG Pro Circuit 2012 - New York",
+      "date": "2012-08-03",
+      "type": "Offline",
+      "country": [
+        "New York"
+      ],
+      "winnings": "10000"
+    },
+    {
+      "name": "MLG Pro Circuit 2012 - Raleigh",
+      "date": "2012-08-24",
+      "type": "Offline",
+      "country": [
+        "Raleigh"
+      ],
+      "winnings": "40000"
+    },
+    {
+      "name": "MLG Pro Circuit 2013 - Anaheim",
+      "date": "2013-06-28",
+      "type": "Offline",
+      "country": [
+        "Anaheim"
+      ],
+      "winnings": "30000"
+    },
+    {
+      "name": "MLG Pro Circuit 2013 - Dallas",
+      "date": "2013-03-15",
+      "type": "Offline",
+      "country": [
+        "Dallas"
+      ],
+      "winnings": "15000"
+    },
+    {
+      "name": "MCS 2021: Season 1 Premier League",
+      "date": "2021-09-11",
+      "type": "Online",
+      "country": [
+        "Russia"
+      ],
+      "winnings": "3503"
+    },
+    {
+      "name": "MCS 2021: Season 2 Premier League",
+      "date": "2021-10-29",
+      "type": "Online",
+      "country": [
+        "Russia"
+      ],
+      "winnings": "3395"
+    },
+    {
+      "name": "Musimundo Game Week 2017",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        "Buenos Aires"
+      ],
+      "winnings": "2857"
+    },
+    {
+      "name": "Nantarena 20.1",
+      "date": "2020-03-07",
+      "type": "Offline",
+      "country": [
+        "Nantes"
+      ],
+      "winnings": "1543"
+    },
+    {
+      "name": "National Electronic Sports Open 2018",
+      "date": "2019-01-04",
+      "type": "Offline",
+      "country": [
+        "Chengdu"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "NEST 2017",
+      "date": "2017-09-07",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "95162"
+    },
+    {
+      "name": "NEST 2018",
+      "date": "2018-11-15",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "96666"
+    },
+    {
+      "name": "NEST 2019",
+      "date": "2019-05-24",
+      "type": "Offline",
+      "country": [
+        "Guiyang"
+      ],
+      "winnings": "97092"
+    },
+    {
+      "name": "NEST 2020",
+      "date": "2020-11-09",
+      "type": "Online/Offline",
+      "country": [
+        "Hangzhou"
+      ],
+      "winnings": "102087"
+    },
+    {
+      "name": "NEST 2021",
+      "date": "2021-11-11",
+      "type": "Online",
+      "country": [
+        "China"
+      ],
+      "winnings": "104925"
+    },
+    {
+      "name": "Baltic National Esports League Season 1",
+      "date": "2018-08-18",
+      "type": "Online/Offline",
+      "country": [
+        "Kaunas ",
+        "Latvia ",
+        "Estonia"
+      ],
+      "winnings": "6415"
+    },
+    {
+      "name": "Baltic Esports League Season 2: Division 1",
+      "date": "2019-02-23",
+      "type": "Online/Offline",
+      "country": [
+        "Lithuania ",
+        "Latvia ",
+        "Estonia"
+      ],
+      "winnings": "3298"
+    },
+    {
+      "name": "Danish Esports League Season 1: Division 1",
+      "date": "2018-11-21",
+      "type": "-",
+      "country": [
+        "Denmark"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Danish Esports League Season 2 - Division 1",
+      "date": "2019-01-16",
+      "type": "-",
+      "country": [
+        "Denmark"
+      ],
+      "winnings": "2282"
+    },
+    {
+      "name": "Finnish Esports League Season 1: Division 1",
+      "date": "2018-11-21",
+      "type": "-",
+      "country": [
+        "Finland"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Finnish Esports League Season 2: Division 1",
+      "date": "2019-01-14",
+      "type": "-",
+      "country": [
+        "Finland"
+      ],
+      "winnings": "2282"
+    },
+    {
+      "name": "Norwegian Esports League Season 1 - Division 1",
+      "date": "2018-11-21",
+      "type": "-",
+      "country": [
+        "Norway"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Norwegian Esports League Season 2 - Division 1",
+      "date": "2019-01-16",
+      "type": "-",
+      "country": [
+        "Norway"
+      ],
+      "winnings": "2282"
+    },
+    {
+      "name": "Swedish Esports League Season 1: Division 1",
+      "date": "2018-11-21",
+      "type": "-",
+      "country": [
+        "Sweden"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Swedish Esports League Season 2: Division 1",
+      "date": "2019-01-16",
+      "type": "-",
+      "country": [
+        "Sweden"
+      ],
+      "winnings": "3401"
+    },
+    {
+      "name": "Nerd Street Gamers Power Play Spring 2021",
+      "date": "2021-03-22",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "20000"
+    },
+    {
+      "name": "Nerd Street Gamers 2022 Winter Champs Finals",
+      "date": "2022-02-21",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "NLC 1st Division Spring 2022",
+      "date": "2022-01-10",
+      "type": "Online",
+      "country": "-",
+      "winnings": "-"
+    },
+    {
+      "name": "Northern League of Legends Championship Fall Open 2020",
+      "date": "2020-11-05",
+      "type": "Online",
+      "country": [
+        "Europe"
+      ],
+      "winnings": "28410"
+    },
+    {
+      "name": "Northern League of Legends Championship Summer 2020",
+      "date": "2020-06-16",
+      "type": "Online",
+      "country": [
+        "Sweden"
+      ],
+      "winnings": "46044"
+    },
+    {
+      "name": "Northern League of Legends Championship Spring 2021",
+      "date": "2021-01-19",
+      "type": "Online",
+      "country": [
+        "Sweden"
+      ],
+      "winnings": "46758"
+    },
+    {
+      "name": "Northern League of Legends Championship Summer 2021",
+      "date": "2021-06-02",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "46058"
+    },
+    {
+      "name": "NLC 2nd Division Spring 2022",
+      "date": "2022-01-??",
+      "type": "Online",
+      "country": "-",
+      "winnings": "-"
+    },
+    {
+      "name": "Nordic Championship Spring 2018",
+      "date": "2018-03-06",
+      "type": "Online/Offline",
+      "country": [
+        "Stockholm ",
+        "Norway ",
+        "Finland",
+        "Denmark"
+      ],
+      "winnings": "23938"
+    },
+    {
+      "name": "Nordic Championship Summer 2018",
+      "date": "2018-07-03",
+      "type": "Online/Offline",
+      "country": [
+        "Stockholm ",
+        "Norway ",
+        "Finland",
+        "Denmark"
+      ],
+      "winnings": "22206"
+    },
+    {
+      "name": "Nordic Championship Spring 2019",
+      "date": "2019-02-19",
+      "type": "Online/Offline",
+      "country": [
+        "Stockholm"
+      ],
+      "winnings": "21158"
+    },
+    {
+      "name": "Nordic Championship Summer 2019",
+      "date": "2019-07-16",
+      "type": "Online/Offline",
+      "country": [
+        "Stockholm"
+      ],
+      "winnings": "20677"
+    },
+    {
+      "name": "Nordic Championship Spring 2020",
+      "date": "2020-02-02",
+      "type": "Online/Offline",
+      "country": [
+        "Stockholm"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "NPF 2017",
+      "date": "2017-10-13",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "2384"
+    },
+    {
+      "name": "The NUEL: Spring Varsity 2021",
+      "date": "2021-02-10",
+      "type": "Online",
+      "country": [
+        "United Kingdom"
+      ],
+      "winnings": "3445"
+    },
+    {
+      "name": "Occitanie Esports 2018",
+      "date": "2018-06-02",
+      "type": "Offline",
+      "country": [
+        "Montpellier"
+      ],
+      "winnings": "23385"
+    },
+    {
+      "name": "Occitanie Esports 2019",
+      "date": "2019-06-22",
+      "type": "Offline",
+      "country": [
+        "Montpellier"
+      ],
+      "winnings": "5648"
+    },
+    {
+      "name": "OCS 2018",
+      "date": "2018-05-10",
+      "type": "-",
+      "country": [
+        "Sydney"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "OCS 2019",
+      "date": "2019-05-02",
+      "type": "-",
+      "country": [
+        "Sydney"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "OCS 2020",
+      "date": "2020-05-21",
+      "type": "-",
+      "country": [
+        "Sydney"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "OMEN Trophy by HP",
+      "date": "2017-02-17",
+      "type": "Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "10672"
+    },
+    {
+      "name": "Open Tour France 2018",
+      "date": "2018-01-27",
+      "type": "Online/Offline",
+      "country": [
+        "France"
+      ],
+      "winnings": "22806"
+    },
+    {
+      "name": "Open Tour France 2019",
+      "date": "2019-03-02",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Open Tour France 2020",
+      "date": "2020-02-15",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Open Tour France 2021",
+      "date": "2021-02-06",
+      "type": "Online/Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "9501"
+    },
+    {
+      "name": "Open Tour France 2022",
+      "date": "2022-01-29",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "OPL Split 1 2017",
+      "date": "2017-01-21",
+      "type": "Offline",
+      "country": [
+        "Sydney"
+      ],
+      "winnings": "15134"
+    },
+    {
+      "name": "OPL Split 2 2017",
+      "date": "2017-06-10",
+      "type": "Offline",
+      "country": [
+        "Sydney"
+      ],
+      "winnings": "25414"
+    },
+    {
+      "name": "OPL Split 1 2018",
+      "date": "2018-01-20",
+      "type": "Offline",
+      "country": [
+        "Sydney"
+      ],
+      "winnings": "24592"
+    },
+    {
+      "name": "OPL Split 2 2018",
+      "date": "2018-06-08",
+      "type": "Offline",
+      "country": [
+        "Sydney"
+      ],
+      "winnings": "23238"
+    },
+    {
+      "name": "OPL Split 1 2019",
+      "date": "2019-01-18",
+      "type": "Offline",
+      "country": [
+        "Sydney"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "OPL Split 2 2019",
+      "date": "2019-06-07",
+      "type": "Offline",
+      "country": [
+        "Sydney"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "OPL Split 1 2020",
+      "date": "2020-01-31",
+      "type": "Online/Offline",
+      "country": [
+        "Sydney"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "OPL Split 2 2020",
+      "date": "2020-06-05",
+      "type": "Online/Offline",
+      "country": [
+        "Sydney"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "PCS Spring 2020",
+      "date": "2020-02-29",
+      "type": "Online",
+      "country": [
+        "Taiwan ",
+        "Hong Kong ",
+        "Southeast Asia"
+      ],
+      "winnings": "80000"
+    },
+    {
+      "name": "PCS Summer 2020",
+      "date": "2020-06-20",
+      "type": "Online",
+      "country": [
+        "Taiwan ",
+        "Hong Kong ",
+        "Southeast Asia"
+      ],
+      "winnings": "80000"
+    },
+    {
+      "name": "PCS Spring 2021",
+      "date": "2021-02-19",
+      "type": "Online",
+      "country": [
+        "Taiwan ",
+        "Hong Kong ",
+        "Southeast Asia"
+      ],
+      "winnings": "80000"
+    },
+    {
+      "name": "PCS Summer 2021",
+      "date": "2021-07-09",
+      "type": "Online",
+      "country": [
+        "Taiwan ",
+        "Hong Kong ",
+        "Southeast Asia"
+      ],
+      "winnings": "80000"
+    },
+    {
+      "name": "PCS Spring 2022",
+      "date": "-",
+      "type": "Online",
+      "country": [
+        "Taiwan ",
+        "Hong Kong ",
+        "Southeast Asia"
+      ],
+      "winnings": "80000"
+    },
+    {
+      "name": "PG Nationals Spring 2018",
+      "date": "2018-02-14",
+      "type": "Online/Offline",
+      "country": [
+        "Milan"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "PG Nationals Summer 2018",
+      "date": "2018-05-27",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "PG Nationals Spring 2019",
+      "date": "2019-01-27",
+      "type": "Online/Offline",
+      "country": [
+        "Milan"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "PG Nationals Summer 2019",
+      "date": "2019-06-02",
+      "type": "Online/Offline",
+      "country": [
+        "Rome"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "PG Nationals Spring 2020",
+      "date": "2020-01-22",
+      "type": "Online",
+      "country": [
+        "Italy"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "PG Nationals Summer 2020",
+      "date": "2020-05-27",
+      "type": "Online",
+      "country": [
+        "Italy"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "PG Nationals Spring 2021",
+      "date": "2021-01-13",
+      "type": "Online",
+      "country": [
+        "Italy"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "PG Nationals Summer 2021",
+      "date": "2021-06-01",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "PGL Legends of The Rift Season 1",
+      "date": "2015-10-06",
+      "type": "Offline",
+      "country": [
+        "Romania"
+      ],
+      "winnings": "54074"
+    },
+    {
+      "name": "PGS Summer 2017",
+      "date": "2017-06-02",
+      "type": "offline/online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "PGS Spring 2018",
+      "date": "2018-01-19",
+      "type": "offline/online",
+      "country": [
+        ""
+      ],
+      "winnings": "5768"
+    },
+    {
+      "name": "Paris Games Week 2014",
+      "date": "2014-10-30",
+      "type": "Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "12612"
+    },
+    {
+      "name": "ESL PGW Challenge 2015",
+      "date": "2015-10-21",
+      "type": "Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "10994"
+    },
+    {
+      "name": "Polska Liga Esportowa - Sezon 1",
+      "date": "2017-05-07",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "29648"
+    },
+    {
+      "name": "Polska Liga Esportowa Sezon 2",
+      "date": "2017-09-27",
+      "type": "Online/Offline",
+      "country": [
+        "Warsaw"
+      ],
+      "winnings": "30228"
+    },
+    {
+      "name": "Polska Liga Esportowa Sezon 3",
+      "date": "2018-04-21",
+      "type": "Online/Offline",
+      "country": [
+        "Warsaw"
+      ],
+      "winnings": "20106"
+    },
+    {
+      "name": "PPGL 2019 Season 1",
+      "date": "2019-03-09",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "7679"
+    },
+    {
+      "name": "PPGL 2019 Season 2",
+      "date": "2019-07-13",
+      "type": "Online/Offline",
+      "country": [
+        "Philippines"
+      ],
+      "winnings": "7726"
+    },
+    {
+      "name": "PPGL 2019 Season 3",
+      "date": "2019-11-10",
+      "type": "Online/Offline",
+      "country": [
+        "Manila"
+      ],
+      "winnings": "23790"
+    },
+    {
+      "name": "Premier Tour Summer 2018",
+      "date": "2018-06-16",
+      "type": "-",
+      "country": [
+        "Germany ",
+        "Switzerland ",
+        "Austria"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Premier Tour Summer 2018 - Berlin",
+      "date": "2018-07-14",
+      "type": "-",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "29107"
+    },
+    {
+      "name": "Premier Tour Summer 2018 - Gamescom",
+      "date": "2018-08-11",
+      "type": "-",
+      "country": [
+        "Cologne"
+      ],
+      "winnings": "28857"
+    },
+    {
+      "name": "Premier Tour Summer 2018 - Hamburg",
+      "date": "2018-06-16",
+      "type": "-",
+      "country": [
+        "Hamburg"
+      ],
+      "winnings": "29379"
+    },
+    {
+      "name": "Premier Tour Spring 2019",
+      "date": "2018-09-29",
+      "type": "-",
+      "country": [
+        "Bern ",
+        "Vienna ",
+        "Bonn",
+        "Berlin"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Premier Tour Spring 2019 - Berlin",
+      "date": "2019-03-09",
+      "type": "-",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "28437"
+    },
+    {
+      "name": "Premier Tour Spring 2019 - Bern",
+      "date": "2018-10-04",
+      "type": "-",
+      "country": [
+        "Bern"
+      ],
+      "winnings": "28974"
+    },
+    {
+      "name": "Premier Tour Spring 2019 - Bonn",
+      "date": "2019-02-03",
+      "type": "-",
+      "country": [
+        "Bonn"
+      ],
+      "winnings": "28357"
+    },
+    {
+      "name": "Premier Tour Spring 2019 - Vienna",
+      "date": "2018-11-03",
+      "type": "-",
+      "country": [
+        "Vienna"
+      ],
+      "winnings": "28312"
+    },
+    {
+      "name": "Premier Tour Summer 2019",
+      "date": "2019-07-06",
+      "type": "Online/Offline",
+      "country": [
+        "Cologne"
+      ],
+      "winnings": "83130"
+    },
+    {
+      "name": "Prime League Season Finals 2020",
+      "date": "2020-10-01",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "105355"
+    },
+    {
+      "name": "Prime League 1st Division Spring 2020",
+      "date": "2020-01-27",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Prime League Spring 2020",
+      "date": "2020-01-21",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "55240"
+    },
+    {
+      "name": "Prime League 1st Division Summer 2020",
+      "date": "2020-06-01",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Prime League Summer 2020",
+      "date": "2020-06-09",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "59209"
+    },
+    {
+      "name": "Prime League 1st Division Winter 2020",
+      "date": "2020-09-13",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Prime League 1st Division Spring 2021",
+      "date": "2021-01-25",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Prime League Spring 2021",
+      "date": "2021-01-19",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "59423"
+    },
+    {
+      "name": "Prime League 1st Division Summer 2021",
+      "date": "2021-06-07",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Prime League Summer 2021",
+      "date": "2021-06-01",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "58677"
+    },
+    {
+      "name": "Prime League 1st Division Winter 2021",
+      "date": "2021-09-13",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Prime League Winter Cup 2021",
+      "date": "2021-10-03",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "34118"
+    },
+    {
+      "name": "Prime League Spring 2022",
+      "date": "2022-01-11",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Prime League 2nd Division Spring 2022",
+      "date": "2022-01-24",
+      "type": "Online",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Puchar Polski EsportNow 2017",
+      "date": "2017-05-27",
+      "type": "online/offline",
+      "country": [
+        "Wrocław"
+      ],
+      "winnings": "6715"
+    },
+    {
+      "name": "Ragnarök Season 1",
+      "date": "2016-03-05",
+      "type": "Offline",
+      "country": [
+        "Hamar"
+      ],
+      "winnings": "11181"
+    },
+    {
+      "name": "Red Bull Factions 2020",
+      "date": "2020-11-04",
+      "type": "Online",
+      "country": [
+        "Italy"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Regional Norte 2019",
+      "date": "2019-09-03",
+      "type": "Online",
+      "country": "-",
+      "winnings": "-"
+    },
+    {
+      "name": "Regional Norte 2020",
+      "date": "2020-09-04",
+      "type": "Online",
+      "country": [
+        "South America"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Regional Norte 2021",
+      "date": "2021-08-04",
+      "type": "Online",
+      "country": [
+        "South America"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Regional Sur 2019",
+      "date": "2019-09-05",
+      "type": "Online",
+      "country": "-",
+      "winnings": "-"
+    },
+    {
+      "name": "Regional Sur 2020",
+      "date": "2020-09-03",
+      "type": "Online",
+      "country": [
+        "South America"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Regional Sur 2021",
+      "date": "2021-08-03",
+      "type": "Online",
+      "country": [
+        "South America"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Reykjavik International Games 2019",
+      "date": "2019-01-26",
+      "type": "Online/Offline",
+      "country": [
+        "Iceland"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Reykjavik International Games 2021",
+      "date": "2021-01-29",
+      "type": "Online",
+      "country": [
+        "Iceland"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Rift Rivals 2017: GPL vs LJL vs OPL",
+      "date": "2017-07-03",
+      "type": "Offline",
+      "country": [
+        "Ho Chi Minh City"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Rift Rivals 2019: LCK vs LPL vs LMS vs VCS",
+      "date": "2019-07-04",
+      "type": "Offline",
+      "country": [
+        "Seoul"
+      ],
+      "winnings": "144000"
+    },
+    {
+      "name": "Rift Rivals 2017: LCK vs LPL vs LMS",
+      "date": "2017-07-06",
+      "type": "Offline",
+      "country": [
+        "Kaohsiung"
+      ],
+      "winnings": "144000"
+    },
+    {
+      "name": "Rift Rivals 2018: LCK vs LPL vs LMS",
+      "date": "2018-07-05",
+      "type": "Offline",
+      "country": [
+        "Dalian"
+      ],
+      "winnings": "144000"
+    },
+    {
+      "name": "Rift Rivals 2018: LCL vs TCL vs VCS",
+      "date": "2018-07-04",
+      "type": "Offline",
+      "country": [
+        "Ho Chi Minh"
+      ],
+      "winnings": "72000"
+    },
+    {
+      "name": "Rift Rivals 2017: LCL vs TCL",
+      "date": "2017-07-06",
+      "type": "Offline",
+      "country": [
+        "Moscow"
+      ],
+      "winnings": "75000"
+    },
+    {
+      "name": "Rift Rivals 2017: LLN vs CLS vs CBLOL",
+      "date": "2017-07-05",
+      "type": "Offline",
+      "country": [
+        "Santiago"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Rift Rivals 2018: LLN vs CLS vs CBLOL",
+      "date": "2018-07-04",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "42500"
+    },
+    {
+      "name": "Rift Rivals 2017: NA vs EU",
+      "date": "2017-07-05",
+      "type": "Offline",
+      "country": [
+        "Berlin"
+      ],
+      "winnings": "75000"
+    },
+    {
+      "name": "Rift Rivals 2018: NA vs EU",
+      "date": "2018-07-05",
+      "type": "Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "75000"
+    },
+    {
+      "name": "Rift Rivals 2019: NA vs EU",
+      "date": "2019-06-27",
+      "type": "Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "75000"
+    },
+    {
+      "name": "Rift Rivals 2018: SEA vs LJL vs OPL",
+      "date": "2018-07-02",
+      "type": "Offline",
+      "country": [
+        "Sydney"
+      ],
+      "winnings": "60000"
+    },
+    {
+      "name": "Riot Brazilian Champion League 2012",
+      "date": "2012-10-11",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "50000"
+    },
+    {
+      "name": "Riot Brazilian Champion League 2013",
+      "date": "2013-07-19",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "60000"
+    },
+    {
+      "name": "Riot Brazilian Champion League 2014",
+      "date": "2014-04-26",
+      "type": "online/offline",
+      "country": [
+        "São Paulo ",
+        "Fortaleza"
+      ],
+      "winnings": "44282"
+    },
+    {
+      "name": "Risen Champions League 2021 Summer",
+      "date": "2021-06-21",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Risen Champions League 2021 Winter",
+      "date": "2021-01-11",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "6400"
+    },
+    {
+      "name": "RogaHack 2016",
+      "date": "2016-03-19",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "2388"
+    },
+    {
+      "name": "Scouting Grounds Circuit 2020 Playoffs",
+      "date": "2020-08-01",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "30000"
+    },
+    {
+      "name": "SEA Invitational 2019",
+      "date": "2019-10-26",
+      "type": "Offline",
+      "country": [
+        "Manila"
+      ],
+      "winnings": "53736"
+    },
+    {
+      "name": "Globe Conquerors Manila 2018",
+      "date": "2018-08-13",
+      "type": "Offline",
+      "country": [
+        "Manila"
+      ],
+      "winnings": "250000"
+    },
+    {
+      "name": "Silver SL[AM]",
+      "date": "2019-02-28",
+      "type": "Online",
+      "country": [
+        "Philippines"
+      ],
+      "winnings": "3000"
+    },
+    {
+      "name": "SLS Spring 2018",
+      "date": "2018-02-10",
+      "type": "Offline/online",
+      "country": [
+        ""
+      ],
+      "winnings": "7591"
+    },
+    {
+      "name": "Solary Cup 2018",
+      "date": "2018-10-26",
+      "type": "Offline",
+      "country": [
+        "Paris"
+      ],
+      "winnings": "11375"
+    },
+    {
+      "name": "StarLadder i-League Invitational",
+      "date": "2016-05-20",
+      "type": "Offline",
+      "country": [
+        "Kiev"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Stars League Closing 2021",
+      "date": "2021-05-20",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Stars Cup 2021",
+      "date": "2021-11-04",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Stars League Opening 2021",
+      "date": "2021-01-28",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Summoner's Inn League Season 0.5",
+      "date": "2018-07-17",
+      "type": "Online",
+      "country": [
+        "Germany"
+      ],
+      "winnings": "11620"
+    },
+    {
+      "name": "Summoner's Inn League Season 1: Division 1",
+      "date": "2018-10-18",
+      "type": "Online",
+      "country": [
+        "Germany"
+      ],
+      "winnings": "6814"
+    },
+    {
+      "name": "Summoner's Inn League Season 2: Division 1",
+      "date": "2019-01-29",
+      "type": "Online",
+      "country": [
+        "Germany"
+      ],
+      "winnings": "11762"
+    },
+    {
+      "name": "Supercopa Flow 2019",
+      "date": "2019-11-05",
+      "type": "Online",
+      "country": "-",
+      "winnings": "10000"
+    },
+    {
+      "name": "Supercopa Norte 2019",
+      "date": "2019-10-16",
+      "type": "Online",
+      "country": "-",
+      "winnings": "10000"
+    },
+    {
+      "name": "Superliga ABCDE Season 1",
+      "date": "2017-11-04",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Superliga ABCDE Season 2",
+      "date": "2018-11-09",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "26"
+    },
+    {
+      "name": "Superliga ABCDE Season 3",
+      "date": "2019-11-15",
+      "type": "Offline",
+      "country": [
+        "São Paulo"
+      ],
+      "winnings": "11"
+    },
+    {
+      "name": "Swiss Esports League Winter 2018 - Premier Division",
+      "date": "2018-02-18",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "3088"
+    },
+    {
+      "name": "Swiss Esports League Winter 2019: Premier Division",
+      "date": "2019-01-20",
+      "type": "Online",
+      "country": [
+        "Switzerland"
+      ],
+      "winnings": "2730"
+    },
+    {
+      "name": "TCL Summer 2017",
+      "date": "2017-06-03",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "64476"
+    },
+    {
+      "name": "TCL Summer 2018",
+      "date": "2018-06-16",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "TCL Winter 2018",
+      "date": "2018-01-20",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "TCL Summer 2019",
+      "date": "2019-06-08",
+      "type": "Offline",
+      "country": [
+        "Istanbul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "TCL Winter 2019",
+      "date": "2019-01-19",
+      "type": "Offline",
+      "country": [
+        "Istanbul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "TCL Summer 2020",
+      "date": "2020-06-06",
+      "type": "Offline",
+      "country": [
+        "Istanbul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "TCL Winter 2020",
+      "date": "2020-02-01",
+      "type": "Offline",
+      "country": [
+        "Istanbul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "TCL Summer 2021",
+      "date": "2021-06-12",
+      "type": "Online",
+      "country": [
+        "Turkey"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "TCL Winter 2021",
+      "date": "2021-01-23",
+      "type": "Online/Offline",
+      "country": [
+        "Istanbul"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "TCL Winter 2022",
+      "date": "-",
+      "type": "Online",
+      "country": [
+        "Turkey"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "TCS Turkey Summer 2018",
+      "date": "2018-07-10",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "5686"
+    },
+    {
+      "name": "TCS Turkey Winter 2018",
+      "date": "2018-01-30",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "12717"
+    },
+    {
+      "name": "Telenorligaen Autumn 2017: Division 1",
+      "date": "2017-08-27",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "3691"
+    },
+    {
+      "name": "Telenorligaen Autumn 2018: Division 1",
+      "date": "2018-08-26",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "6330"
+    },
+    {
+      "name": "Telenorligaen Spring 2018: Division 1",
+      "date": "2018-01-28",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "3704"
+    },
+    {
+      "name": "Telenorligaen Spring 2019: Division 1",
+      "date": "2019-02-03",
+      "type": "Online/Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Telia Masters Summer Season 2020",
+      "date": "2020-08-04",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "11776"
+    },
+    {
+      "name": "Telia Masters Spring Season 2021",
+      "date": "2021-03-08",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "9557"
+    },
+    {
+      "name": "Telia Masters Summer Season 2021",
+      "date": "2021-08-01",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "9388"
+    },
+    {
+      "name": "Telialigaen 2021 Autumn",
+      "date": "2021-08-29",
+      "type": "Online/Offline",
+      "country": [
+        "Oslo"
+      ],
+      "winnings": "5578"
+    },
+    {
+      "name": "Tempest League 2021",
+      "date": "2021-02-02",
+      "type": "Online",
+      "country": "-",
+      "winnings": "40000"
+    },
+    {
+      "name": "Telia Esports Series Denmark Summer Season 2020",
+      "date": "2020-06-08",
+      "type": "Online",
+      "country": [
+        "Denmark"
+      ],
+      "winnings": "9410"
+    },
+    {
+      "name": "Telia Esports Series Finland Summer Season 2020",
+      "date": "2020-06-08",
+      "type": "Online",
+      "country": [
+        "Finland"
+      ],
+      "winnings": "9410"
+    },
+    {
+      "name": "Telia Esports Series Norway Summer Season 2020",
+      "date": "2020-06-08",
+      "type": "Online",
+      "country": [
+        "Norway"
+      ],
+      "winnings": "9410"
+    },
+    {
+      "name": "Telia Esports Series Sweden Summer Season 2020",
+      "date": "2020-06-08",
+      "type": "Online",
+      "country": [
+        "Sweden"
+      ],
+      "winnings": "9410"
+    },
+    {
+      "name": "Telia Esports Series Denmark Spring Season 2021",
+      "date": "2021-01-17",
+      "type": "Online",
+      "country": [
+        "Denmark"
+      ],
+      "winnings": "8434"
+    },
+    {
+      "name": "Telia Esports Series Denmark Summer Season 2021",
+      "date": "2021-06-06",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "9513"
+    },
+    {
+      "name": "Telia Esports Series Finland Spring Season 2021",
+      "date": "2021-01-18",
+      "type": "Online",
+      "country": [
+        "Finland"
+      ],
+      "winnings": "8434"
+    },
+    {
+      "name": "Telia Esports Series Finland Summer Season 2021",
+      "date": "2021-06-07",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "8324"
+    },
+    {
+      "name": "Telia Esports Series Norway Spring Season 2021",
+      "date": "2021-01-18",
+      "type": "Online",
+      "country": [
+        "Norway"
+      ],
+      "winnings": "8434"
+    },
+    {
+      "name": "Telia Esports Series Norway Summer Season 2021",
+      "date": "2021-06-07",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "7135"
+    },
+    {
+      "name": "Telia Esports Series Sweden Spring Season 2021",
+      "date": "2021-01-18",
+      "type": "Online",
+      "country": [
+        "Sweden"
+      ],
+      "winnings": "8434"
+    },
+    {
+      "name": "Telia Esports Series Sweden Summer Season 2021",
+      "date": "2021-06-07",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "8324"
+    },
+    {
+      "name": "TGA Hero of Cities - Season 12",
+      "date": "2017-04-19",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "30556"
+    },
+    {
+      "name": "Thailand Game Show 2018 The Legend Arena: Legends Are Born Here",
+      "date": "2018-10-26",
+      "type": "Offline",
+      "country": [
+        "Bangkok"
+      ],
+      "winnings": "6083"
+    },
+    {
+      "name": "The Party 16",
+      "date": "2018-03-30",
+      "type": "Offline",
+      "country": [
+        "Eindhoven"
+      ],
+      "winnings": "1845"
+    },
+    {
+      "name": "Thor Open 2012",
+      "date": "2012-12-08",
+      "type": "Offline",
+      "country": [
+        "Stockholm"
+      ],
+      "winnings": "15073"
+    },
+    {
+      "name": "TLCS Spring 2017",
+      "date": "2017-01-18",
+      "type": "Offline/Online",
+      "country": [
+        ""
+      ],
+      "winnings": "14503"
+    },
+    {
+      "name": "TLC Malaysia Summer 2017",
+      "date": "2017-06-02",
+      "type": "Offline",
+      "country": [
+        ""
+      ],
+      "winnings": "30903"
+    },
+    {
+      "name": "TPL Summer 2017",
+      "date": "2017-05-31",
+      "type": "offline/online",
+      "country": [
+        ""
+      ],
+      "winnings": "15043"
+    },
+    {
+      "name": "TPL Spring 2018",
+      "date": "2018-01-17",
+      "type": "offline/online",
+      "country": [
+        ""
+      ],
+      "winnings": "16023"
+    },
+    {
+      "name": "Trinity Force Puchar Polski 2020",
+      "date": "2020-11-01",
+      "type": "Online",
+      "country": [
+        "Poland"
+      ],
+      "winnings": "13199"
+    },
+    {
+      "name": "Trinity Force Puchar Polski 2021",
+      "date": "2021-10-26",
+      "type": "Online",
+      "country": [
+        "Poland"
+      ],
+      "winnings": "12178"
+    },
+    {
+      "name": "TCS Fall 2017",
+      "date": "2017-11-18",
+      "type": "Online",
+      "country": "-",
+      "winnings": "10000"
+    },
+    {
+      "name": "TCS Spring 2018",
+      "date": "2018-11-24",
+      "type": "Online",
+      "country": "-",
+      "winnings": "50000"
+    },
+    {
+      "name": "TCS Winter 2019",
+      "date": "2019-12-14",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "50000"
+    },
+    {
+      "name": "UK League Championship Spring 2019",
+      "date": "2019-02-13",
+      "type": "Online/Offline",
+      "country": [
+        "United Kingdom"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "UK League Championship Spring Finals 2019",
+      "date": "2019-03-30",
+      "type": "Online/Offline",
+      "country": [
+        "United Kingdom"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "UK League Championship Summer 2019",
+      "date": "2019-07-03",
+      "type": "Online/Offline",
+      "country": [
+        "London"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "UK League Championship Spring 2020",
+      "date": "2020-02-04",
+      "type": "Online",
+      "country": [
+        "Sweden"
+      ],
+      "winnings": "43923"
+    },
+    {
+      "name": "UK League Championship Summer 2020",
+      "date": "2020-06-14",
+      "type": "Online",
+      "country": [
+        "United Kingdom"
+      ],
+      "winnings": "6538"
+    },
+    {
+      "name": "UK League Championship Spring 2021",
+      "date": "2021-01-17",
+      "type": "Online",
+      "country": [
+        "United Kingdom"
+      ],
+      "winnings": "6963"
+    },
+    {
+      "name": "UK League Championship Summer 2021",
+      "date": "2021-06-06",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "6986"
+    },
+    {
+      "name": "UK Masters Summer 2017",
+      "date": "2017-06-19",
+      "type": "Online/Offline",
+      "country": [
+        "Birmingham"
+      ],
+      "winnings": "19358"
+    },
+    {
+      "name": "Ultraliga",
+      "date": "-",
+      "type": "-",
+      "country": [
+        "Warsaw"
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Ultraliga Season 1",
+      "date": "2019-01-22",
+      "type": "Online/Offline",
+      "country": [
+        "Warsaw"
+      ],
+      "winnings": "26287"
+    },
+    {
+      "name": "Ultraliga Season 2",
+      "date": "2019-06-18",
+      "type": "Online/Offline",
+      "country": [
+        "Warsaw"
+      ],
+      "winnings": "25325"
+    },
+    {
+      "name": "Ultraliga Season 3",
+      "date": "2020-01-28",
+      "type": "Online/Offline",
+      "country": [
+        "Warsaw"
+      ],
+      "winnings": "24219"
+    },
+    {
+      "name": "Ultraliga Season 4",
+      "date": "2020-06-09",
+      "type": "Online/Offline",
+      "country": [
+        "Warsaw"
+      ],
+      "winnings": "26773"
+    },
+    {
+      "name": "Ultraliga Season 5",
+      "date": "2021-01-19",
+      "type": "Online",
+      "country": [
+        "Poland"
+      ],
+      "winnings": "25523"
+    },
+    {
+      "name": "Ultraliga Season 6",
+      "date": "2021-06-08",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "25655"
+    },
+    {
+      "name": "Ultraliga Season 7",
+      "date": "2022-01-11",
+      "type": "Online",
+      "country": [
+        "Online"
+      ],
+      "winnings": "24471"
+    },
+    {
+      "name": "Underdogs Autumn 2016",
+      "date": "2016-09-18",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "10985"
+    },
+    {
+      "name": "Underdogs Spring 2017",
+      "date": "2017-03-28",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "11155"
+    },
+    {
+      "name": "Underdogs Summer 2017",
+      "date": "2017-08-29",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "11737"
+    },
+    {
+      "name": "Underdogs 2019",
+      "date": "2019-11-13",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "16598"
+    },
+    {
+      "name": "Underdogs 2020",
+      "date": "2020-05-19",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "16999"
+    },
+    {
+      "name": "Underdogs Season 1",
+      "date": "2015-12-21",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "2781"
+    },
+    {
+      "name": "Underdogs Season 2",
+      "date": "2016-02-24",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "2845"
+    },
+    {
+      "name": "Underdogs Season 3",
+      "date": "2016-04-27",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "2783"
+    },
+    {
+      "name": "Underdogs Season 4",
+      "date": "2016-06-22",
+      "type": "Online",
+      "country": [
+        "France"
+      ],
+      "winnings": "2804"
+    },
+    {
+      "name": "Unified Grand Prix Spring 2021",
+      "date": "2021-02-22",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "20000"
+    },
+    {
+      "name": "Unified Grand Prix Summer 2021",
+      "date": "2021-08-09",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "20000"
+    },
+    {
+      "name": "Upsurge Premier League Fall 2018",
+      "date": "2018-09-24",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "3000"
+    },
+    {
+      "name": "Upsurge Premier League Spring 2018",
+      "date": "2018-04-02",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "2000"
+    },
+    {
+      "name": "Upsurge Premier League Winter 2018",
+      "date": "2018-01-18",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "1000"
+    },
+    {
+      "name": "Upsurge Premier League Fall 2020",
+      "date": "2020-09-22",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "6000"
+    },
+    {
+      "name": "Upsurge Contenders League Spring 2020",
+      "date": "2020-02-03",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "2500"
+    },
+    {
+      "name": "Upsurge Premier League Spring 2020",
+      "date": "2020-02-04",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "5000"
+    },
+    {
+      "name": "Upsurge Contenders League Summer 2020",
+      "date": "2020-05-21",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "3000"
+    },
+    {
+      "name": "Upsurge Premier League Summer 2020",
+      "date": "2020-05-12",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "6000"
+    },
+    {
+      "name": "Upsurge Premier League Winter 2021",
+      "date": "2021-01-22",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "7500"
+    },
+    {
+      "name": "Upsurge Minor League Season 2",
+      "date": "2018-01-17",
+      "type": "Online",
+      "country": [
+        "US"
+      ],
+      "winnings": "800"
+    },
+    {
+      "name": "Upsurge Minor League Summer 2020",
+      "date": "2020-05-21",
+      "type": "Online",
+      "country": [
+        "United States"
+      ],
+      "winnings": "1500"
+    },
+    {
+      "name": "V4 Future Sports Festival",
+      "date": "-",
+      "type": "Offline",
+      "country": [
+        "Budapest"
+      ],
+      "winnings": "369750"
+    },
+    {
+      "name": "Valenciennes Games Arena 2018",
+      "date": "2018-10-13",
+      "type": "Offline",
+      "country": [
+        "Valenciennes"
+      ],
+      "winnings": "17384"
+    },
+    {
+      "name": "VCS A Spring 2017",
+      "date": "2017-02-08",
+      "type": "Offline",
+      "country": [
+        "Ho Chi Minh"
+      ],
+      "winnings": "35543"
+    },
+    {
+      "name": "VCS A Summer 2017",
+      "date": "2017-06-07",
+      "type": "Offline/Online",
+      "country": [
+        ""
+      ],
+      "winnings": "35874"
+    },
+    {
+      "name": "VCS B Winter 2020",
+      "date": "2020-11-07",
+      "type": "Online",
+      "country": [
+        "Vietnam"
+      ],
+      "winnings": "3673"
+    },
+    {
+      "name": "VCS Spring 2018",
+      "date": "2018-01-18",
+      "type": "Offline",
+      "country": [
+        "Ho Chi Minh City"
+      ],
+      "winnings": "57677"
+    },
+    {
+      "name": "VCS Summer 2018",
+      "date": "2018-06-21",
+      "type": "Offline",
+      "country": [
+        "Ho Chi Minh City"
+      ],
+      "winnings": "52462"
+    },
+    {
+      "name": "VCS Spring 2019",
+      "date": "2019-01-17",
+      "type": "Offline",
+      "country": [
+        "Ho Chi Minh City"
+      ],
+      "winnings": "52429"
+    },
+    {
+      "name": "VCS Summer 2019",
+      "date": "2019-06-20",
+      "type": "Offline",
+      "country": [
+        "Ho Chi Minh City"
+      ],
+      "winnings": "52649"
+    },
+    {
+      "name": "VCS Spring 2020",
+      "date": "2020-01-31",
+      "type": "Online/Offline",
+      "country": [
+        "Ho Chi Minh City"
+      ],
+      "winnings": "51885"
+    },
+    {
+      "name": "VCS Summer 2020",
+      "date": "2020-06-19",
+      "type": "Offline",
+      "country": [
+        "Ho Chi Minh City"
+      ],
+      "winnings": "51731"
+    },
+    {
+      "name": "VCS Spring 2021",
+      "date": "2021-01-22",
+      "type": "Online/Offline",
+      "country": [
+        "Ho Chi Minh City"
+      ],
+      "winnings": "51943"
+    },
+    {
+      "name": "VCS Summer 2021",
+      "date": "-",
+      "type": "Online",
+      "country": [
+        "Vietnam"
+      ],
+      "winnings": "52193"
+    },
+    {
+      "name": "VCS Winter 2021",
+      "date": "2021-11-16",
+      "type": "Online",
+      "country": [
+        "Vietnam"
+      ],
+      "winnings": "52304"
+    },
+    {
+      "name": "Volcano League Closing 2020",
+      "date": "2020-07-29",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "7000"
+    },
+    {
+      "name": "Volcano Cup 2020",
+      "date": "2020-11-03",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Volcano League Opening 2020",
+      "date": "2020-04-22",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "7000"
+    },
+    {
+      "name": "Volcano League Closing 2021",
+      "date": "2021-05-26",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Volcano Cup 2021",
+      "date": "2021-11-03",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "Volcano League Opening 2021",
+      "date": "2021-01-27",
+      "type": "Online",
+      "country": [
+        ""
+      ],
+      "winnings": "-"
+    },
+    {
+      "name": "WeScan Academy Challenge Season 1",
+      "date": "2020-07-21",
+      "type": "Online",
+      "country": [
+        "Vietnam"
+      ],
+      "winnings": "1087"
+    },
+    {
+      "name": "Women's Esports League Season 1: Division 1",
+      "date": "2019-02-27",
+      "type": "Online & Offline",
+      "country": [
+        "Europe"
+      ],
+      "winnings": "2782"
+    },
+    {
+      "name": "Riot Season 1 Championship",
+      "date": "2011-06-18",
+      "type": "Offline",
+      "country": [
+        "Jönköping"
+      ],
+      "winnings": "98500"
+    },
+    {
+      "name": "Season 2 World Championship",
+      "date": "2012-10-04",
+      "type": "Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "2000000"
+    },
+    {
+      "name": "Season 3 World Championship",
+      "date": "2013-09-15",
+      "type": "Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "2050000"
+    },
+    {
+      "name": "2014 World Championship",
+      "date": "2014-09-18",
+      "type": "Offline",
+      "country": [
+        "Taipei ",
+        "Singapore ",
+        "Busan",
+        "Seoul"
+      ],
+      "winnings": "2130000"
+    },
+    {
+      "name": "2015 World Championship",
+      "date": "2015-10-01",
+      "type": "Offline",
+      "country": [
+        "Paris ",
+        "London ",
+        "Brussels",
+        "Berlin"
+      ],
+      "winnings": "2130000"
+    },
+    {
+      "name": "2016 World Championship",
+      "date": "2016-09-29",
+      "type": "Offline",
+      "country": [
+        "San Francisco ",
+        "Chicago ",
+        "New York",
+        "Los Angeles"
+      ],
+      "winnings": "5070000"
+    },
+    {
+      "name": "2017 World Championship",
+      "date": "2017-09-23",
+      "type": "Offline",
+      "country": [
+        "Wuhan ",
+        "Guangzhou ",
+        "Shanghai",
+        "Beijing"
+      ],
+      "winnings": "4596591"
+    },
+    {
+      "name": "2018 World Championship",
+      "date": "2018-10-01",
+      "type": "Offline",
+      "country": [
+        "Seoul ",
+        "Busan ",
+        "Gwangju",
+        "Incheon"
+      ],
+      "winnings": "6450000"
+    },
+    {
+      "name": "2019 World Championship",
+      "date": "2019-10-02",
+      "type": "Offline",
+      "country": [
+        "Berlin ",
+        "Madrid ",
+        "Paris"
+      ],
+      "winnings": "2225000"
+    },
+    {
+      "name": "2020 World Championship",
+      "date": "2020-09-25",
+      "type": "Offline",
+      "country": [
+        "Shanghai"
+      ],
+      "winnings": "2225000"
+    },
+    {
+      "name": "2021 World Championship",
+      "date": "2021-10-05",
+      "type": "Offline",
+      "country": [
+        "Reykjavík"
+      ],
+      "winnings": "2225000"
+    },
+    {
+      "name": "World Cyber Games 2010",
+      "date": "2010-09-30",
+      "type": "Offline",
+      "country": [
+        "Los Angeles"
+      ],
+      "winnings": "10000"
+    }
+  ]
+]

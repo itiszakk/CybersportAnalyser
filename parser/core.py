@@ -135,7 +135,10 @@ def get_item_info(save_dir, item_path, net_mode, get_method, method):
     if infobox is None:
         return None
     if method == 1:
-        table = soup_r.find('table', {'class': 'wikitable'}).find('tbody')
+        try:
+            table = soup_r.find('table', {'class': 'wikitable wikitable-striped sortable'}).find('tbody')
+        except:
+            table = '-'
         return get_method(infobox, table)
     else:
         return get_method(infobox, None)

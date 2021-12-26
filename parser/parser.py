@@ -5,6 +5,7 @@ import core
 import player
 import team
 import tournament
+import requests
 
 
 class Game_Data:
@@ -26,17 +27,20 @@ def create_game_folders(save_dir):
     tournament_dir_res = tournament_dir + "_result"
     team_dir_res = team_dir + "_result"
 
-    if os.path.exists(save_dir):
-        shutil.rmtree(save_dir)
+    #if os.path.exists(save_dir):
+    #    shutil.rmtree(save_dir)
 
-    os.mkdir(save_dir)
-    os.mkdir(tmp_dir)
-    os.mkdir(player_dir)
-    os.mkdir(tournament_dir)
-    os.mkdir(team_dir)
-    os.mkdir(player_dir_res)
-    os.mkdir(tournament_dir_res)
-    os.mkdir(team_dir_res)
+    try:
+        os.mkdir(save_dir)
+        os.mkdir(tmp_dir)
+        os.mkdir(player_dir)
+        os.mkdir(tournament_dir)
+        os.mkdir(team_dir)
+        os.mkdir(player_dir_res)
+        os.mkdir(tournament_dir_res)
+        os.mkdir(team_dir_res)
+    except:
+        print("yes")
 
 
 def game_parse(path: str, game: Game_Data, download_from_net: bool):
@@ -136,7 +140,11 @@ def start_parse(path: str, download_from_net):
 
 
 if __name__ == "__main__":
-    #start_parse(os.getcwd(), True)
-    temp = core.get_item_info("", "https://liquipedia.net/leagueoflegends/BrTT", True, player.lol_player_get_attr, 1)
-    print(temp)
-
+    start_parse(os.getcwd(), False)
+    #print(core.get_item_info("", "https://liquipedia.net/counterstrike/Awsomniac", True, team.cs_team_get_attr, 1))
+    #headers = {
+    ##    'User-Agent': 'Mozilla/4.0 (Macintosh; Intel Mac OS X 10.9; rv:45.0) Gecko/20100101 Firefox/45.0'
+    #}
+    #page = requests.get("https://liquipedia.net/counterstrike/Armada_Esports/Results", headers=headers).text
+    #with open(os.getcwd() + "\\counterstrike\\tmp\\teams_result\\Armada Esports.html", 'wb') as output_file:
+    #    output_file.write(page.encode('utf8'))
