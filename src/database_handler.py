@@ -14,7 +14,7 @@ def stopConnection(connection):
     if connection:
         connection.close()
 
-def execQuery(connection, query):
+def transaction(connection, query):
     try:
         cursor = connection.cursor()
         cursor.execute(query)
@@ -25,3 +25,18 @@ def execQuery(connection, query):
     finally:    
         if connection:
             cursor.close()
+
+def select(connection, query, resultSize):
+    try:
+        cursor = connection.cursor()
+        cursor.execute(query)
+        if resultSize == 0:
+            result = cursor.fetchall()
+        else:
+            result = cursor.fetchmany(resultSize)
+    except(Exception, psycopg2.Error) as error:
+        print("Failed to execute query: {}".format(error))
+    finally:    
+        if connection:
+            cursor.close()
+        return result
