@@ -11,3 +11,5 @@ games = ["counterstrike", "dota2", "leagueoflegends", "valorant"]
 
 databaseName = "database"
 userName = "analyser"
+
+batchSize = 100

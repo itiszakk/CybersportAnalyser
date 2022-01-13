@@ -27,13 +27,11 @@ def transaction(connection, query):
             cursor.close()
 
 def select(connection, query, resultSize):
+    result = []
     try:
         cursor = connection.cursor()
         cursor.execute(query)
-        if resultSize == 0:
-            result = cursor.fetchall()
-        else:
-            result = cursor.fetchmany(resultSize)
+        result = cursor.fetchall() if resultSize == 0 else cursor.fetchmany(resultSize)
     except(Exception, psycopg2.Error) as error:
         print("Failed to execute query: {}".format(error))
     finally:    
