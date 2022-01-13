@@ -94,20 +94,30 @@ def createTables(connection):
     db.transaction(connection, getPlayersResultsTableQuery())
     db.transaction(connection, getTeamsResultsTableQuery())
 
-def insertGame(connection, gameIndex):
-    db.transaction(connection, """
+def fixQuote(str):
+    return str.replace("\'", "\'\'")
+
+def fixDash(str):
+    return str.replace("-", "NULL")
+
+def fixEmpty(str):
+    return "NULL" if not str else str
+
+def insertGames(connection):
+    for gameIndex in range(len(cfg.games)):
+        db.transaction(connection, """
         INSERT INTO games(id, name) VALUES ({}, '{}')
     """.format(gameIndex, cfg.games[gameIndex]))
 
-def insertTournaments(connection, gameIndex, batchSize):
+def insertTournaments(connection, tournamentsDict, batchSize):
     batchElements = []
+    tournamentIndex = 0
 
-    fix_quote = lambda s : s.replace("\'", "\'\'")
-    fix_dash = lambda s : s.replace("-", "NULL")
-    fix_empty = lambda s : "NULL" if not s else s
-
-    with open(cfg.inputPath + r"\{0}\{0}_tournament.json".format(cfg.games[gameIndex]), mode="r", encoding="utf-8") as file:
+    for gameIndex in range(len(cfg.games)):
+        subDict = {}
+        with open(cfg.inputPath + r"\{0}\{0}_tournament.json".format(cfg.games[gameIndex]), mode="r", encoding="utf-8") as file:
             data = json.load(file)
+            
             for tournament in data[0]:
                 if not tournament:
                     continue
@@ -117,20 +127,23 @@ def insertTournaments(connection, gameIndex, batchSize):
                 type = tournament["type"]
                 winnings = tournament["winnings"]
 
-                name = fix_quote(name)
-                winnings = fix_dash(winnings)
-                winnings = fix_empty(winnings)
+                name = fixQuote(name)
+                winnings = fixDash(winnings)
+                winnings = fixEmpty(winnings)
 
                 countries = []
 
                 for country in tournament["country"]:
-                    country = fix_quote(country)
-                    country = fix_dash(country)
-                    country = fix_empty(country)
+                    country = fixQuote(country)
+                    country = fixDash(country)
+                    country = fixEmpty(country)
                     countries.append("\'{}\'".format(country))
 
-                line = "(DEFAULT, {}, '{}', '{}', '{}', array[{}], {})".format(gameIndex, name, date, type, ",".join(countries), winnings)
+                line = "({}, {}, '{}', '{}', '{}', array[{}], {})".format(tournamentIndex, gameIndex, name, date, type, ",".join(countries), winnings)
                 batchElements.append(line)
+                
+                subDict[name] = tournamentIndex
+                tournamentIndex += 1
 
                 if len(batchElements) >= batchSize:
                     db.transaction(connection, """
@@ -138,21 +151,24 @@ def insertTournaments(connection, gameIndex, batchSize):
                     """.format(",".join(batchElements)))
                     batchElements = []
 
+        tournamentsDict[cfg.games[gameIndex]] = subDict
+
     if len(batchElements) > 0:
         db.transaction(connection, """
             INSERT INTO tournaments VALUES {}
         """.format(",".join(batchElements)))
+            
 
-#def insertPlayers(connection, gameIndex, batchSize):
+#def insertPlayers(connection, tournamentsDict, gameIndex, batchSize):
 
-#def insertTeams(connection, gameIndex, batchSize):
+#def insertTeams(connection, tournamentsDict, gameIndex, batchSize):
 
 def insertData(connection, batchSize):
-    for i in range(len(cfg.games)):
-        insertGame(connection, i)
-        insertTournaments(connection, i, batchSize)
-        #insertPlayers(connection, i, batchSize)
-        #insertTeams(connection, i, batchSize)
+    tournamentsDict = {} # [game][tournament] = index
+    insertGames(connection)
+    insertTournaments(connection, tournamentsDict, batchSize)
+    #insertPlayers(connection, tournamentsDict, batchSize)
+    #insertTeams(connection, tournamentsDict, batchSize)
 
 def loadData():
     connection = db.openConnection(cfg.databaseName, cfg.userName)
@@ -160,13 +176,13 @@ def loadData():
     createTables(connection)
     insertData(connection, 100)
 
-    print(db.select(connection, "SELECT * FROM tournaments WHERE 'South Korea' = ANY(country)", 1))
+    #print(db.select(connection, "SELECT * FROM tournaments WHERE 'South Korea' = ANY(country)", 1))
 
     db.stopConnection(connection)
 
 def main():
-    env.createDirectory(cfg.tempPath)
-    env.installSoft(cfg.softPath, cfg.tempPath, "postgresql-14.1-1-windows-x64-binaries.zip")
+    #env.createDirectory(cfg.tempPath)
+    #env.installSoft(cfg.softPath, cfg.tempPath, "postgresql-14.1-1-windows-x64-binaries.zip")
     env.execFile(cfg.tempPath + r"\pgsql\bin\initdb.exe", "-D {} -U {} -E UTF8".format(cfg.databasePath, cfg.userName))
     env.execFile(cfg.tempPath + r"\pgsql\bin\pg_ctl.exe", "-D {} start".format(cfg.databasePath))
     env.execFile(cfg.tempPath + r"\pgsql\bin\createdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
@@ -175,9 +191,9 @@ def main():
 
     os.system("pause")
     
-    env.execFile(cfg.tempPath + r"\pgsql\bin\dropdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
-    env.execFile(cfg.tempPath + r"\pgsql\bin\pg_ctl.exe", "-D {} stop".format(cfg.databasePath))
-    env.removeDirectory(cfg.tempPath)
+    #env.execFile(cfg.tempPath + r"\pgsql\bin\dropdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
+    #env.execFile(cfg.tempPath + r"\pgsql\bin\pg_ctl.exe", "-D {} stop".format(cfg.databasePath))
+    #env.removeDirectory(cfg.tempPath)
 
 if __name__ == "__main__":
     main()
