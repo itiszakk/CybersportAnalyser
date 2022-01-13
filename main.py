@@ -185,7 +185,8 @@ def insertPlayers(connection, tournamentsDict, batchSize):
                     winnings, 
                     born, 
                     year_active_start, 
-                    year_active_end)
+                    year_active_end
+                )
                 
                 batchElements.append(playerLine)
         
@@ -202,14 +203,49 @@ def insertPlayers(connection, tournamentsDict, batchSize):
             INSERT INTO players VALUES {}
         """.format(",".join(batchElements)))
 
-#def insertTeams(connection, tournamentsDict, gameIndex, batchSize):
+def insertTeams(connection, tournamentsDict, batchSize):
+    batchElements = []
+
+    teamIndex = 0
+
+    for gameIndex in range(len(cfg.games)):
+        with open(cfg.inputPath + r"\{0}\{0}_teams.json".format(cfg.games[gameIndex]), mode="r", encoding="utf-8") as file:
+            data = json.load(file)
+
+            for team in data[0]:
+                if not team:
+                    continue
+
+                name = team["name"]
+                country = team["country"]     
+                winnings = team["winnings"]
+
+                name = name.replace("\'", "\'\'")
+                winnings = winnings.replace("-", "NULL")
+
+                teamLine = "({}, {}, '{}', '{}', {})".format(teamIndex, gameIndex, name, country, winnings)
+                
+                batchElements.append(teamLine)
+        
+                teamIndex += 1
+
+                if len(batchElements) >= batchSize:
+                    db.transaction(connection, """
+                        INSERT INTO teams VALUES {}
+                    """.format(",".join(batchElements)))
+                    batchElements = []
+
+    if len(batchElements) > 0:
+        db.transaction(connection, """
+            INSERT INTO teams VALUES {}
+        """.format(",".join(batchElements)))
 
 def insertData(connection, batchSize):
     tournamentsDict = {} # [game][tournament] = index
     insertGames(connection)
     insertTournaments(connection, tournamentsDict, batchSize)
     insertPlayers(connection, tournamentsDict, batchSize)
-    #insertTeams(connection, tournamentsDict, batchSize)
+    insertTeams(connection, tournamentsDict, batchSize)
 
 def loadData():
     connection = db.openConnection(cfg.databaseName, cfg.userName)
@@ -217,13 +253,13 @@ def loadData():
     createTables(connection)
     insertData(connection, 100)
 
-    #print(db.select(connection, "SELECT * FROM players WHERE players.nick = 's1mple'", 1))
+    #print(db.select(connection, "SELECT * FROM teams WHERE teams.name = 'Renegades'", 1))
 
     db.stopConnection(connection)
 
 def main():
-    #env.createDirectory(cfg.tempPath)
-    #env.installSoft(cfg.softPath, cfg.tempPath, "postgresql-14.1-1-windows-x64-binaries.zip")
+    env.createDirectory(cfg.tempPath)
+    env.installSoft(cfg.softPath, cfg.tempPath, "postgresql-14.1-1-windows-x64-binaries.zip")
     env.execFile(cfg.tempPath + r"\pgsql\bin\initdb.exe", "-D {} -U {} -E UTF8".format(cfg.databasePath, cfg.userName))
     env.execFile(cfg.tempPath + r"\pgsql\bin\pg_ctl.exe", "-D {} start".format(cfg.databasePath))
     env.execFile(cfg.tempPath + r"\pgsql\bin\createdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
@@ -234,7 +270,7 @@ def main():
     
     env.execFile(cfg.tempPath + r"\pgsql\bin\dropdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
     env.execFile(cfg.tempPath + r"\pgsql\bin\pg_ctl.exe", "-D {} stop".format(cfg.databasePath))
-    #env.removeDirectory(cfg.tempPath)
+    env.removeDirectory(cfg.tempPath)
 
 if __name__ == "__main__":
     main()
