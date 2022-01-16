@@ -324,12 +324,13 @@ def insertData(connection):
     insertPlayersResults(connection, tournamentsDict)
     insertTeamsResults(connection, tournamentsDict)
 
-def loadData():
-    connection = db.openConnection(cfg.databaseName, cfg.userName)
+def loadData(connection):
     dropTables(connection)
     createTables(connection)
     insertData(connection)
-    db.stopConnection(connection)
+
+    print(db.select(connection, "SELECT * FROM players WHERE players.nick = 's1mple'", 0))
+
 
 def main():
     env.createDirectory(cfg.tempPath)
@@ -338,11 +339,11 @@ def main():
     env.execFile(cfg.tempPath + r"\pgsql\bin\pg_ctl.exe", "-D {} start".format(cfg.databasePath))
     env.execFile(cfg.tempPath + r"\pgsql\bin\createdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
 
-    loadData()
-
+    connection = db.openConnection(cfg.databaseName, cfg.userName)
+    loadData(connection)
     # TODO Меню выбора аналитики
-
     os.system("pause")
+    db.stopConnection(connection)
     
     env.execFile(cfg.tempPath + r"\pgsql\bin\dropdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
     env.execFile(cfg.tempPath + r"\pgsql\bin\pg_ctl.exe", "-D {} stop".format(cfg.databasePath))
