@@ -5,21 +5,21 @@ from src import database_handler as db
 import config as cfg
 
 def get_tournaments_by_country(connection):
-    tournaments_countries = db.select(connection, 'SELECT name, country FROM tournaments', 0)
+    data = db.select(connection, 'SELECT name, country FROM tournaments', 0)
 
     tournaments_by_country = {}
 
-    for tournament in tournaments_countries:
-        for country in tournament[1]:
+    for line in data:
+        for country in line[1]:
             if 'NULL' in country or 'TBA' in country:
                 continue
             tournaments_by_country[country] = []
 
-    for tournament in tournaments_countries:
-        for country in tournament[1]:
+    for line in data:
+        for country in line[1]:
             if 'NULL' in country or 'TBA' in country:
                 continue
-            tournaments_by_country[country].append(tournament[0])
+            tournaments_by_country[country].append(line[0])
     
     return tournaments_by_country
 

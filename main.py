@@ -5,6 +5,8 @@ from src import environment_handler as env
 from src import database_handler as db
 
 from src.analytics import tournaments_by_country
+from src.analytics import total_players_earnings
+from src.analytics import total_teams_earnings
 
 import config as cfg
 
@@ -379,9 +381,9 @@ def runMenu(connection):
         elif (option) == 7:
             print('Option 7')
         elif (option) == 8:
-            print('Option 8')
+            total_players_earnings.run(connection)
         elif (option) == 9:
-            print('Option 9')
+            total_teams_earnings.run(connection)
         elif (option) == 10:
             tournaments_by_country.run(connection)
         elif (option) == 11:
@@ -397,6 +399,8 @@ def runMenu(connection):
         else:
             print('Некорректный ввод!')
 
+        os.system("pause")
+
 def main():
     env.createDirectory(cfg.tempPath)
     env.installSoft(cfg.softPath, cfg.tempPath, "postgresql-14.1-1-windows-x64-binaries.zip")
@@ -408,8 +412,7 @@ def main():
     loadData(connection)
 
     runMenu(connection)
-    os.system("pause")
-    
+
     db.stopConnection(connection)
     
     env.execFile(cfg.tempPath + r"\pgsql\bin\dropdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
