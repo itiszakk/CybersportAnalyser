@@ -16,7 +16,7 @@ def get_static_of_player(connection, nick):
     for result in results:
         query_text =  'SELECT name FROM tournaments WHERE id=' + str(result[0])
         tournament_name = db.select(connection, query_text, 0)
-        place = re.sub('\D','',result[1].split()[0])
+        place =int(re.sub('\D','',result[1].split()[0]))
         statistics_of_player[tournament_name[0][0]] = place
     
     
