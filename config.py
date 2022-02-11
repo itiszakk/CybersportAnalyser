@@ -3,6 +3,7 @@ import os
 tempPath = os.path.abspath("temp")
 softPath = os.path.abspath("vendor")
 inputPath = os.path.abspath("input")
+outputPath = os.path.abspath("output")
 
 databasePath = r"{}\database".format(tempPath)
 logsPath = r"{}\logs".format(tempPath)

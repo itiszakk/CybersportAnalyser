@@ -3,6 +3,9 @@ import json
 
 from src import environment_handler as env
 from src import database_handler as db
+
+from src.analytics import tournaments_by_country
+
 import config as cfg
 
 def dropTables(connection):
@@ -329,8 +332,70 @@ def loadData(connection):
     createTables(connection)
     insertData(connection)
 
-    print(db.select(connection, "SELECT * FROM players WHERE players.nick = 's1mple'", 0))
+def runMenu(connection):
+    menu_options = {
+        1: 'Возраст киберспортсменов',
+        2: 'Национальность киберспортсменов',
+        3: 'Страны киберспортивных клубов',
+        4: 'Призовые от времени',
+        5: 'Возраст входа/выхода в киберспорт',
+        6: 'Победы киберспортсменов',
+        7: 'Победы киберспортивных клубов',
+        8: 'Заработок киберспортсменов',
+        9: 'Заработок киберспортивных клубов',
+        10: 'Турниры по местам проведения',
+        11: 'Влияние возраста на результаты',
+        12: 'Динамика выигрышей киберспортсмена',
+        13: 'Динамика выигрышей киберспортивного клуба',
+        14: 'Результативность игроков по странам',
+        15: 'Завершить работу!'
+    }
 
+    running = True
+
+    while(running):
+        os.system("cls")
+        
+        for key in menu_options.keys():
+            print('{}.\t{}'.format(key, menu_options[key]))
+        
+        try:
+            option = int(input('Выбери пункт меню: '))
+        except:
+            print('Некорректный ввод! Введите число...')
+            
+        if (option) == 1:
+            print('Option 1')
+        elif (option) == 2:
+            print('Option 2')
+        elif (option) == 3:
+            print('Option 3')
+        elif (option) == 4:
+            print('Option 4')
+        elif (option) == 5:
+            print('Option 5')
+        elif (option) == 6:
+            print('Option 6')
+        elif (option) == 7:
+            print('Option 7')
+        elif (option) == 8:
+            print('Option 8')
+        elif (option) == 9:
+            print('Option 9')
+        elif (option) == 10:
+            tournaments_by_country.run(connection)
+        elif (option) == 11:
+            print('Option 11')
+        elif (option) == 12:
+            print('Option 12')
+        elif (option) == 13:
+            print('Option 13')
+        elif (option) == 14:
+            print('Option 14')
+        elif (option) == 15:
+            running = False
+        else:
+            print('Некорректный ввод!')
 
 def main():
     env.createDirectory(cfg.tempPath)
@@ -341,8 +406,10 @@ def main():
 
     connection = db.openConnection(cfg.databaseName, cfg.userName)
     loadData(connection)
-    # TODO Меню выбора аналитики
+
+    runMenu(connection)
     os.system("pause")
+    
     db.stopConnection(connection)
     
     env.execFile(cfg.tempPath + r"\pgsql\bin\dropdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
