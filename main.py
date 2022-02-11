@@ -1,3 +1,4 @@
+import imp
 import os
 import json
 
@@ -7,6 +8,10 @@ from src import database_handler as db
 from src.analytics import tournaments_by_country
 from src.analytics import total_players_earnings
 from src.analytics import total_teams_earnings
+from src.analytics import number_of_wins_players
+from src.analytics import number_of_wins_team
+from src.analytics import statistic_of_wins_players
+from src.analytics import statistic_of_wins_team
 
 import config as cfg
 
@@ -378,8 +383,10 @@ def runMenu(connection):
             print('Option 5')
         elif (option) == 6:
             print('Option 6')
+            number_of_wins_players.run(connection)
         elif (option) == 7:
             print('Option 7')
+            number_of_wins_team.run(connection)
         elif (option) == 8:
             total_players_earnings.run(connection)
         elif (option) == 9:
@@ -390,8 +397,10 @@ def runMenu(connection):
             print('Option 11')
         elif (option) == 12:
             print('Option 12')
+            statistic_of_wins_players.run(connection)
         elif (option) == 13:
             print('Option 13')
+            statistic_of_wins_team.run(connection)
         elif (option) == 14:
             print('Option 14')
         elif (option) == 15:
@@ -402,8 +411,8 @@ def runMenu(connection):
         os.system("pause")
 
 def main():
-    env.createDirectory(cfg.tempPath)
-    env.installSoft(cfg.softPath, cfg.tempPath, "postgresql-14.1-1-windows-x64-binaries.zip")
+    #env.createDirectory(cfg.tempPath)
+    #env.installSoft(cfg.softPath, cfg.tempPath, "postgresql-14.1-1-windows-x64-binaries.zip")
     env.execFile(cfg.tempPath + r"\pgsql\bin\initdb.exe", "-D {} -U {} -E UTF8".format(cfg.databasePath, cfg.userName))
     env.execFile(cfg.tempPath + r"\pgsql\bin\pg_ctl.exe", "-D {} start".format(cfg.databasePath))
     env.execFile(cfg.tempPath + r"\pgsql\bin\createdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
@@ -417,7 +426,7 @@ def main():
     
     env.execFile(cfg.tempPath + r"\pgsql\bin\dropdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
     env.execFile(cfg.tempPath + r"\pgsql\bin\pg_ctl.exe", "-D {} stop".format(cfg.databasePath))
-    env.removeDirectory(cfg.tempPath)
+    #env.removeDirectory(cfg.tempPath)
 
 if __name__ == "__main__":
     main()
