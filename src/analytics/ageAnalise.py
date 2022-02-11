@@ -27,54 +27,51 @@ def averAge(connection):
                     k = k + 1
     result = result / k
     return result
+
 def nationDiag(connection):#траблы с сортировкой, значений получается больше чем ключей
     test1 = db.select(connection, "SELECT country FROM players", 0)
     test2 = db.select(connection, "SELECT DISTINCT country FROM players", 0)
-    countr = []
-    values = []
+
+    countr = {}
     #k = 0
     tr = 0
+
     for t in test2:
-        if t not in countr and t != None:
-            countr.extend(t)
-            tr = tr + 1
-            #strContr = str(t)
-            #strContr = strContr.lstrip[1:]
-            #strContr = strContr.lstrip[1:]
-            #lg = len(strContr)
-            #strContr = strContr[:lg-1]
-            #k = db.select(connection, "SELECT COUNT ({}) FROM players".format(strContr), 0)
-            #for item in test1:
-             #   if t == item:
-              #      k = k + 1
-            #k = 0
-            k = test1.count(t)
-            values.extend(str(k))
+        countr[t[0]] = 0
 
-    print(tr)
-    print(countr)
-    print(len(countr))
-    print(values)
-    print(len(values))
-    try:
-        dpi = 80
-        fig = plt.figure(dpi=dpi, figsize=(512 / dpi, 384 / dpi))
-        mpl.rcParams.update({'font.size': 9})
+    for t in test1:
+        countr[t[0]] += 1
 
-        plt.title('Распределение игроков по их родным странам (%)')
+    #try:
+        #dpi = 80
+        #fig = plt.figure(dpi=dpi, figsize=(512 / dpi, 384 / dpi))
+        #mpl.rcParams.update({'font.size': 9})
 
-        xs = range(len(countr))
+    keys = []
+    values = []
 
-        plt.pie(
-            values, autopct='%.1f', radius=1.1,
-            explode=[0.15] + [0 for _ in range(len(countr) - 1)])
-        plt.legend(
-            bbox_to_anchor=(-0.16, 0.45, 0.25, 0.25),
-            loc='lower left', labels=countr)
-        fig.savefig('pie.png')
+    for k, v in countr.items():
+        keys.append(k)
+        values.append(v)
+    
+    plt.bar(keys, values)
+    plt.title('Распределение игроков по их родным странам (%)')
+    plt.xlabel('Страны', fontsize=15)
+    plt.ylabel('Игроки', fontsize=15)
+    plt.show()
 
-    except Exception:
-        print('Херня, по новой!')
+        #plt.pie(
+            #values, autopct='%.1f', radius=1.1,
+            #explode=[0.15] + [0 for _ in range(len(keys) - 1)])
+        #plt.legend(
+            #bbox_to_anchor=(-0.16, 0.45, 0.25, 0.25),
+            #loc='lower left', labels=keys)
+    
+    
+    #fig.savefig('pie.png')
+
+    #except Exception:
+        #print('Херня, по новой!')
 
 def teamContrDiag(connection):#траблы с сортировкой, значений получается больше чем ключей
     test1 = db.select(connection, "SELECT country FROM teams", 0)
