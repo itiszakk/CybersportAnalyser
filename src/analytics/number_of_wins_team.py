@@ -28,10 +28,14 @@ def get_number_of_wins_team(connection, game):
     results = db.select(connection, query_text, 0)
 
     for result in results:
-        try:
-            place = int(re.sub('\D','',result[1].split()[0]))
-        except:
-            continue
+        place_t = result[1].lstrip().split()[0]
+        if place_t == 'W':
+            place = 1
+        else:
+            try:
+                place = int(re.sub('\D', '', place_t))
+            except:
+                continue
         if place == 1:
             wins_of_team[result[0]] += 1
     
