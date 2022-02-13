@@ -7,6 +7,7 @@ from src import database_handler as db
 from src.analytics import ageAnalise
 from src.analytics import averageWin
 from src.analytics import tournaments_by_country
+from src.analytics import ref_from_age_to_place
 from src.analytics import in_and_out_age
 from src.analytics import total_players_earnings
 from src.analytics import total_teams_earnings
@@ -395,7 +396,7 @@ def runMenu(connection):
         elif (option) == 10:
             tournaments_by_country.run(connection)
         elif (option) == 11:
-            print('Option 11')
+            ref_from_age_to_place.refAgePlace(connection)
         elif (option) == 12:
             statistic_of_wins_players.run(connection)
         elif (option) == 13:
