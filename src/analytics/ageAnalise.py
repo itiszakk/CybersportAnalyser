@@ -94,7 +94,6 @@ def teamContrDiag(connection):#траблы с сортировкой, знач�
     pio.show(fig)
 
 def tornMoneyAnal(connection):
-    test1 = db.select(connection, "SELECT date, winnings FROM tournaments", 0)
     test2 = db.select(connection, "SELECT date, winnings FROM tournaments", 0)
     countr = {}
 
@@ -113,13 +112,9 @@ def tornMoneyAnal(connection):
         for w in test2:
             year1 = re.search(r'\d\d\d\d', str(w[0]))
             if year1 != None:
-                if str(year1.group(0)) == y:
-                    win += int(t[1])
+                if str(year1.group(0)) == y and w[1] != None:
+                    win += float(w[1])
         winnings.append(win)
-    print(len(years))
-    print(years)
-    print(len(winnings))
-    print(winnings)
     try:
         fig = go.Figure()
         fig.add_trace(go.Scatter(x=years, y=winnings))
