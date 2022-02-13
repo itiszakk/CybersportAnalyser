@@ -115,6 +115,7 @@ def tornMoneyAnal(connection):
             if year1 != None:
                 if str(year1.group(0)) == y:
                     win += int(t[1])
+        winnings.append(win)
     print(len(years))
     print(years)
     print(len(winnings))
