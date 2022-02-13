@@ -1,6 +1,18 @@
+import sys
 import os
 import subprocess
 import zipfile
+import pkg_resources
+import config as cfg
+
+def install_py_libs():
+    installed_libs = {pkg.key for pkg in pkg_resources.working_set}
+    missing_libs = cfg.required_libs - installed_libs
+    
+    if missing_libs:
+        for lib in missing_libs:    
+            print("Installing python lib: {}".format(lib))
+            subprocess.run([sys.executable, "-m", "pip", "install", "--no-build-isolation", lib], stdout=subprocess.DEVNULL)
 
 def createDirectory(path):
     if os.path.exists(path):

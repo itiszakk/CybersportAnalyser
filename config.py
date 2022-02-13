@@ -1,5 +1,7 @@
 import os
 
+required_libs = {"wheel", "pandas", "psycopg2", "beautifulsoup4", "plotly"}
+
 tempPath = os.path.abspath("temp")
 softPath = os.path.abspath("vendor")
 inputPath = os.path.abspath("input")
