@@ -5,6 +5,7 @@ from src import environment_handler as env
 from src import database_handler as db
 
 from src.analytics import tournaments_by_country
+from src.analytics import in_and_out_age
 from src.analytics import total_players_earnings
 from src.analytics import total_teams_earnings
 from src.analytics import number_of_wins_players
@@ -371,15 +372,15 @@ def runMenu(connection):
             print('Некорректный ввод! Введите число...')
             
         if (option) == 1:
-            print('Option 1')
+            print(anal.averAge(connection))
         elif (option) == 2:
-            print('Option 2')
+            anal.nationDiag(connection)
         elif (option) == 3:
-            print('Option 3')
+            anal.teamContrDiag(connection)
         elif (option) == 4:
-            print('Option 4')
+            anal.tornMoneyAnal(connection)
         elif (option) == 5:
-            print('Option 5')
+            in_and_out_age.inAndOutAge(connection)
         elif (option) == 6:
             number_of_wins_players.run(connection)
         elif (option) == 7:
