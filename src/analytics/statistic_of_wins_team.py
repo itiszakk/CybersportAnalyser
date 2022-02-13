@@ -18,7 +18,7 @@ def get_static_of_team(connection, name, game):
             place = 1
         else:
             try:
-                place =int(re.sub('\D', '', place_t))
+                place = int(re.sub('\D', '', place_t))
             except:
                 continue
 
@@ -35,15 +35,15 @@ def create_plot(statistic, name, game):
         x.append(tournaments)
         y.append(place)
 
-    fig = px.bar(x=x, y=y, labels={'x': 'Название турнира', 'y': 'Место'}, title='Динамика выигрышей команды')
-    file_path = '{}/statistic_of_wins_team_{}/{}.html'.format(cfg.outputPath, name, game)
+    fig = px.line(x=x, y=y, labels={'x': 'Название турнира', 'y': 'Место'}, title='Динамика выигрышей команды', markers=True)
+    file_path = '{}/statistic_of_wins_teams/{}_{}.html'.format(cfg.outputPath, name, game)
     fig.write_html(file_path)
     webbrowser.open('file://{}'.format(file_path))
     
 def run(connection):
     running = True
     while running:
-        name = input('Введите название команды:')
+        name = input('Введите название команды: ')
         query_text =  'SELECT games.id, games.name FROM teams, games WHERE teams.game_id=games.id AND teams.name=\'' + name + '\''
         games = db.select(connection, query_text, 0)
         if len(games) == 0:
@@ -51,7 +51,8 @@ def run(connection):
         else:
             running = False
     
-    env.createDirectory('{}/statistic_of_wins_team_{}/'.format(cfg.outputPath, name))
+    env.createDirectory('{}/statistic_of_wins_teams/'.format(cfg.outputPath))
+    
     for game in games:
         static_team = get_static_of_team(connection, name, game[0])
         create_plot(static_team, name, game[1])
