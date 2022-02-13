@@ -1,6 +1,8 @@
 from src import database_handler as db
 import re
 import plotly.graph_objects as go
+import webbrowser
+import config as cfg
 
 def refAgePlace(connection):
     test2 = db.select(connection, "SELECT players.id, players.born, players_results.place, tournaments.date FROM players, players_results, tournaments WHERE players.id = players_results.player_id AND tournaments.id = players_results.tournament_id", 0)
@@ -40,7 +42,9 @@ def refAgePlace(connection):
     try:
         fig = go.Figure()
         fig.add_trace(go.Scatter(x=age, y=averPlace))
-        fig.show()
+        file_path = '{}/ref_from_age.html'.format(cfg.outputPath)
+        fig.write_html(file_path)
+        webbrowser.open('file://{}'.format(file_path))
 
     except Exception:
         print('Херня, по новой!')
