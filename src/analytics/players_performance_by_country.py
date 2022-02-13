@@ -33,8 +33,9 @@ def get_players_performance_by_country(connection):
 def create_plot(data_frame):
     fig = px.bar(
         data_frame, 
-        x='Country', y=['1st', '2nd', '3rd'], 
-        title='Players performance by country',
+        x='Country', y=['1st', '2nd', '3rd'],
+        labels={'Country': 'Страна'},
+        title='Результативность игроков по странам',
     )
     file_path = '{}/players_performance_by_country.html'.format(cfg.outputPath)
     fig.write_html(file_path)

@@ -1,12 +1,12 @@
+import imp
 from src import database_handler as db
+from src import environment_handler as env
 import re
-import matplotlib as mpl
-import matplotlib.pyplot as plt
 import plotly.io as pio
 import plotly.graph_objects as go
-import matplotlib.dates as mdates
-import datetime as dt
-import csv
+import plotly.express as px
+import webbrowser
+import config as cfg
 
 def averAge(connection):
     test1 = db.select(connection, "SELECT born, year_active_end FROM players", 0)
@@ -31,67 +31,72 @@ def averAge(connection):
     return result
 
 def nationDiag(connection):
-    test1 = db.select(connection, "SELECT country FROM players", 0)
-    test2 = db.select(connection, "SELECT DISTINCT country FROM players", 0)
+    path = '{}/nation_diag/'.format(cfg.outputPath)
+    env.createDirectory(path)
 
-    countr = {}
+    games = db.select(connection, "SELECT name FROM games", 0)
 
-    for t in test2:
-        countr[t[0]] = 0
+    for game in games:
+        test1 = db.select(connection, "SELECT country FROM players, games WHERE games.id = players.game_id AND games.name = " + "'{}'".format(game[0]), 0)
+        test2 = db.select(connection, "SELECT DISTINCT country FROM players", 0)
 
-    for t in test1:
-        countr[t[0]] += 1
+        countr = {}
 
+        for t in test2:
+            countr[t[0]] = 0
 
-    keys = []
-    values = []
+        for t in test1:
+            countr[t[0]] += 1
 
-    for k, v in countr.items():
-        keys.append(k)
-        values.append(v)
+        keys = []
+        values = []
 
-    fig = dict({
-        "data": [{"type": "bar",
-                  "x": keys,
-                  "y": values }],
-        "layout": {"title": {"text": "Распределение игроков по их родным странам"}}
-    })
-    pio.show(fig)
+        for k, v in countr.items():
+            keys.append(k)
+            values.append(v)
+
+        fig = px.bar(x=keys, y=values, labels={'x': 'Страна', 'y': 'Киберспортсмен'}, title='Распределение киберспортсменов по странам')
     
-   # plt.bar(keys, values)
-    #plt.title('Распределение игроков по их родным странам (%)')
-    #plt.xlabel('Страны', fontsize=15)
-    #plt.ylabel('Игроки', fontsize=15)
-    #plt.show()
+        fig.write_html('{}{}.html'.format(path, game[0]))
 
+    webbrowser.open('file://{}counterstrike.html'.format(path))
+    webbrowser.open('file://{}leagueoflegends.html'.format(path))
+    webbrowser.open('file://{}dota2.html'.format(path))
+    webbrowser.open('file://{}valorant.html'.format(path))
 
+def teamContrDiag(connection):
+    path = '{}/team_diag/'.format(cfg.outputPath)
+    env.createDirectory(path)
 
-def teamContrDiag(connection):#траблы с сортировкой, значений получается больше чем ключей
-    test1 = db.select(connection, "SELECT country FROM teams", 0)
-    test2 = db.select(connection, "SELECT DISTINCT country FROM teams", 0)
+    games = db.select(connection, "SELECT name FROM games", 0)
 
-    countr = {}
+    for game in games:
+        test1 = db.select(connection, "SELECT country FROM teams, games WHERE games.id = teams.game_id AND games.name = " + "'{}'".format(game[0]), 0)
+        test2 = db.select(connection, "SELECT DISTINCT country FROM teams", 0)
 
-    for t in test2:
-        countr[t[0]] = 0
+        countr = {}
 
-    for t in test1:
-        countr[t[0]] += 1
+        for t in test2:
+            countr[t[0]] = 0
 
-    keys = []
-    values = []
+        for t in test1:
+            countr[t[0]] += 1
 
-    for k, v in countr.items():
-        keys.append(k)
-        values.append(v)
+        keys = []
+        values = []
 
-    fig = dict({
-        "data": [{"type": "bar",
-                  "x": keys,
-                  "y": values}],
-        "layout": {"title": {"text": "Распределение игроков по их родным странам"}}
-    })
-    pio.show(fig)
+        for k, v in countr.items():
+            keys.append(k)
+            values.append(v)
+
+        fig = px.bar(x=keys, y=values, labels={'x': 'Страна', 'y': 'Киберспортивный клуб'}, title='Распределение киберспортивных клубов по странам')
+    
+        fig.write_html('{}{}.html'.format(path, game[0]))
+        
+    webbrowser.open('file://{}counterstrike.html'.format(path))
+    webbrowser.open('file://{}leagueoflegends.html'.format(path))
+    webbrowser.open('file://{}dota2.html'.format(path))
+    webbrowser.open('file://{}valorant.html'.format(path))
 
 def tornMoneyAnal(connection):
     test2 = db.select(connection, "SELECT date, winnings FROM tournaments", 0)
@@ -118,7 +123,9 @@ def tornMoneyAnal(connection):
     try:
         fig = go.Figure()
         fig.add_trace(go.Scatter(x=years, y=winnings))
-        fig.show()
+        file_path = '{}/money_per_year.html'.format(cfg.outputPath)
+        fig.write_html(file_path)
+        webbrowser.open('file://{}'.format(file_path))
 
     except Exception:
         print('Херня, по новой!')

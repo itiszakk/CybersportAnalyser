@@ -1,7 +1,8 @@
 from src import database_handler as db
 import re
-import plotly.io as pio
 import plotly.graph_objects as go
+import webbrowser
+import config as cfg
 
 def inAndOutAge(connection):
     test1 = db.select(connection, "SELECT born, year_active_end FROM players", 0)
@@ -49,6 +50,8 @@ def inAndOutAge(connection):
     fig = go.Figure()
     fig.add_trace(go.Scatter(x=years, y=averoutAge, name='возраст выхода'))
     fig.add_trace(go.Scatter(x=years, y=averinAge, name='возраст входа'))
-    fig.show()
+    file_path = '{}/in_out_age.html'.format(cfg.outputPath)
+    fig.write_html(file_path)
+    webbrowser.open('file://{}'.format(file_path))
     result = 1
     return result
