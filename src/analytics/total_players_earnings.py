@@ -15,16 +15,13 @@ def get_games(connection):
     return games
 
 def get_total_players_earnings(connection, game):
-    query = 'SELECT players.nick, players.winnings FROM players, games WHERE players.game_id = games.id AND games.name = \'{}\''.format(game)
+    query = 'SELECT players.nick, players.name, players.winnings FROM players, games WHERE players.game_id = games.id AND games.name = \'{}\''.format(game)
     data = db.select(connection, query, 0)
     
     total_players_earnings = {}
     
     for line in data:
-        total_players_earnings[line[0]] = 0
-    
-    for line in data:
-        total_players_earnings[line[0]] = line[1]
+        total_players_earnings['{} ({})'.format(line[0], line[1])] = line[2]
     
     return total_players_earnings
 

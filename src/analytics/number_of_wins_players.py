@@ -18,17 +18,17 @@ def get_games(connection):
 def get_number_of_wins_players(connection, game):
     wins_of_player = {}
 
-    query_text = 'SELECT players.nick  FROM players, games WHERE players.game_id = games.id AND games.name = \'{}\''.format(game)
+    query_text = 'SELECT players.nick, players.name FROM players, games WHERE players.game_id = games.id AND games.name = \'{}\''.format(game)
     players = db.select(connection, query_text, 0)
 
     for player in players:
-        wins_of_player[player[0]] = 0
+        wins_of_player['{} ({})'.format(player[0], player[1])] = 0
 
-    query_text = 'SELECT players.nick, players_results.place FROM players, games, players_results WHERE players.game_id = games.id AND players.id = players_results.player_id AND games.name = \'{}\''.format(game)
+    query_text = 'SELECT players.nick, players.name, players_results.place FROM players, games, players_results WHERE players.game_id = games.id AND players.id = players_results.player_id AND games.name = \'{}\''.format(game)
     results = db.select(connection, query_text, 0)
 
     for result in results:
-        place_t = result[1].lstrip().split()[0]
+        place_t = result[2].lstrip().split()[0]
         if place_t == 'W':
             place = 1
         else:
@@ -37,7 +37,7 @@ def get_number_of_wins_players(connection, game):
             except:
                 continue
         if place == 1:
-            wins_of_player[result[0]] += 1
+            wins_of_player['{} ({})'.format(result[0], result[1])] += 1
     
     return wins_of_player
 

@@ -1,4 +1,3 @@
-import imp
 import os
 import json
 
@@ -382,10 +381,8 @@ def runMenu(connection):
         elif (option) == 5:
             print('Option 5')
         elif (option) == 6:
-            print('Option 6')
             number_of_wins_players.run(connection)
         elif (option) == 7:
-            print('Option 7')
             number_of_wins_team.run(connection)
         elif (option) == 8:
             total_players_earnings.run(connection)
@@ -396,10 +393,8 @@ def runMenu(connection):
         elif (option) == 11:
             print('Option 11')
         elif (option) == 12:
-            print('Option 12')
             statistic_of_wins_players.run(connection)
         elif (option) == 13:
-            print('Option 13')
             statistic_of_wins_team.run(connection)
         elif (option) == 14:
             print('Option 14')
@@ -411,22 +406,22 @@ def runMenu(connection):
         os.system("pause")
 
 def main():
-    #env.createDirectory(cfg.tempPath)
-    #env.installSoft(cfg.softPath, cfg.tempPath, "postgresql-14.1-1-windows-x64-binaries.zip")
+    env.createDirectory(cfg.tempPath)
+    env.installSoft(cfg.softPath, cfg.tempPath, "postgresql-14.1-1-windows-x64-binaries.zip")
     env.execFile(cfg.tempPath + r"\pgsql\bin\initdb.exe", "-D {} -U {} -E UTF8".format(cfg.databasePath, cfg.userName))
     env.execFile(cfg.tempPath + r"\pgsql\bin\pg_ctl.exe", "-D {} start".format(cfg.databasePath))
     env.execFile(cfg.tempPath + r"\pgsql\bin\createdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
 
     connection = db.openConnection(cfg.databaseName, cfg.userName)
     loadData(connection)
-
+    
     runMenu(connection)
 
     db.stopConnection(connection)
     
     env.execFile(cfg.tempPath + r"\pgsql\bin\dropdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
     env.execFile(cfg.tempPath + r"\pgsql\bin\pg_ctl.exe", "-D {} stop".format(cfg.databasePath))
-    #env.removeDirectory(cfg.tempPath)
+    env.removeDirectory(cfg.tempPath)
 
 if __name__ == "__main__":
     main()
