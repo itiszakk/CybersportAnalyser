@@ -25,7 +25,6 @@ def get_players_performance_by_country(connection):
         for place in places:
             data = db.select(connection, get_place_by_country_query(country[0], place), 0)
             dict[place] = data[0][0] if len(data) != 0 else 0
-            print(dict)
         players_performance_by_country = players_performance_by_country.append(dict, ignore_index=True)
 
     return players_performance_by_country
