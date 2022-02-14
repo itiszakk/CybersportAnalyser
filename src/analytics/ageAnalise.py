@@ -9,26 +9,47 @@ import webbrowser
 import config as cfg
 
 def averAge(connection):
-    test1 = db.select(connection, "SELECT born, year_active_end FROM players", 0)
-    result = 0.0
-    k = 0
-    for t in test1:
-        if t[0] != '-':
-            year = re.search(r'\d\d\d\d', str(t[0]))
-            if year != None:
-                if t[1] != '-':
-                    year1 = re.search(r'\d\d\d\d', str(t[1]))
-                    if year1 != None:
-                        result = result + float(str(year1.group(0))) - float(str(year.group(0)))
-                        k = k+1
+    path = '{}/nation_diag/'.format(cfg.outputPath)
+    env.createDirectory(path)
+    test1 = db.select(connection, "SELECT born, year_active_end, country FROM players", 0)
+    test2 = db.select(connection, "SELECT DISTINCT country FROM players", 0)
+    countr = {}
+    for tt in test2:
+        result = 0.0
+        k = 0
+        for t in test1:
+            if t[0] != '-':
+                year = re.search(r'\d\d\d\d', str(t[0]))
+                if year != None and t[2] == tt[0] :
+                    if t[1] != '-':
+                        year1 = re.search(r'\d\d\d\d', str(t[1]))
+                        if year1 != None:
+                            result = result + float(str(year1.group(0))) - float(str(year.group(0)))
+                            k = k + 1
+                        else:
+                            result = result + 2022 - float(str(year.group(0)))
+                            k = k + 1
                     else:
                         result = result + 2022 - float(str(year.group(0)))
                         k = k + 1
-                else:
-                    result = result + 2022 - float(str(year.group(0)))
-                    k = k + 1
-    result = result / k
-    return result
+        try:
+            countr[tt[0]] = result / k
+        except Exception:
+            countr[tt[0]] = 0
+
+    keys = []
+    values = []
+
+    for k, v in countr.items():
+        keys.append(k)
+        values.append(v)
+
+    fig = px.bar(x=keys, y=values, labels={'x': 'Страна', 'y': 'Киберспортсмен'},
+                 title='Средний возраст киберспортсменов по странам')
+
+    fig.write_html(path)
+
+    webbrowser.open('file://{}'.format(path))
 
 def nationDiag(connection):
     path = '{}/nation_diag/'.format(cfg.outputPath)
