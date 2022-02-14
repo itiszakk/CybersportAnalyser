@@ -412,6 +412,7 @@ def runMenu(connection):
 
 def main():
     env.createDirectory(cfg.tempPath)
+    env.createDirectory(cfg.outputPath)
     env.install_py_libs()
     env.installSoft(cfg.softPath, cfg.tempPath, "postgresql-14.1-1-windows-x64-binaries.zip")
     env.execFile(cfg.tempPath + r"\pgsql\bin\initdb.exe", "-D {} -U {} -E UTF8".format(cfg.databasePath, cfg.userName))
