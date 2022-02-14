@@ -9,8 +9,6 @@ import webbrowser
 import config as cfg
 
 def averAge(connection):
-    path = '{}/nation_diag/'.format(cfg.outputPath)
-    env.createDirectory(path)
     test1 = db.select(connection, "SELECT born, year_active_end, country FROM players", 0)
     test2 = db.select(connection, "SELECT DISTINCT country FROM players", 0)
     countr = {}
@@ -44,12 +42,12 @@ def averAge(connection):
         keys.append(k)
         values.append(v)
 
-    fig = px.bar(x=keys, y=values, labels={'x': 'Страна', 'y': 'Киберспортсмен'},
+    fig = px.line(x=keys, y=values, labels={'x': 'Страна', 'y': 'Средний возраст'}, markers=True,
                  title='Средний возраст киберспортсменов по странам')
 
-    fig.write_html(path)
-
-    webbrowser.open('file://{}'.format(path))
+    file_path = '{}/aver_age.html'.format(cfg.outputPath)
+    fig.write_html(file_path)
+    webbrowser.open('file://{}'.format(file_path))
 
 def nationDiag(connection):
     path = '{}/nation_diag/'.format(cfg.outputPath)
