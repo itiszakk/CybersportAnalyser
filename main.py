@@ -376,7 +376,7 @@ def runMenu(connection):
             print('Некорректный ввод! Введите число...')
             
         if (option) == 1:
-            print(ageAnalise.averAge(connection))
+            ageAnalise.averAge(connection)
         elif (option) == 2:
             ageAnalise.nationDiag(connection)
         elif (option) == 3:
