@@ -4,8 +4,7 @@ import json
 from src import environment_handler as env
 from src import database_handler as db
 
-from src.analytics import ageAnalise
-from src.analytics import averageWin
+from src.analytics import age_analise
 from src.analytics import tournaments_by_country
 from src.analytics import ref_from_age_to_place
 from src.analytics import in_and_out_age
@@ -376,13 +375,13 @@ def runMenu(connection):
             print('Некорректный ввод! Введите число...')
             
         if (option) == 1:
-            ageAnalise.averAge(connection)
+            age_analise.averAge(connection)
         elif (option) == 2:
-            ageAnalise.nationDiag(connection)
+            age_analise.nationDiag(connection)
         elif (option) == 3:
-            ageAnalise.teamContrDiag(connection)
+            age_analise.teamContrDiag(connection)
         elif (option) == 4:
-            ageAnalise.tornMoneyAnal(connection)
+            age_analise.tornMoneyAnal(connection)
         elif (option) == 5:
             in_and_out_age.inAndOutAge(connection)
         elif (option) == 6:
@@ -420,8 +419,9 @@ def main():
     env.execFile(cfg.tempPath + r"\pgsql\bin\createdb.exe", "-U {} {}".format(cfg.userName, cfg.databaseName))
 
     connection = db.openConnection(cfg.databaseName, cfg.userName)
+
     loadData(connection)
-    
+
     runMenu(connection)
 
     db.stopConnection(connection)
